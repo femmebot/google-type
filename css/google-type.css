@@ -8,8 +8,9 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .caption { font: 14px/16px 'Unica One', Hevletica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; margin: 0 0 60px 20px;}
 
 .container-fluid { width: 100%; }
-.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 120px 0 100px;}
 .container { width: 960px; margin: 0 auto; }
+
+.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 120px 0 100px;}
 .section-forest h2 { font: 70px/70px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
 .section-forest p { font: 16px/30px 'Fauna One', Georgia, serif; width: 540px; color: #fff; margin: 0 0 12px 20px; }
 .section-forest .caption { margin: 0 0 40px 20px; color: #eee;}
@@ -20,6 +21,11 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-architecture p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
 .section-architecture .caption { color: #999; float: left; width: 230px; margin: 4px 0 0 20px; }
 
-
+.section-oak { padding: 30px 20px 200px 20px; }
+.section-oak .container { text-align: center; }
+.section-oak .caption { margin-bottom: 0; text-align: left; }
+.section-oak .oak-leaf { padding-top: 230px; background: url(../images/leaf.svg) 300px -90px no-repeat; }
+.section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #f33; margin-bottom: 30px; }
+.section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 620px; text-align: justify; margin: 0 auto;}
 
 
