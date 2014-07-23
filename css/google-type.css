@@ -1,0 +1,25 @@
+body { margin: 0; padding: 0; }
+h1, h2, p { margin: 0; padding: 0; }
+h1 { font: 30px/32px 'Abril Fatface', Georgia, serif; text-transform: uppercase; color: #693; margin: 200px 0 175px 0; text-align: center; }
+.small { font: 30px/32px 'Playfair Display', Georgia, serif; letter-spacing: .06em; margin-left: 30px; display: block; }
+h1 strong { display: block; line-height: 68px; font-size: 250%; letter-spacing: -.02em; }
+h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
+
+.caption { font: 14px/16px 'Unica One', Hevletica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; margin: 0 0 60px 20px;}
+
+.container-fluid { width: 100%; }
+.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 120px 0 100px;}
+.container { width: 960px; margin: 0 auto; }
+.section-forest h2 { font: 70px/70px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
+.section-forest p { font: 16px/30px 'Fauna One', Georgia, serif; width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-forest .caption { margin: 0 0 40px 20px; color: #eee;}
+
+.section-architecture { background: url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
+.section-architecture h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
+.section-architecture h2 i { font-family:'Oleo Script', serif; font-style: normal;}
+.section-architecture p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
+.section-architecture .caption { color: #999; float: left; width: 230px; margin: 4px 0 0 20px; }
+
+
+
+
