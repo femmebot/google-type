@@ -24,7 +24,7 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
 .section-oak .caption { margin-bottom: 0; text-align: left; }
-.section-oak .oak-leaf { padding-top: 230px; background: url(../images/leaf.svg) 300px -90px no-repeat; }
+.section-oak .oak-leaf { padding-top: 230px; background: url(../images/leaf.svg) 300px -0px no-repeat; }
 .section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #f33; margin-bottom: 30px; }
 .section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 620px; text-align: justify; margin: 0 auto;}
 
