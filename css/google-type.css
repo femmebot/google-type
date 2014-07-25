@@ -5,7 +5,7 @@ h1 { font: 30px/32px 'Abril Fatface', Georgia, serif; text-transform: uppercase;
 h1 strong { display: block; line-height: 68px; font-size: 250%; letter-spacing: -.02em; }
 h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 
-.avatar img { width: 30px; height: 30px; border-radius: 15px; }
+.avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
 .caption a:hover { background-color: #ddd; }
