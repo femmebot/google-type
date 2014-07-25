@@ -5,6 +5,7 @@ h1 { font: 30px/32px 'Abril Fatface', Georgia, serif; text-transform: uppercase;
 h1 strong { display: block; line-height: 68px; font-size: 250%; letter-spacing: -.02em; }
 h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 
+.avatar img { width: 30px; height: 30px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
 .caption a:hover { background-color: #ddd; }
@@ -18,13 +19,13 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-intro a { color: #000; text-decoration: none; }
 .section-intro a:hover { background-color: #ddd; }
 
-.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 120px 0 100px;}
+.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
 .section-forest h2 { font: 70px/70px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
 .section-forest p { font: 16px/30px 'Fauna One', Georgia, serif; width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-forest .avatar img { margin: 0 0 10px 20px; }
 .section-forest .caption { margin: 0 0 40px 20px; color: #eee; }
 .section-forest .caption a { color: #eee; }
 .section-forest .caption a:hover { background-color: #0cf; }
-
 
 .section-architecture { background: url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
 .section-architecture h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
