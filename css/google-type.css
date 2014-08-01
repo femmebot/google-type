@@ -47,6 +47,7 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-rivers p {font: 18px/27px 'Gentium Basic', serif;color: #fff; text-align: left;padding: 20px 20px 0 20px; max-width: 500px;}
 .section-rivers .caption { margin-bottom:5px; text-align: left; color: #fff; }
 .section-rivers .caption a {color: #fff;}
+.section-rivers .avatar { margin-left: 20px; }
 
 
 
