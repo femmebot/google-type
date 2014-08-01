@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; }
+body { margin: 0; padding: 0;}
 h1, h2, p { margin: 0; padding: 0; }
 h1 { font: 30px/32px 'Abril Fatface', Georgia, serif; text-transform: uppercase; color: #693; margin: 200px 0 90px 0; text-align: center; }
 .small { font: 30px/32px 'Playfair Display', Georgia, serif; letter-spacing: .06em; margin-left: 30px; display: block; }
@@ -10,7 +10,6 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
 .caption a:hover { background-color: #ddd; }
 
-.container-fluid { width: 100%; }
 .container { width: 960px; margin: 0 auto; }
  
 .section-intro .divider { width: 30px; padding: 30px 0 0 0; border-top: 1px solid #999; margin: 30px auto 0 auto; }
@@ -40,6 +39,13 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-oak .oak-leaf { padding-top: 230px; background: url(../images/leaf.svg) 300px -90px no-repeat; }
 .section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #c31; margin-bottom: 30px; }
 .section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
+
+.section-rivers {background: url(../images/sea.jpg) no-repeat center; background-size: cover;padding: 40px 20px}
+.section-rivers .container {width: 100%;}
+.section-rivers h2 {font: 32px/42px 'Open Sans', sans-serif; font-weight: 800; text-transform: uppercase; color: #29232D;text-align: left; letter-spacing: 1px;padding: 20px 20px 0 20px;}
+.section-rivers p {font: 18px/27px 'Gentium Basic', serif;color: #fff; text-align: left;padding: 20px 20px 0 20px; max-width: 500px;}
+.section-rivers .caption { margin-bottom:5px; text-align: left; color: #fff; }
+.section-rivers .caption a {color: #fff;}
 
 
 
