@@ -40,9 +40,8 @@ h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #c31; margin-bottom: 30px; }
 .section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
 
-.section-rivers {background: url(../images/sea.jpg) no-repeat center; background-size: cover;padding: 40px 20px}
-.section-rivers .container {width: 100%;-webkit-font-smoothing:antialiased;
-    text-rendering:optimizeLegibility;}
+.section-rivers {background: url(../images/sea.jpg) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
+.section-rivers .container { width: 100%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
 .section-rivers h2 {font: 32px/42px 'Open Sans', sans-serif; font-weight: 800; text-transform: uppercase; color: #29232D;text-align: left; letter-spacing: 1px;padding: 20px 20px 0 20px;}
 .section-rivers p {font: 18px/27px 'Gentium Basic', serif;color: #fff; text-align: left;padding: 20px 20px 0 20px; max-width: 500px;}
 .section-rivers .caption { margin-bottom:5px; text-align: left; color: #fff; }
