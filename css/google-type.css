@@ -2,7 +2,7 @@ body { margin: 0; padding: 0;}
 h1, h2, p { margin: 0; padding: 0; }
 h1 { font: 30px/32px 'Abril Fatface', Georgia, serif; text-transform: uppercase; color: #693; margin: 200px 0 90px 0; text-align: center; }
 .small { font: 30px/32px 'Playfair Display', Georgia, serif; letter-spacing: .06em; margin-left: 30px; display: block; }
-h1 .large { display: block; line-height: 68px; font-size: 75px; letter-spacing: -.02em; font-weight: 400; }
+h1 strong { display: block; line-height: 68px; font-size: 75px; font-weight: 400; }
 h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
