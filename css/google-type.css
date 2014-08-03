@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0;}
+body { margin: 0; padding: 0; zoom: 1; }
 h1, h2, p { margin: 0; padding: 0; }
 
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
@@ -35,7 +35,6 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
 .section-oak .caption { margin-bottom: 0; text-align: left; }
-
 .section-oak .oak-leaf { padding-top: 230px; background: url(../images/leaf.svg) 300px -90px no-repeat; }
 .section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #c31; margin-bottom: 30px; }
 .section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
@@ -47,7 +46,6 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-rivers .caption { margin-bottom:5px; text-align: left; color: #fff; }
 .section-rivers .caption a {color: #fff;}
 .section-rivers .avatar { margin-left: 20px; }
-
 
 /* Number of columns: 8 */
 /* Percentage width of a single column: 12.5% */
@@ -66,8 +64,47 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-crow-pitcher a { color: black;	text-decoration: none; }
 .section-crow-pitcher a:hover {	border-bottom: 1px solid black; }
 
+/* Styles for Astronomer */
+@-webkit-keyframes rotate { 
+  from { -webkit-transform: rotate(0deg);  }
+  to { -webkit-transform: rotate(360deg);  }
+}
+.section-astronomer { background: url(../images/space.jpeg) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
+.section-astronomer .container { position: relative; }
+.section-astronomer .stars { position: absolute; left: -50%; background: url(../images/stars.png); display: block; width: 1500px; height: 800px; top:0;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         40s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    z-index: 100;
+}
+.section-astronomer h2 { font: 50px/50px 'Megrim', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
+.section-astronomer p { font: 12px/30px 'Roboto Slab', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 12px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px; 
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+    }
+.section-astronomer .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-astronomer .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
+.section-astronomer .caption a { color: #eee; }
+.section-astronomer .caption a:hover { background-color: #e45546; }
+
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+
 /* Sub-tablet <768px */
 @media (max-width: 768px) {
+	.section-oak .container { width: 100%; }
+	.section-oak .oak-leaf { background-position: 0 -90px; }
+	.section-oak p { max-width: 460px; width: auto; padding: 0 20px; }
+
 	.section-forest .container { width: 100%; }
 	.section-forest h2 { font: 60px/60px 'Playfair Display', Georgia, serif; }
 	.section-forest p { padding-right: 20px; }
