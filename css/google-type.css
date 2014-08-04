@@ -37,7 +37,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-oak .caption { margin-bottom: 0; text-align: left; }
 .section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #c31; margin-bottom: 30px; }
 .section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
-.section-oak .oak-leaf { padding: 60px 40px; background: url(../images/leaf.svg) 0 0 no-repeat; display: block; border: 1px solid #f00; }
+.section-oak .oak-leaf { padding: 60px 40px; background: url(../images/leaf.svg) 0 0 no-repeat; display: block; }
 
 .section-rivers {background: url(../images/indigo-sea.jpg) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
 .section-rivers .container { width: 100%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
