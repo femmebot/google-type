@@ -26,7 +26,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-forest .caption a { color: #eee; }
 .section-forest .caption a:hover { background-color: #0cf; }
 
-.section-architecture { background: url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
+.section-architecture { background: #ddd9d1 url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
 .section-architecture h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
 .section-architecture h2 i { font-family:'Oleo Script', serif; font-style: normal;}
 .section-architecture p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
@@ -35,9 +35,9 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
 .section-oak .caption { margin-bottom: 0; text-align: left; }
-.section-oak .oak-leaf { padding-top: 230px; background: url(../images/leaf.svg) 300px -90px no-repeat; }
 .section-oak h2 { font: 24px/24px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #c31; margin-bottom: 30px; }
 .section-oak p { font: 16px/24px 'Vollkorn', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
+.section-oak .oak-leaf { padding: 60px 40px; background: url(../images/leaf.svg) 0 0 no-repeat; display: block; border: 1px solid #f00; }
 
 .section-rivers {background: url(../images/indigo-sea.jpg) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
 .section-rivers .container { width: 100%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
@@ -69,7 +69,7 @@ h1, h2, p { margin: 0; padding: 0; }
   from { -webkit-transform: rotate(0deg);  }
   to { -webkit-transform: rotate(360deg);  }
 }
-.section-astronomer { background: url(../images/space.jpeg) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
+.section-astronomer { background: #38202e url(../images/space.png) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
 .section-astronomer .container { position: relative; }
 .section-astronomer .stars { position: absolute; left: -50%; background: url(../images/stars.png); display: block; width: 1500px; height: 800px; top:0;
     -webkit-animation-name:             rotate; 
@@ -102,7 +102,6 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Sub-tablet <768px */
 @media (max-width: 768px) {
 	.section-oak .container { width: 100%; }
-	.section-oak .oak-leaf { background-position: 0 -90px; }
 	.section-oak p { max-width: 460px; width: auto; padding: 0 20px; }
 
 	.section-forest .container { width: 100%; }
