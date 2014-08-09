@@ -93,6 +93,83 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-astronomer .caption a { color: #eee; }
 .section-astronomer .caption a:hover { background-color: #e45546; }
 
+/* Styles for The Fox and the Grapes*/
+
+.section-the-fox-and-the-grapes {
+	background: #2E334A;
+	cursor: url('../images/the-fox-and-the-grapes/fox.png'), auto; /*ie*/
+	cursor: -webkit-image-set(
+	  url('../images/the-fox-and-the-grapes/fox.png') 1x,
+	  url('../images/the-fox-and-the-grapes/fox@2x.png') 2x
+	), auto;
+	padding: 40px 0 310px 0;	
+	position: relative;
+}
+
+.section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 0; }
+
+.section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 0;  }
+
+.section-the-fox-and-the-grapes .caption a { color: #CBCCD1; }
+
+.section-the-fox-and-the-grapes .caption a:hover,
+.section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
+
+.section-the-fox-and-the-grapes h2,
+.section-the-fox-and-the-grapes p {
+	margin: 0 auto;
+	width: 420px;
+}
+
+.section-the-fox-and-the-grapes h2 {
+	color: #8EC9D2;
+	font: 36px 'Ovo', serif;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.section-the-fox-and-the-grapes p {
+	color: #B7B8BF;
+	font: 15px/21px 'Muli', sans-serif;
+	font-weight: 300;
+	text-align: justify;	
+}
+
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }	
+}
+
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+.section-the-fox-and-the-grapes .grapes {
+	background: url('../images/the-fox-and-the-grapes/grapes.png') no-repeat center;
+	bottom: 216px;
+	height: 100px;
+	left: 50%;
+	margin-left: -50px;
+	position: absolute;
+	transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
+	width: 100px;
+	-moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
+	-o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
+}
 
 /* ---------------------- */
 /* Device-specific styles */
