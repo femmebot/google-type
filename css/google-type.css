@@ -18,19 +18,19 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-intro a { color: #000; text-decoration: none; }
 .section-intro a:hover { background-color: #ddd; }
 
-.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
-.section-forest h2 { font: 70px/68px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
-.section-forest p { font: 16px/30px 'Fauna One', Georgia, serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
-.section-forest .avatar img { margin: 0 0 10px 20px; }
-.section-forest .caption { margin: 0 0 40px 20px; color: #eee; }
-.section-forest .caption a { color: #eee; }
-.section-forest .caption a:hover { background-color: #0cf; }
+.section-gnat-bull { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
+.section-gnat-bull h2 { font: 70px/68px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
+.section-gnat-bull p { font: 16px/30px 'Fauna One', Georgia, serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-gnat-bull .avatar img { margin: 0 0 10px 20px; }
+.section-gnat-bull .caption { margin: 0 0 40px 20px; color: #eee; }
+.section-gnat-bull .caption a { color: #eee; }
+.section-gnat-bull .caption a:hover { background-color: #0cf; }
 
-.section-architecture { background: #ddd9d1 url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
-.section-architecture h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
-.section-architecture h2 i { font-family:'Oleo Script', serif; font-style: normal;}
-.section-architecture p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
-.section-architecture .caption { color: #999; float: left; width: 230px; margin: 4px 0 0 20px; }
+.section-two-bags { background: #ddd9d1 url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
+.section-two-bags h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
+.section-two-bags h2 i { font-family:'Oleo Script', serif; font-style: normal;}
+.section-two-bags p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
+.section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
 
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
@@ -65,6 +65,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-crow-pitcher a:hover {	border-bottom: 1px solid black; }
 
 /* Styles for Astronomer */
+
 @-webkit-keyframes rotate { 
   from { -webkit-transform: rotate(0deg);  }
   to { -webkit-transform: rotate(360deg);  }
@@ -93,7 +94,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-astronomer .caption a { color: #eee; }
 .section-astronomer .caption a:hover { background-color: #e45546; }
 
-/* Styles for The Fox and the Grapes*/
+/* Styles for The Fox and the Grapes */
 
 .section-the-fox-and-the-grapes {
 	background: #2E334A;
@@ -106,34 +107,15 @@ h1, h2, p { margin: 0; padding: 0; }
 	position: relative;
 }
 
-.section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 0; }
-
-.section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 0;  }
-
+.section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 20px; }
+.section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
 .section-the-fox-and-the-grapes .caption a { color: #CBCCD1; }
-
 .section-the-fox-and-the-grapes .caption a:hover,
 .section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
-
 .section-the-fox-and-the-grapes h2,
-.section-the-fox-and-the-grapes p {
-	margin: 0 auto;
-	width: 420px;
-}
-
-.section-the-fox-and-the-grapes h2 {
-	color: #8EC9D2;
-	font: 36px 'Ovo', serif;
-	text-align: center;
-	margin-bottom: 16px;
-}
-
-.section-the-fox-and-the-grapes p {
-	color: #B7B8BF;
-	font: 15px/21px 'Muli', sans-serif;
-	font-weight: 300;
-	text-align: justify;	
-}
+.section-the-fox-and-the-grapes p { margin: 0 auto; width: 420px; }
+.section-the-fox-and-the-grapes h2 { color: #8EC9D2; font: 36px 'Ovo', serif; text-align: center; margin-bottom: 16px; }
+.section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;	 }
 
 @-webkit-keyframes shake {
 	0% { -webkit-transform: translate(0, 0) rotate(0); }
@@ -178,16 +160,32 @@ h1, h2, p { margin: 0; padding: 0; }
 
 /* Sub-tablet <768px */
 @media (max-width: 768px) {
+	.section-intro { width: 100%; }
+	.section-intro .small { margin: 0 20px; }
+	.section-intro p { max-width: 460px; width: auto; padding: 0 20px; }
+
+	.section-two-bags .container { width: 100%;}
+	.section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
+	.section-two-bags p { max-width: 380px; width: auto; margin-left: 0; padding: 0 20px; float: left; font: 14px/24px 'Monda', Arial, sans-serif; }
+	.section-two-bags .caption { width: auto; margin-top: 6px; opacity: .7; }
+
 	.section-oak .container { width: 100%; }
 	.section-oak p { max-width: 460px; width: auto; padding: 0 20px; }
 
-	.section-forest .container { width: 100%; }
-	.section-forest h2 { font: 60px/60px 'Playfair Display', Georgia, serif; }
-	.section-forest p { padding-right: 20px; }
+	.section-gnat-bull .container { width: 100%; }
+	.section-gnat-bull h2 { font: 60px/60px 'Playfair Display', Georgia, serif; }
+	.section-gnat-bull p { padding-right: 20px; }
+
+	.section-astronomer .container { width: auto; }
+	.section-astronomer h2 { font-size: 46px; }
+	.section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+
+	.section-the-fox-and-the-grapes .container { width: 100%;  }
+	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Small devices (tablets, > 768px) */
+@media (min-width: 769px) {
 
 	.section-crow-pitcher { padding: calc(4 * 20px); }
 	.section-crow-pitcher h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
