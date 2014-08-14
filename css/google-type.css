@@ -18,6 +18,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-intro a { color: #000; text-decoration: none; }
 .section-intro a:hover { background-color: #ddd; }
 
+<<<<<<< HEAD
 .section-gnat-bull { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
 .section-gnat-bull h2 { font: 70px/68px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
 .section-gnat-bull p { font: 16px/30px 'Fauna One', Georgia, serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
@@ -31,6 +32,33 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-two-bags h2 i { font-family:'Oleo Script', serif; font-style: normal;}
 .section-two-bags p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
 .section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
+=======
+.section-moon {background: #000000; background-size: contain; padding: 90px 0 100px;}
+.section-moon h2 { font: 50px/48px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 0 0 2px 50px; }
+.section-moon h3 { font: 22px/20px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 0 0 2px 50px; }
+.section-moon p { font: 18px/18px 'News Cycle', Georgia, serif; max-width: 600px; color: #fff; margin: 10px 0 0 50px;}
+.section-moon span {display: inline-block; background-color: #fff; border-radius: 50%; width: 37px; height: 37px; margin: auto -40px auto 0px;}
+.section-moon .wrapper {float: left; position: relative; overflow: hidden;}
+.section-moon .wrapper1 {float: inherit; position: relative; overflow: hidden;}
+.section-moon .avatar img { margin: 0 0 10px 50px; }
+.section-moon .caption { margin: 0 0 40px 50px; color: #eee; }
+.section-moon .caption a { color: #eee; }
+.section-moon .caption a:hover { background-color: #ffffff; color: #2e2361;}
+
+.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
+.section-forest h2 { font: 70px/68px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
+.section-forest p { font: 16px/30px 'Fauna One', Georgia, serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-forest .avatar img { margin: 0 0 10px 20px; }
+.section-forest .caption { margin: 0 0 40px 20px; color: #eee; }
+.section-forest .caption a { color: #eee; }
+.section-forest .caption a:hover { background-color: #0cf; }
+
+.section-architecture { background: #ddd9d1 url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
+.section-architecture h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
+.section-architecture h2 i { font-family:'Oleo Script', serif; font-style: normal;}
+.section-architecture p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
+.section-architecture .caption { color: #999; float: left; width: 230px; margin: 4px 0 0 20px; }
+>>>>>>> 8bd75c2c5e8d8cf3a200483271ff82a4b7a0915f
 
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
@@ -118,11 +146,9 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;	 }
 
 .section-moon {background: #000000; opacity: .9; no-repeat; background-size: contain; padding: 90px 0 100px;}
-.section-moon h2 { font: 50px/48px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 0 0 2px 50px; }
-.section-moon h3 { font: 22px/20px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 0 0 2px 50px; }
-.section-moon h4 { font: 22px/20px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 0 0 0 50px; padding: 2px 2px; line-height: 1;}
-.section-moon h5 { font: 50px/48px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 0 0 2px 5px; }
-.section-moon p { font: 18px/18px 'News Cycle', Georgia, serif; max-width: 600px; color: #fff; margin: 10px 0 0 50px;}
+.section-moon h2 { font: 50px/48px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 5px 0 2px 50px; }
+.section-moon .smallerhead { font: 22px/20px 'Libre Baskerville', Georgia, serif; color: #fff; margin: 0 0 2px 50px;}
+.section-moon p { font: 16px/14px 'Trocchi', Georgia, serif; max-width: 375px; color: #fff; margin: 30px 0 0 50px;}
 .section-moon span {display: inline-block; background-color: #fff; border-radius: 50%; width: 37px; height: 37px; margin: auto -40px auto 0px;}
 .section-moon .wrapper {float: left; position: relative; overflow: hidden;}
 .section-moon .wrapper1 {float: inherit; position: relative; overflow: hidden;}
