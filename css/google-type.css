@@ -7,7 +7,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .caption a:hover { background-color: #ddd; }
 
 .container { width: 960px; margin: 0 auto; }
- 
+
 .section-intro h1 { font: 75px/68px 'Abril Fatface', Georgia, serif; text-transform: uppercase; color: #693; margin: 200px 0 90px 0; text-align: center; }
 .section-intro .small { font: 30px/32px 'Playfair Display', Georgia, serif; letter-spacing: .06em; margin-left: 30px; display: block; }
 .section-intro h1 em { display: block; font-style: normal; }
@@ -47,6 +47,87 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-rivers .caption a {color: #fff;}
 .section-rivers .avatar { margin-left: 20px; }
 
+.section-moon-mother {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    height:500px;
+    padding:50px;
+    position:relative;
+    background:url(../images/broken_noise.png);
+}
+
+.section-moon-mother * {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+.section-moon-mother svg {
+    position:absolute;
+    bottom:60px;
+}
+
+.section-moon-mother svg:nth-of-type(2) {
+    left:136px;
+}
+
+.section-moon-mother svg:nth-of-type(3) {
+    left:212px;
+}
+
+.section-moon-mother svg:nth-of-type(4) {
+    left:288px;
+}
+
+.section-moon-mother svg:nth-of-type(5) {
+    left:385px;
+}
+
+.section-moon-mother div {
+    width:451px;
+    float:right;
+}
+
+.section-moon-mother div.clear, .section-moon-mother div.caption {
+    width:auto;
+    float:none;
+    margin:0;
+    color:#ccc;
+}
+
+.section-moon-mother div.caption a {
+    color:#ccc;
+    text-shadow:2px 2px 2px #333;
+}
+
+.section-moon-mother div.caption a:hover {
+    color:#333;
+    text-shadow:none;
+}
+
+.section-moon-mother div h1, .section-moon-mother div p {
+    text-transform:lowercase;
+    font-weight:300;
+}
+
+.section-moon-mother div h1 {
+    color:white;
+    font-size:2.5em;
+    font-family: 'Jura', sans-serif;
+    text-shadow:2px 2px 2px #444;
+}
+
+.section-moon-mother div p {
+    color:#ccc;
+    font-size:1.5em;
+    line-height:1.25em;
+    font-family: 'Lato', sans-serif;
+    margin-top:1em;
+    text-align:justify;
+    text-shadow:2px 2px 2px #333;
+}
+
 /* Number of columns: 8 */
 /* Percentage width of a single column: 12.5% */
 /* Base unit of measurement: 20px */
@@ -66,21 +147,21 @@ h1, h2, p { margin: 0; padding: 0; }
 
 /* Styles for Astronomer */
 
-@-webkit-keyframes rotate { 
+@-webkit-keyframes rotate {
   from { -webkit-transform: rotate(0deg);  }
   to { -webkit-transform: rotate(360deg);  }
 }
 .section-astronomer { background: #38202e url(../images/space.png) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
 .section-astronomer .container { position: relative; }
 .section-astronomer .stars { position: absolute; left: -50%; background: url(../images/stars.png); display: block; width: 1500px; height: 800px; top:0;
-    -webkit-animation-name:             rotate; 
-    -webkit-animation-duration:         40s; 
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         40s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-animation-timing-function: linear;
     z-index: 100;
 }
 .section-astronomer h2 { font: 50px/50px 'Megrim', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
-.section-astronomer p { font: 12px/30px 'Roboto Slab', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 12px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px; 
+.section-astronomer p { font: 12px/30px 'Roboto Slab', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 12px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -103,7 +184,7 @@ h1, h2, p { margin: 0; padding: 0; }
 	  url('../images/the-fox-and-the-grapes/fox.png') 1x,
 	  url('../images/the-fox-and-the-grapes/fox@2x.png') 2x
 	), auto;
-	padding: 40px 0 310px 0;	
+	padding: 40px 0 310px 0;
 	position: relative;
 }
 
@@ -129,7 +210,7 @@ h1, h2, p { margin: 0; padding: 0; }
 	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
 	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
 	10% { -webkit-transform: translate(0, 0) rotate(0); }
-	100% { -webkit-transform: translate(0, 0) rotate(0); }	
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
 }
 
 .shake {
@@ -182,6 +263,21 @@ h1, h2, p { margin: 0; padding: 0; }
 
 	.section-the-fox-and-the-grapes .container { width: 100%;  }
 	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
+
+    .section-moon-mother {
+        height:auto;
+    }
+
+    .section-moon-mother div {
+        margin:45px 0;
+        width:100%;
+        float:none;
+    }
+
+    .section-moon-mother svg {
+        width:18%;
+        position:initial;
+    }
 }
 
 /* Small devices (tablets, > 768px) */
@@ -215,4 +311,3 @@ h1, h2, p { margin: 0; padding: 0; }
 @media (min-width: 1440px) {
 	.section-crow-pitcher .container p { font-size: 150px;	}
 }
-
