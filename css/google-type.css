@@ -7,7 +7,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .caption a:hover { background-color: #ddd; }
 
 .container { width: 960px; margin: 0 auto; }
- 
+
 .section-intro h1 { font: 75px/68px 'Abril Fatface', Georgia, serif; text-transform: uppercase; color: #693; margin: 200px 0 90px 0; text-align: center; }
 .section-intro .small { font: 30px/32px 'Playfair Display', Georgia, serif; letter-spacing: .06em; margin-left: 30px; display: block; }
 .section-intro h1 em { display: block; font-style: normal; }
@@ -66,21 +66,21 @@ h1, h2, p { margin: 0; padding: 0; }
 
 /* Styles for Astronomer */
 
-@-webkit-keyframes rotate { 
+@-webkit-keyframes rotate {
   from { -webkit-transform: rotate(0deg);  }
   to { -webkit-transform: rotate(360deg);  }
 }
 .section-astronomer { background: #38202e url(../images/space.png) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
 .section-astronomer .container { position: relative; }
 .section-astronomer .stars { position: absolute; left: -50%; background: url(../images/stars.png); display: block; width: 1500px; height: 800px; top:0;
-    -webkit-animation-name:             rotate; 
-    -webkit-animation-duration:         40s; 
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         40s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-animation-timing-function: linear;
     z-index: 100;
 }
 .section-astronomer h2 { font: 50px/50px 'Megrim', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
-.section-astronomer p { font: 12px/30px 'Roboto Slab', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 12px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px; 
+.section-astronomer p { font: 12px/30px 'Roboto Slab', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 12px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -103,7 +103,7 @@ h1, h2, p { margin: 0; padding: 0; }
 	  url('../images/the-fox-and-the-grapes/fox.png') 1x,
 	  url('../images/the-fox-and-the-grapes/fox@2x.png') 2x
 	), auto;
-	padding: 40px 0 310px 0;	
+	padding: 40px 0 310px 0;
 	position: relative;
 }
 
@@ -129,7 +129,7 @@ h1, h2, p { margin: 0; padding: 0; }
 	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
 	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
 	10% { -webkit-transform: translate(0, 0) rotate(0); }
-	100% { -webkit-transform: translate(0, 0) rotate(0); }	
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
 }
 
 .shake {
@@ -151,6 +151,45 @@ h1, h2, p { margin: 0; padding: 0; }
 	width: 100px;
 	-moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
 	-o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
+}
+
+.section-prophet {
+	font-family: 'Neuton', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(../images/prophet.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-prophet .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-prophet .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-prophet h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-prophet p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-prophet .col {
+	max-width: 420px;
+	float: right;
 }
 
 /* ---------------------- */
@@ -182,6 +221,8 @@ h1, h2, p { margin: 0; padding: 0; }
 
 	.section-the-fox-and-the-grapes .container { width: 100%;  }
 	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
+	.section-prophet .col {float: none;}
+	.section-prophet .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
 }
 
 /* Small devices (tablets, > 768px) */
