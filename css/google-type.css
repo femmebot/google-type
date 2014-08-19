@@ -220,7 +220,6 @@ h1, h2, p { margin: 0; padding: 0; }
 
 	.section-the-fox-and-the-grapes .container { width: 100%;  }
 	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
-<<<<<<< HEAD
 
 	.section-moon-mother .container { width: 100%; }
 	.section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
@@ -233,10 +232,10 @@ h1, h2, p { margin: 0; padding: 0; }
 	.section-moon-mother .bold-ital	{ font-size: 60px; }
 	.section-moon-mother .bold { line-height: 24px; margin: 4px auto; }
 	.section-moon-mother .black { font-size: 42px; line-height: 40px; }
-=======
+
 	.section-prophet .col {float: none;}
 	.section-prophet .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
->>>>>>> 16f976532ecf5f32e4282b210620e6f50dcd1ac3
+	
 }
 
 /* Small devices (tablets, > 768px) */
