@@ -96,27 +96,14 @@ h1, h2, p { margin: 0; padding: 0; }
 
 /* Styles for The Fox and the Grapes */
 
-.section-the-fox-and-the-grapes {
-	background: #2E334A;
-	cursor: url('../images/the-fox-and-the-grapes/fox.png'), auto; /*ie*/
-	cursor: -webkit-image-set(
-	  url('../images/the-fox-and-the-grapes/fox.png') 1x,
-	  url('../images/the-fox-and-the-grapes/fox@2x.png') 2x
-	), auto;
-	padding: 40px 0 310px 0;	
-	position: relative;
-}
-
+.section-the-fox-and-the-grapes { background: #2E334A; cursor: url('../images/the-fox-and-the-grapes/fox.png'), auto; /*ie*/ cursor: -webkit-image-set( url('../images/the-fox-and-the-grapes/fox.png') 1x, url('../images/the-fox-and-the-grapes/fox@2x.png') 2x), auto; padding: 40px 0 310px 0; position: relative; }
 .section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 20px; }
 .section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
 .section-the-fox-and-the-grapes .caption a { color: #CBCCD1; }
-.section-the-fox-and-the-grapes .caption a:hover,
-.section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
-.section-the-fox-and-the-grapes h2,
-.section-the-fox-and-the-grapes p { margin: 0 auto; width: 420px; }
+.section-the-fox-and-the-grapes .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
+.section-the-fox-and-the-grapes h2, .section-the-fox-and-the-grapes p { margin: 0 auto; width: 420px; }
 .section-the-fox-and-the-grapes h2 { color: #8EC9D2; font: 36px 'Ovo', serif; text-align: center; margin-bottom: 16px; }
 .section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;	 }
-
 @-webkit-keyframes shake {
 	0% { -webkit-transform: translate(0, 0) rotate(0); }
 	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
@@ -131,7 +118,6 @@ h1, h2, p { margin: 0; padding: 0; }
 	10% { -webkit-transform: translate(0, 0) rotate(0); }
 	100% { -webkit-transform: translate(0, 0) rotate(0); }	
 }
-
 .shake {
 	-webkit-animation-name: shake;
 	-webkit-animation-duration: 8s;
@@ -139,24 +125,26 @@ h1, h2, p { margin: 0; padding: 0; }
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+.section-the-fox-and-the-grapes .grapes { background: url('../images/the-fox-and-the-grapes/grapes.png') no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
 
-.section-the-fox-and-the-grapes .grapes {
-	background: url('../images/the-fox-and-the-grapes/grapes.png') no-repeat center;
-	bottom: 216px;
-	height: 100px;
-	left: 50%;
-	margin-left: -50px;
-	position: absolute;
-	transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
-	width: 100px;
-	-moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
-	-o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
-}
+.section-moon-mother { background-color: #212221; padding: 60px 0 120px 0; color: #9d9e9d; }
+.section-moon-mother .caption a:hover { color: #000; text-align: left; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; } 
+.section-moon-mother h2 { font: 34px/30px 'Vast Shadow', 'Arial Black'; color: #865; width: 620px; margin: 0 auto; text-transform: uppercase; padding: 14px 0 13px 0; border-top: 4px double #676767; border-bottom: 4px double #676767; }
+.section-moon-mother h2 span { font: 300 16px 'Oswald', Helvetica, Arial; margin: 0 5px 0 3px; color: #555; letter-spacing: .05em; }
+.section-moon-mother p { width: 620px; color: #9d9e9d; margin: 0 auto; }
+.section-moon-mother .black-ital { font: italic 900 130px/90px 'Playfair Display', Georgia, serif; margin-bottom: 12px; display: block; }
+.section-moon-mother .ital { font: italic 400 60px/60px 'Playfair Display', Georgia, serif; margin: 0 0 8px 6px; display: block; }
+.section-moon-mother .small-cap { font: 400 18px/36px 'Playfair Display SC', Georgia, serif; letter-spacing: .17em; margin: 0 0 0 12px; text-transform: uppercase; display: block; }
+.section-moon-mother .reg { font: 400 46px/40px 'Playfair Display', Georgia, serif; display: block; margin: 0 0 0 -10px; }
+.section-moon-mother .bold-ital { font: italic 700 43px/56px 'Playfair Display', Georgia, serif; display: block; }
+.section-moon-mother .bold { font: 400 23px/36px 'Playfair Display', Georgia, serif; display: block; margin-left: 8px; }
+.section-moon-mother strong { text-transform: uppercase; font-weight: 900; letter-spacing: .15em; font-size: 18px; margin: 0 3px; }
+.section-moon-mother .black { font: 900 39px/32px 'Playfair Display', Georgia, serif; margin-left: 4px; display: block; }
+
 
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
-
 
 /* Sub-tablet <768px */
 @media (max-width: 768px) {
@@ -182,6 +170,18 @@ h1, h2, p { margin: 0; padding: 0; }
 
 	.section-the-fox-and-the-grapes .container { width: 100%;  }
 	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
+
+	.section-moon-mother .container { width: 100%; }
+	.section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
+	.section-moon-mother h2, .section-moon-mother p { width: 320px; }
+	.section-moon-mother h2 { font-size: 32px; text-align: center; }
+	.section-moon-mother h2 span { display: block; }
+	.section-moon-mother .black-ital { font-size: 120px; }
+	.section-moon-mother .small-cap { font-size: 11px; line-height: 14px; margin: 0 auto 4px auto; }
+	.section-moon-mother .reg { font-size: 42px; }
+	.section-moon-mother .bold-ital	{ font-size: 60px; }
+	.section-moon-mother .bold { line-height: 24px; margin: 4px auto; }
+	.section-moon-mother .black { font-size: 42px; line-height: 40px; }
 }
 
 /* Small devices (tablets, > 768px) */
