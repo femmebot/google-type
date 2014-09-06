@@ -1,5 +1,6 @@
 body { margin: 0; padding: 0; zoom: 1; }
 h1, h2, p { margin: 0; padding: 0; }
+.strike { text-decoration: line-through; }
 
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
