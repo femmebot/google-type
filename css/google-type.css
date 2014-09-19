@@ -198,8 +198,8 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-wolves-sheep-ram .container {width:100%;}
 .section-wolves-sheep-ram .containerWidth {max-width:1280px;margin: 0 auto;}
 /*.section-wolves-sheep-ram .top {margin-top: -50px}*/
-
-.section-wolves-sheep-ram { background: #222222 url(https://s3.amazonaws.com/ooomf-com-files/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg) no-repeat; background-size: cover; padding: 150px 0 150px; overflow: hidden; color: #fff;}
+/* stock photo source: https://s3.amazonaws.com/ooomf-com-files/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg */
+.section-wolves-sheep-ram { background: #212221 url(../images/bg-wolf-sheep-ram.png) no-repeat; background-size: cover; padding: 150px 0 150px; overflow: hidden; color: #fff;}
 
 .section-wolves-sheep-ram .titleContainer {margin: 0 auto; font: 14pt; text-align: left; text-transform: uppercase; letter-spacing: 15px;font-family: 'Quattrocento', Georgia, serif;}
 .section-wolves-sheep-ram .wolves {text-align: center; width: 150px; word-wrap: break-word; margin: 0 auto;}
