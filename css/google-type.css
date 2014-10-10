@@ -154,69 +154,37 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-moon-mother .black { font: 900 39px/32px 'Playfair Display', Georgia, serif; margin-left: 4px; display: block; }
 
 
-.section-prophet {
-	font-family: 'Neuton', serif;line-height: 1.5;
-	background-color: #101010;
-	color: #999;
-	color: rgba(255,255,255,0.75);
-	background-image: url(../images/prophet.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	-webkit-text-rendering: optimizeLegibility;
-	text-rendering: optimizeLegibility;
-}
-.section-prophet .container {
-	width: 100%;
-	overflow: hidden;
-	padding: 40px 180px 140px;
-	background-color: rgba(0,0,0,0.45);
-	box-sizing: border-box;
-}
-.section-prophet .caption {
-	margin-bottom: 40px;
-	margin-left: 0;
-}
-.section-prophet h2 {
-	font-size: 40px;
-	font-weight: 300;
-	margin-bottom: 10px;
-	color: #FFF;
-}
-.section-prophet p {
-	font-size: 20px;
-	font-weight: 300;
-}
-.section-prophet .col {
-	max-width: 420px;
-	float: right;
-}
+.section-prophet { font-family: 'Neuton', serif;line-height: 1.5; background-color: #101010; color: #999; color: rgba(255,255,255,0.75); background-image: url(../images/prophet.jpg); background-size: cover; background-attachment: fixed; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; -webkit-text-rendering: optimizeLegibility; text-rendering: optimizeLegibility; }
+.section-prophet .container { width: 100%; overflow: hidden; padding: 40px 180px 140px; background-color: rgba(0,0,0,0.45); box-sizing: border-box; }
+.section-prophet .caption { margin-bottom: 40px; margin-left: 0; }
+.section-prophet h2 { font-size: 40px; font-weight: 300; margin-bottom: 10px; color: #FFF; }
+.section-prophet p { font-size: 20px; font-weight: 300; }
+.section-prophet .col { max-width: 420px; float: right; }
 
 /* Styles for The wolves, the sheep, and the ram */
 
-.section-wolves-sheep-ram .container {width:100%;}
-.section-wolves-sheep-ram .containerWidth {max-width:1280px;margin: 0 auto;}
+
 /*.section-wolves-sheep-ram .top {margin-top: -50px}*/
 /* stock photo source: https://s3.amazonaws.com/ooomf-com-files/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg */
-.section-wolves-sheep-ram { background: #212221 url(../images/bg-wolf-sheep-ram.png) no-repeat; background-size: cover; padding: 150px 0 150px; overflow: hidden; color: #fff;}
-
-.section-wolves-sheep-ram .titleContainer {margin: 0 auto; font: 14pt; text-align: left; text-transform: uppercase; letter-spacing: 15px;font-family: 'Quattrocento', Georgia, serif;}
+.section-wolves-sheep-ram { background: #212221 url(../images/bg-wolf-sheep-ram.png) no-repeat; background-size: cover; padding: 150px 0 60px; overflow: hidden; color: #fff;}
+.section-wolves-sheep-ram .container {width:100%; }
+.section-wolves-sheep-ram .containerWidth {max-width:1280px; margin: 0 auto;}
+.section-wolves-sheep-ram .titleContainer { margin: 0 auto; font: 14pt; text-align: left; text-transform: uppercase; letter-spacing: 15px;font-family: 'Quattrocento', Georgia, serif;}
 .section-wolves-sheep-ram .wolves {text-align: center; width: 150px; word-wrap: break-word; margin: 0 auto;}
-.section-wolves-sheep-ram .wolves h1 {font-size: 65pt; line-height:75pt; font-weight: normal; color: #fff; text-align: center; text-transform: uppercase;letter-spacing: 15px;}
+.section-wolves-sheep-ram .wolves h1 {font-size: 90px; line-height: 100px; font-weight: normal; color: #fff; text-align: center; text-transform: uppercase;letter-spacing: 15px;}
 .section-wolves-sheep-ram .wolves p {text-align: center;margin-bottom:20px;}
 .section-wolves-sheep-ram .sheep,
 .section-wolves-sheep-ram .ram {margin: -160px auto 0;}
 .section-wolves-sheep-ram .sheep {float: left; padding-left: 80px;}
 .section-wolves-sheep-ram .ram {float: right; padding-right: 80px}
 
-.section-wolves-sheep-ram .titleFullContainer {display: none;font-family: 'Quattrocento', Georgia, serif;}
-.section-wolves-sheep-ram .WSR { max-width: 360px; margin: 100px 0 0 80px;}
-.section-wolves-sheep-ram .WSR p {font-size: 14pt; line-height: 32px; text-align: left; text-transform: uppercase; letter-spacing: 8px;}
+.section-wolves-sheep-ram .titleFullContainer {display: none; font-family: 'Quattrocento', Georgia, serif;}
+.section-wolves-sheep-ram .WSR { max-width: 360px; margin: 100px 0 0 80px; }
+.section-wolves-sheep-ram .WSR p { font-size: 14px; line-height: 32px; text-align: left; text-transform: uppercase; letter-spacing: 8px;}
 
 .section-wolves-sheep-ram .bodyContainer {width: 100%; margin: 0 auto; font-family: 'Fanwood Text', Georgia, serif;}
-.section-wolves-sheep-ram .body { max-width: 650px; margin:40px auto;}
-.section-wolves-sheep-ram .body p { font-size: 14px; line-height: 24pt; }
+.section-wolves-sheep-ram .body { max-width: 540px; margin: 80px auto;}
+.section-wolves-sheep-ram .body p { font-size: 20px; line-height: 36px; }
 
 .section-wolves-sheep-ram .avatar img { margin: 0 0 10px 80px; position: relative; z-index: 998; }
 .section-wolves-sheep-ram .caption { margin: 0 0 0px 80px; color: #222; position: relative; z-index: 999;}
