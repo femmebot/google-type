@@ -1,5 +1,6 @@
 body { margin: 0; padding: 0; zoom: 1; }
 h1, h2, p { margin: 0; padding: 0; }
+.strike { text-decoration: line-through; }
 
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
@@ -7,7 +8,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .caption a:hover { background-color: #ddd; }
 
 .container { width: 960px; margin: 0 auto; }
- 
+
 .section-intro h1 { font: 75px/68px 'Abril Fatface', Georgia, serif; text-transform: uppercase; color: #693; margin: 200px 0 90px 0; text-align: center; }
 .section-intro .small { font: 30px/32px 'Playfair Display', Georgia, serif; letter-spacing: .06em; margin-left: 30px; display: block; }
 .section-intro h1 em { display: block; font-style: normal; }
@@ -18,19 +19,19 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-intro a { color: #000; text-decoration: none; }
 .section-intro a:hover { background-color: #ddd; }
 
-.section-forest { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
-.section-forest h2 { font: 70px/68px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
-.section-forest p { font: 16px/30px 'Fauna One', Georgia, serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
-.section-forest .avatar img { margin: 0 0 10px 20px; }
-.section-forest .caption { margin: 0 0 40px 20px; color: #eee; }
-.section-forest .caption a { color: #eee; }
-.section-forest .caption a:hover { background-color: #0cf; }
+.section-gnat-bull { background: url(../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
+.section-gnat-bull h2 { font: 70px/68px 'Playfair Display', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
+.section-gnat-bull p { font: 16px/30px 'Fauna One', Georgia, serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-gnat-bull .avatar img { margin: 0 0 10px 20px; }
+.section-gnat-bull .caption { margin: 0 0 40px 20px; color: #eee; }
+.section-gnat-bull .caption a { color: #eee; }
+.section-gnat-bull .caption a:hover { background-color: #0cf; }
 
-.section-architecture { background: #ddd9d1 url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
-.section-architecture h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
-.section-architecture h2 i { font-family:'Oleo Script', serif; font-style: normal;}
-.section-architecture p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
-.section-architecture .caption { color: #999; float: left; width: 230px; margin: 4px 0 0 20px; }
+.section-two-bags { background: #ddd9d1 url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
+.section-two-bags h2 { font: 80px/66px 'Fugaz One', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; }
+.section-two-bags h2 i { font-family:'Oleo Script', serif; font-style: normal;}
+.section-two-bags p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
+.section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
 
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
@@ -65,21 +66,22 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-crow-pitcher a:hover {	border-bottom: 1px solid black; }
 
 /* Styles for Astronomer */
-@-webkit-keyframes rotate { 
+
+@-webkit-keyframes rotate {
   from { -webkit-transform: rotate(0deg);  }
   to { -webkit-transform: rotate(360deg);  }
 }
 .section-astronomer { background: #38202e url(../images/space.png) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
 .section-astronomer .container { position: relative; }
 .section-astronomer .stars { position: absolute; left: -50%; background: url(../images/stars.png); display: block; width: 1500px; height: 800px; top:0;
-    -webkit-animation-name:             rotate; 
-    -webkit-animation-duration:         40s; 
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         40s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-animation-timing-function: linear;
     z-index: 100;
 }
 .section-astronomer h2 { font: 50px/50px 'Megrim', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
-.section-astronomer p { font: 12px/30px 'Roboto Slab', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 12px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px; 
+.section-astronomer p { font: 12px/30px 'Roboto Slab', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 12px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -93,8 +95,9 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-astronomer .caption a { color: #eee; }
 .section-astronomer .caption a:hover { background-color: #e45546; }
 
-/* Styles for The Fox and the Grapes*/
+/* Styles for The Fox and the Grapes */
 
+.section-the-fox-and-the-grapes { background: #2E334A; cursor: url(../images/the-fox-and-the-grapes/fox.png), auto; /*ie*/ cursor: -webkit-image-set( url('../images/the-fox-and-the-grapes/fox.png') 1x, url('../images/the-fox-and-the-grapes/fox@2x.png') 2x), auto; padding: 40px 0 310px 0; position: relative; }
 .section-the-fox-and-the-grapes {
 	background: #2E334A;
 	cursor: url('../images/the-fox-and-the-grapes/fox.png'), auto; /*ie*/
@@ -102,39 +105,17 @@ h1, h2, p { margin: 0; padding: 0; }
 	  url('../images/the-fox-and-the-grapes/fox.png') 1x,
 	  url('../images/the-fox-and-the-grapes/fox@2x.png') 2x
 	), auto;
-	padding: 40px 0 310px 0;	
+	padding: 40px 0 310px 0;
 	position: relative;
 }
 
-.section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 0; }
-
-.section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 0;  }
-
+.section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 20px; }
+.section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
 .section-the-fox-and-the-grapes .caption a { color: #CBCCD1; }
-
-.section-the-fox-and-the-grapes .caption a:hover,
-.section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
-
-.section-the-fox-and-the-grapes h2,
-.section-the-fox-and-the-grapes p {
-	margin: 0 auto;
-	width: 420px;
-}
-
-.section-the-fox-and-the-grapes h2 {
-	color: #8EC9D2;
-	font: 36px 'Ovo', serif;
-	text-align: center;
-	margin-bottom: 16px;
-}
-
-.section-the-fox-and-the-grapes p {
-	color: #B7B8BF;
-	font: 15px/21px 'Muli', sans-serif;
-	font-weight: 300;
-	text-align: justify;	
-}
-
+.section-the-fox-and-the-grapes .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
+.section-the-fox-and-the-grapes h2, .section-the-fox-and-the-grapes p { margin: 0 auto; width: 420px; }
+.section-the-fox-and-the-grapes h2 { color: #8EC9D2; font: 36px 'Ovo', serif; text-align: center; margin-bottom: 16px; }
+.section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;	 }
 @-webkit-keyframes shake {
 	0% { -webkit-transform: translate(0, 0) rotate(0); }
 	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
@@ -147,47 +128,217 @@ h1, h2, p { margin: 0; padding: 0; }
 	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
 	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
 	10% { -webkit-transform: translate(0, 0) rotate(0); }
-	100% { -webkit-transform: translate(0, 0) rotate(0); }	
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
 }
-
 .shake {
 	-webkit-animation-name: shake;
 	-webkit-animation-duration: 8s;
-	-webkit-transform-origin:50% 50%;
+	-webkit-transform-origin: 50% 50%;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+.section-the-fox-and-the-grapes .grapes { background: url(../images/the-fox-and-the-grapes/grapes.png) no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
 
-.section-the-fox-and-the-grapes .grapes {
-	background: url('../images/the-fox-and-the-grapes/grapes.png') no-repeat center;
-	bottom: 216px;
-	height: 100px;
-	left: 50%;
-	margin-left: -50px;
-	position: absolute;
-	transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
-	width: 100px;
-	-moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
-	-o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2);
+.section-moon-mother { background-color: #212221; padding: 60px 0 120px 0; color: #9d9e9d; }
+.section-moon-mother .caption a:hover { color: #000; text-align: left; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; } 
+.section-moon-mother h2 { font: 34px/30px 'Vast Shadow', 'Arial Black'; color: #865; width: 620px; margin: 0 auto; text-transform: uppercase; padding: 14px 0 13px 0; border-top: 4px double #676767; border-bottom: 4px double #676767; }
+.section-moon-mother h2 span { font: 300 16px 'Oswald', Helvetica, Arial; margin: 0 5px 0 3px; color: #555; letter-spacing: .05em; }
+.section-moon-mother p { width: 620px; color: #9d9e9d; margin: 0 auto; }
+.section-moon-mother .black-ital { font: italic 900 130px/90px 'Playfair Display', Georgia, serif; margin-bottom: 12px; display: block; }
+.section-moon-mother .ital { font: italic 400 60px/60px 'Playfair Display', Georgia, serif; margin: 0 0 8px 6px; display: block; }
+.section-moon-mother .small-cap { font: 400 18px/36px 'Playfair Display SC', Georgia, serif; letter-spacing: .17em; margin: 0 0 0 12px; text-transform: uppercase; display: block; }
+.section-moon-mother .reg { font: 400 46px/40px 'Playfair Display', Georgia, serif; display: block; margin: 0 0 0 -10px; }
+.section-moon-mother .bold-ital { font: italic 700 43px/56px 'Playfair Display', Georgia, serif; display: block; }
+.section-moon-mother .bold { font: 400 23px/36px 'Playfair Display', Georgia, serif; display: block; margin-left: 8px; }
+.section-moon-mother strong { text-transform: uppercase; font-weight: 900; letter-spacing: .15em; font-size: 18px; margin: 0 3px; }
+.section-moon-mother .black { font: 900 39px/32px 'Playfair Display', Georgia, serif; margin-left: 4px; display: block; }
+
+
+.section-prophet { font-family: 'Neuton', serif;line-height: 1.5; background-color: #101010; color: #999; color: rgba(255,255,255,0.75); background-image: url(../images/prophet.jpg); background-size: cover; background-attachment: fixed; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; -webkit-text-rendering: optimizeLegibility; text-rendering: optimizeLegibility; }
+.section-prophet .container { width: 100%; overflow: hidden; padding: 40px 180px 140px; background-color: rgba(0,0,0,0.45); box-sizing: border-box; }
+.section-prophet .caption { margin-bottom: 40px; margin-left: 0; }
+.section-prophet h2 { font-size: 40px; font-weight: 300; margin-bottom: 10px; color: #FFF; }
+.section-prophet p { font-size: 20px; font-weight: 300; }
+.section-prophet .col { max-width: 420px; float: right; }
+
+/* Styles for The wolves, the sheep, and the ram */
+
+
+/*.section-wolves-sheep-ram .top {margin-top: -50px}*/
+/* stock photo source: https://s3.amazonaws.com/ooomf-com-files/HWijjF7RwOPGEJ1nb4Zb_IMG_3773.jpg */
+.section-wolves-sheep-ram { background: #212221 url(../images/bg-wolf-sheep-ram.png) no-repeat; background-size: cover; padding: 150px 0 60px; overflow: hidden; color: #fff;}
+.section-wolves-sheep-ram .container {width:100%; }
+.section-wolves-sheep-ram .containerWidth {max-width:1280px; margin: 0 auto;}
+.section-wolves-sheep-ram .titleContainer { margin: 0 auto; font: 14pt; text-align: left; text-transform: uppercase; letter-spacing: 15px;font-family: 'Quattrocento', Georgia, serif;}
+.section-wolves-sheep-ram .wolves {text-align: center; width: 150px; word-wrap: break-word; margin: 0 auto;}
+.section-wolves-sheep-ram .wolves h1 {font-size: 90px; line-height: 100px; font-weight: normal; color: #fff; text-align: center; text-transform: uppercase;letter-spacing: 15px;}
+.section-wolves-sheep-ram .wolves p {text-align: center;margin-bottom:20px;}
+.section-wolves-sheep-ram .sheep,
+.section-wolves-sheep-ram .ram {margin: -160px auto 0;}
+.section-wolves-sheep-ram .sheep {float: left; padding-left: 80px;}
+.section-wolves-sheep-ram .ram {float: right; padding-right: 80px}
+
+.section-wolves-sheep-ram .titleFullContainer {display: none; font-family: 'Quattrocento', Georgia, serif;}
+.section-wolves-sheep-ram .WSR { max-width: 360px; margin: 100px 0 0 80px; }
+.section-wolves-sheep-ram .WSR p { font-size: 14px; line-height: 32px; text-align: left; text-transform: uppercase; letter-spacing: 8px;}
+
+.section-wolves-sheep-ram .bodyContainer {width: 100%; margin: 0 auto; font-family: 'Fanwood Text', Georgia, serif;}
+.section-wolves-sheep-ram .body { max-width: 540px; margin: 80px auto;}
+.section-wolves-sheep-ram .body p { font-size: 20px; line-height: 36px; }
+
+.section-wolves-sheep-ram .avatar img { margin: 0 0 10px 80px; position: relative; z-index: 998; }
+.section-wolves-sheep-ram .caption { margin: 0 0 0px 80px; color: #222; position: relative; z-index: 999;}
+.section-wolves-sheep-ram .caption a { color: #222; }
+.section-wolves-sheep-ram .caption a:hover { background-color: #fff; }
+
+/* Styles for The Boy Bathing */
+
+.section-the-boy-bathing {
+	background: #002041 url(../images/the-boy-bathing/bg-sm.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+	color: #eee6d2;
+	padding: 30px;
 }
+
+.section-the-boy-bathing .avatar img { margin: 0 0 6px 0px; }
+.section-the-boy-bathing .caption { color: #eee6d2; margin: 0 0 200px 0px;  }
+.section-the-boy-bathing .caption a { color: #eee6d2; }
+.section-the-boy-bathing .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #002041; background: #eee6d2; }
+
+.section-the-boy-bathing .container {
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto 30px auto;
+	width: 100%;	
+}
+
+.section-the-boy-bathing .container h2 {
+	font: 46px/52px 'Quando', sans-serif; font-weight: 300;	
+	margin-bottom: 20px;
+}
+
+.section-the-boy-bathing .container h2 span:nth-child(1) {
+	position: absolute;
+	left: 70px;
+	top: -140px;
+}
+
+.section-the-boy-bathing .container h2 span:nth-child(2) {
+	position: absolute;
+	left: 0;
+	top: -70px;
+}
+
+.section-the-boy-bathing .container h2 span:nth-child(3) {
+	padding-left: 100px;
+}
+
+.section-the-boy-bathing .container p {
+	font: 20px/28px 'Judson', sans-serif; font-weight: 300;	
+	margin-bottom: 26px;
+}
+
+.section-the-boy-bathing .container .moral span {
+	background: #eee6d2;
+	color: #002041;
+	display: inline-block;
+	font: 16px/16px 'Montserrat', sans-serif; font-weight: 300;
+	padding: 7px 7px 5px 7px;	
+	margin-left: -7px;
+}
+
+@media all and (min-width: 768px) {
+	.section-the-boy-bathing {
+		background: #002041 url(../images/the-boy-bathing/bg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+	}
+	.section-the-boy-bathing .container {
+		margin: 0 auto 100px auto;
+	}
+	
+	.section-the-boy-bathing .container h2 span:nth-child(1) {
+		left: 30px;
+		top: -140px;
+	}
+
+	.section-the-boy-bathing .container h2 span:nth-child(2) {
+		left: -40px;
+		top: -70px;
+	}
+	.section-the-boy-bathing .container h2 span:nth-child(3) {
+		padding-left: 0;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.section-the-boy-bathing .caption { color: #eee6d2; margin: 0 0 260px 0px;  }
+	.section-the-boy-bathing .container {
+		margin: 0 auto 160px auto;
+	}
+	
+	.section-the-boy-bathing .container h2 span:nth-child(1) {
+		left: -110px;
+		top: -140px;
+	}
+
+	.section-the-boy-bathing .container h2 span:nth-child(2) {
+		left: -180px;
+		top: -70px;
+	}
+}
+
 
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
 
-
 /* Sub-tablet <768px */
 @media (max-width: 768px) {
+	
+	.section-intro { width: 100%; }
+	.section-intro .small { margin: 0 20px; }
+	.section-intro p { max-width: 460px; width: auto; padding: 0 20px; }
+
+	.section-two-bags .container { width: 100%;}
+	.section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
+	.section-two-bags p { max-width: 380px; width: auto; margin-left: 0; padding: 0 20px; float: left; font: 14px/24px 'Monda', Arial, sans-serif; }
+	.section-two-bags .caption { width: auto; margin-top: 6px; opacity: .7; }
+
 	.section-oak .container { width: 100%; }
 	.section-oak p { max-width: 460px; width: auto; padding: 0 20px; }
 
-	.section-forest .container { width: 100%; }
-	.section-forest h2 { font: 60px/60px 'Playfair Display', Georgia, serif; }
-	.section-forest p { padding-right: 20px; }
+	.section-gnat-bull .container { width: 100%; }
+	.section-gnat-bull h2 { font: 60px/60px 'Playfair Display', Georgia, serif; }
+	.section-gnat-bull p { padding-right: 20px; }
+
+	.section-astronomer .container { width: auto; }
+	.section-astronomer h2 { font-size: 46px; }
+	.section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+
+	.section-the-fox-and-the-grapes .container { width: 100%;  }
+	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
+
+	.section-moon-mother .container { width: 100%; }
+	.section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
+	.section-moon-mother h2, .section-moon-mother p { width: 320px; }
+	.section-moon-mother h2 { font-size: 32px; text-align: center; }
+	.section-moon-mother h2 span { display: block; }
+	.section-moon-mother .black-ital { font-size: 120px; }
+	.section-moon-mother .small-cap { font-size: 13px; line-height: 15px; margin: 0 auto 4px auto; }
+	.section-moon-mother .reg { font-size: 42px; }
+	.section-moon-mother .bold-ital	{ font-size: 60px; }
+	.section-moon-mother .bold { line-height: 24px; margin: 4px auto; }
+	.section-moon-mother .black { font-size: 42px; line-height: 40px; }
+
+	.section-prophet .col {float: none;}
+	.section-prophet .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+	
+	.section-wolves-sheep-ram .titleContainer {display: none;}
+	.section-wolves-sheep-ram .titleFullContainer {display: block;}
+	.section-wolves-sheep-ram .body {padding: 0 80px;}
+
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Small devices (tablets, > 768px) */
+@media (min-width: 769px) {
 
 	.section-crow-pitcher { padding: calc(4 * 20px); }
 	.section-crow-pitcher h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
