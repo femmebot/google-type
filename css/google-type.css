@@ -200,9 +200,9 @@ h1, h2, p { margin: 0; padding: 0; }
 }
 
 .section-the-boy-bathing .avatar img { margin: 0 0 6px 0px; }
-.section-the-boy-bathing .caption { color: #eee6d2; margin: 0 0 200px 0px;  }
-.section-the-boy-bathing .caption a { color: #eee6d2; }
-.section-the-boy-bathing .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #002041; background: #eee6d2; }
+.section-the-boy-bathing .caption { color: #8fa0a0; margin: 0 0 200px 0px;  }
+.section-the-boy-bathing .caption a { color: #8fa0a0; }
+.section-the-boy-bathing .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #002041; background: #8fa0a0; }
 
 .section-the-boy-bathing .container {
 	position: relative;
@@ -229,19 +229,19 @@ h1, h2, p { margin: 0; padding: 0; }
 }
 
 .section-the-boy-bathing .container h2 span:nth-child(3) {
-	padding-left: 100px;
+	padding-left: 60px;
 }
 
 .section-the-boy-bathing .container p {
-	font: 20px/28px 'Judson', sans-serif; font-weight: 300;	
-	margin-bottom: 26px;
+	font: 17px/23px 'Judson', sans-serif; font-weight: 300;	
+	margin-bottom: 24px;
 }
 
 .section-the-boy-bathing .container .moral span {
 	background: #eee6d2;
 	color: #002041;
 	display: inline-block;
-	font: 16px/16px 'Montserrat', sans-serif; font-weight: 300;
+	font: 13px/13px 'Montserrat', sans-serif; font-weight: 300;
 	padding: 7px 7px 5px 7px;	
 	margin-left: -7px;
 }
@@ -266,10 +266,18 @@ h1, h2, p { margin: 0; padding: 0; }
 	.section-the-boy-bathing .container h2 span:nth-child(3) {
 		padding-left: 0;
 	}
+	.section-the-boy-bathing .container p {
+		font: 20px/28px 'Judson', sans-serif; font-weight: 300;	
+		margin-bottom: 26px;
+	}
+
+	.section-the-boy-bathing .container .moral span {
+		font: 16px/16px 'Montserrat', sans-serif; font-weight: 300;
+	}
 }
 
 @media all and (min-width: 992px) {
-	.section-the-boy-bathing .caption { color: #eee6d2; margin: 0 0 260px 0px;  }
+	.section-the-boy-bathing .caption { margin: 0 0 260px 0px;  }
 	.section-the-boy-bathing .container {
 		margin: 0 auto 160px auto;
 	}
@@ -285,6 +293,56 @@ h1, h2, p { margin: 0; padding: 0; }
 	}
 }
 
+/* Styles for The Serpent and The Eagle */
+
+.section-the-serpent-and-the-eagle {
+	background: #171e26;
+	color: #cc992c;
+	padding: 30px;
+}
+
+.section-the-serpent-and-the-eagle .avatar img { margin: 0 0 6px 0px; }
+.section-the-serpent-and-the-eagle .caption { color: #a2a5a8; margin: 0 0 50px 0px;  }
+.section-the-serpent-and-the-eagle .caption a { color: #a2a5a8; }
+.section-the-serpent-and-the-eagle .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #171e26; background: #a2a5a8; }
+
+.section-the-serpent-and-the-eagle .container {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 400px;
+	width: 100%;
+}
+
+.section-the-serpent-and-the-eagle .container h2 {
+	font: 36px/48px 'Vollkorn', serif;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.section-the-serpent-and-the-eagle .container h2 span {
+		font: 84px/100px 'Vollkorn', serif;
+		font-weight: 700;
+		font-style: italic;
+}
+
+.section-the-serpent-and-the-eagle .container p {
+	text-align: justify;
+	font: 14px/20px 'Exo', sans-serif;
+	margin-bottom: 20px; 
+}
+
+.section-the-serpent-and-the-eagle .container .moral {
+	font-style: italic;
+}
+
+@media all and (min-width: 768px) {
+	.section-the-serpent-and-the-eagle {
+		background: #171e26 url(../images/the-serpent-and-the-eagle/bg.jpg) no-repeat right bottom;
+	}
+}
+	
 
 /* ---------------------- */
 /* Device-specific styles */
