@@ -309,8 +309,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-serpent-and-the-eagle .container {
 	text-align: center;
 	margin: 0 auto;
-	max-width: 400px;
-	width: 100%;
+	width: 250px;
 }
 
 .section-the-serpent-and-the-eagle .container h2 {
@@ -329,7 +328,7 @@ h1, h2, p { margin: 0; padding: 0; }
 
 .section-the-serpent-and-the-eagle .container p {
 	text-align: justify;
-	font: 14px/20px 'Exo', sans-serif;
+	font: 13px/24px 'Exo', sans-serif;
 	margin-bottom: 20px; 
 }
 
@@ -341,8 +340,13 @@ h1, h2, p { margin: 0; padding: 0; }
 	.section-the-serpent-and-the-eagle {
 		background: #171e26 url(../images/the-serpent-and-the-eagle/bg.jpg) no-repeat right bottom;
 	}
+	.section-the-serpent-and-the-eagle .container {
+		width: 340px;
+	}
+	.section-the-serpent-and-the-eagle .container .moral {
+		margin-bottom: 80px; 
+	}
 }
-	
 
 /* ---------------------- */
 /* Device-specific styles */
