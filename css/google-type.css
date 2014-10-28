@@ -1,5 +1,6 @@
 body { margin: 0; padding: 0; zoom: 1; }
 h1, h2, p { margin: 0; padding: 0; }
+
 .strike { text-decoration: line-through; }
 
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
@@ -14,7 +15,9 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-intro h1 em { display: block; font-style: normal; }
 .section-intro h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-intro .divider { width: 30px; padding: 30px 0 0 0; border-top: 1px solid #999; margin: 30px auto 0 auto; }
-.section-intro p { color: #999; font: 15px/20px 'Alegreya', Georgia, serif; margin: 0 auto 14px auto; max-width: 460px; }
+.section-intro .wrapper { width: 100%; text-align: center; margin: 0 auto 120px auto; }
+.section-intro .colophon { width: 300px; display: inline-block; vertical-align: top; text-align: left; margin: 0 7px 30px 10px; }
+.section-intro p { color: #999; font: 14px/20px 'Alegreya', Georgia, serif; margin: 0 auto 10px auto; max-width: 460px; }
 .section-intro .caption { margin-top: 180px; }
 .section-intro a { color: #000; text-decoration: none; }
 .section-intro a:hover { background-color: #ddd; }
@@ -95,13 +98,10 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-astronomer .caption a { color: #eee; }
 .section-astronomer .caption a:hover { background-color: #e45546; }
 
-<<<<<<< HEAD
-/* Styles for The Fox and the Grapes */
-=======
+
 /* --------------------------------- */
 /* Styles for The Fox and the Grapes */
 /* --------------------------------- */
->>>>>>> 0f1c14bb2d1248b1b50cc431d0d1915c4e0a31f2
 
 .section-the-fox-and-the-grapes { background: #2E334A; cursor: url(../images/the-fox-and-the-grapes/fox.png), auto; /*ie*/ cursor: -webkit-image-set( url('../images/the-fox-and-the-grapes/fox.png') 1x, url('../images/the-fox-and-the-grapes/fox@2x.png') 2x), auto; padding: 40px 0 310px 0; position: relative; }
 .section-the-fox-and-the-grapes {
@@ -290,6 +290,7 @@ h1, h2, p { margin: 0; padding: 0; }
 	.section-intro { width: 100%; }
 	.section-intro .small { margin: 0 20px; }
 	.section-intro p { max-width: 460px; width: auto; padding: 0 20px; }
+  .section-intro .wrapper { width: 320px; text-align: center; margin: 0 auto 120px auto; }
 
 	.section-two-bags .container { width: 100%;}
 	.section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
