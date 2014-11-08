@@ -98,11 +98,9 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-astronomer .caption a { color: #eee; }
 .section-astronomer .caption a:hover { background-color: #e45546; }
 
-
 /* --------------------------------- */
 /* Styles for The Fox and the Grapes */
 /* --------------------------------- */
-
 .section-the-fox-and-the-grapes { background: #2E334A; cursor: url(../images/the-fox-and-the-grapes/fox.png), auto; /*ie*/ cursor: -webkit-image-set( url('../images/the-fox-and-the-grapes/fox.png') 1x, url('../images/the-fox-and-the-grapes/fox@2x.png') 2x), auto; padding: 40px 0 310px 0; position: relative; }
 .section-the-fox-and-the-grapes {
 	background: #2E334A;
@@ -268,6 +266,24 @@ h1, h2, p { margin: 0; padding: 0; }
 	.section-the-serpent-and-the-eagle { background: #171e26 url(../images/the-serpent-and-the-eagle/bg.jpg) no-repeat right bottom; }
 	.section-the-serpent-and-the-eagle .container { width: 340px; }
 	.section-the-serpent-and-the-eagle .container .moral { margin-bottom: 80px; }
+}
+
+/*------------------*/
+/*monkey king style*/
+/*------------------*/
+.section-monkeyking {background: #ecf0f1 url(../images/mountain.jpg) no-repeat center center fixed;width:100%;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;overflow: hidden;}
+.section-monkeyking h2{font-family: 'Playfair Display';font-size:4em;letter-spacing: 10px; color:#c0392b;text-align: center;padding:1em 0 1em 1em;font-weight: 200;}
+.section-monkeyking h2 span{font-family:'Montserrat' ;color: #c0392b; display: block;font-weight:800;}
+.section-monkeyking p{font-family: 'Playfair Display', serif;font-size: 2em;color: #2c3e50;text-align:left;padding: 1.5em;}
+.section-monkeyking p span{display: block;font-style: italic; padding-top: 10px;padding-bottom: 10px;}
+.section-monkeyking p span.quote:before {content:open-quote; font-size: 3em; line-height: 0.1em;margin-right: 0.25em;vertical-align: -0.4em;
+}
+.section-monkeyking p span.quote:after {content:close-quote;font-size:3em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
+.section-monkeyking .caption { width: auto; margin-top: 6px; opacity: .7; }
+
+@media all and (max-width: 768px) {
+.section-monkeyking p{font-size:1.5em;}
+.section-monkeyking h2{font-size:2em;} 
 }
 
 /* ---------------------- */
