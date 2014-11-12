@@ -44,7 +44,10 @@
 
         <!-- Google web fonts for "The Fir-Tree" -->
         <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded|Slabo+13px|Ultra' rel='stylesheet' type='text/css'>
-
+        
+        <!-- Google web fonts for "Monkey King" -->
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Montserrat' rel='stylesheet' type='text/css'>
+        
         <!-- Typography Project stylesheet -->
         <link href="css/google-type.css" rel="stylesheet">
 
@@ -318,9 +321,31 @@
             </p>
           </div>
         </div><!-- /section-fir-tree -->
-
+        
+        <!--Mokey as king-->
+        <div class="container-fluid section-monkeyking" id="monkeyking">        
+        <div class="caption"><a href="https://twitter.com/atrhein" class="avatar" target="_blank" title="atrhein"><img src="https://d1sx0cmooniq0p.cloudfront.net/thumbnails/35/d6/35d6bc808ec8e20d53e59862cc3867c0.png" alt="Aung"></a><br/>
+            <a href="http://www.google.com/fonts/specimen/Playfair+Display" target="_blank">Playfair Display</a>, <a href="http://www.google.com/fonts/specimen/Fauna+One" target="_blank">Montserrat</a>
+        </div>
+        <h2>THE<span>MONKEY</span>AS<span>KING</span></h2>
+        <p><span class="dropcap">A</span>t a gathering of all the animals the Monkey danced & delighted them so much that they    made him their King. The Fox, however, was very much disgusted at the promotion of the Monkey: so having one day found a trap with a piece of meat in it, he took the Monkey there & said to him,<br/>
+        <span class="quote">Here is a dainty morsel I have found, sire; I did not take it myself, because I thought it ought to be reserved for you, our King. Will you be pleased to accept it?</span>
+            The Monkey made at once for the meat & got caught in the trap. Then he bitterly reproached the Fox for leading him into danger; but the Fox only laughed and said, 
+        <span class="quote">O Monkey, you call yourself King of the Beasts & haven't more sense than to be taken in like that!</span>
+        </p><!-- /Mokey as king-->            
+                                                 
+        </div>
+        
+        
         <script src="scripts/jquery-1.11.1.min.js"></script>
         <script src="scripts/scripts.js"></script>
+        <!-- dropcap.js-->
+        <script src="scripts/dropcap.min.js"></script>
+        <script>
+               var dropcaps = document.querySelectorAll(".dropcap");
+               window.Dropcap.layout(dropcaps, 3);
+        </script>
+        
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
