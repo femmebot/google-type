@@ -303,6 +303,8 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-fir-tree .moral { width: 80%; padding: 0 20px; font-size: 1.2em; line-height: 1.5; text-align: left; display: block; margin: 0 auto 30px auto; }
 .section-fir-tree .fable { width: 80%; padding: 0 20px; display: block; margin: 0 auto; }
 
+.section-fox-lion .container { width: 90%; }
+
 }
 
 /* Sub-tablet <768px */
