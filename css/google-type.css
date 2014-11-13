@@ -279,6 +279,18 @@ h1, h2, p { margin: 0; padding: 0; }
 	.section-the-serpent-and-the-eagle .container .moral { margin-bottom: 80px; }
 }
 
+/* Styles for The fox and the lion */
+
+.section-fox-lion { background: url('../images/fox-lion-bg.jpg') no-repeat; background-size: cover; padding: 90px 0 100px;}
+.section-fox-lion h2 { font: 50px/45px 'Open Sans Condensed', sans-serif; color: #403E2F; text-transform: uppercase; margin: 0 0 30px 20px; }
+.section-fox-lion h2 .ampersand { font: italic 32px 'Lora', Georgia, serif; text-transform: none; }
+.section-fox-lion p { font: italic 20px/45px 'Lora', Georgia, serif; max-width: 710px; color: #403E2F; margin: 0 0 12px 20px; }
+.section-fox-lion .avatar img { margin: 0 0 10px 20px; }
+.section-fox-lion .caption { margin: 0 0 40px 20px; color: #403E2F; }
+.section-fox-lion .caption a { color: #403E2F; }
+.section-fox-lion .caption a:hover { color: #D74433; background-color: #fff; }
+
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
