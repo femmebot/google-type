@@ -291,9 +291,33 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-fox-lion .caption a:hover { color: #D74433; background-color: #fff; }
 
 
+/* ------------------------------------ */
+/* Styles for The Horse and the Groom */
+/* ------------------------------------ */
+
+/* Image Credit: http://picography.co */
+
+.section-horse-groom{ background:url(../images/horse-groom-bg.jpg) no-repeat;background-size:cover;overflow:hidden;padding:250px 400px 350px; }
+.section-horse-groom h2{ font:60px/75px 'Alfa Slab One', cursive, sans-serif;color:#fff;text-transform:uppercase;letter-spacing:1.25px;text-align:left }
+.section-horse-groom h2 .ampersand{ font:italic 48px 'Gentium Book Basic', serif;text-transform:none; }
+.section-horse-groom p{ font:15px/30px 'Gentium Book Basic', serif;color:#e7e7e7;text-align:justify;width:40%;display:inline-block;float:left;padding:70px 0 0; }
+.section-horse-groom blockquote{ color:#e7e7e7;display:inline-block;font:italic 400 30px/40px "Gentium Book Basic",serif;margin-right:0;text-align:right;width:50%;float:right;padding:80px 0 0; }
+.section-horse-groom .avatar img { margin-bottom: 10px; }
+.section-horse-groom .caption { margin-left: 0; color: #ffffff; }
+.section-horse-groom .caption a { color: #ffffff; -o-transition: 0.2s;-ms-transition: 0.2s;-moz-transition: 0.2s;-webkit-transition: 0.2s;transition: 0.2s; }
+.section-horse-groom .caption a:hover { color: #ffffff; background-color: #eb534a; }
+
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
+
+/* max-width 640px, mobile */
+@media only screen and (max-width: 40em) {
+  .section-horse-groom{ padding:250px 50px 350px; }
+  .section-horse-groom p{ width:100%; }
+  .section-horse-groom blockquote{ width:100%;text-align:center;padding:40px 0 0; }
+}
 
 @media (max-width: 659px) {
 
@@ -303,6 +327,13 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-fir-tree .moral { width: 80%; padding: 0 20px; font-size: 1.2em; line-height: 1.5; text-align: left; display: block; margin: 0 auto 30px auto; }
 .section-fir-tree .fable { width: 80%; padding: 0 20px; display: block; margin: 0 auto; }
 
+.section-fox-lion .container { width: 90%; }
+
+}
+
+/* min-width 641px and max-width 1024px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .section-horse-groom { padding: 250px 100px 350px; }
 }
 
 /* Sub-tablet <768px */
@@ -353,6 +384,7 @@ h1, h2, p { margin: 0; padding: 0; }
 
 }
 
+
 /* Small devices (tablets, > 768px) */
 @media (min-width: 769px) {
 
@@ -383,4 +415,18 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Large devices (extra large desktops, 1440px and up) */
 @media (min-width: 1440px) {
 	.section-crow-pitcher .container p { font-size: 150px;	}
+}
+
+
+/* min-width 1025px and max-width 1440px, large screens */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+	.section-horse-groom { padding: 250px 250px 350px }
+	.section-horse-groom p { width: 45% }
+	.section-horse-groom blockquote { width: 40%; padding: 60px 0 0 0; }
+}
+
+/* max-width 1920px, xlarge screen */
+@media only screen and (min-width: 120em) {
+	.section-horse-groom { padding: 250px 650px 350px; }
+	.section-horse-groom blockquote { padding: 50px 0 0 0; }
 }
