@@ -308,6 +308,28 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-horse-groom .caption a:hover { color: #ffffff; background-color: #eb534a; }
 
 
+/* -------------------------------- */
+/* Styles for The Owl and the Birds */
+/* -------------------------------- */
+
+.section-the-owl-and-the-birds { background: #F1B15A; padding: 30px; }
+
+.section-the-owl-and-the-birds .avatar img { margin: 0 0 6px 0px; }
+.section-the-owl-and-the-birds .caption { color: #573E1E; margin: 0 0 50px 0px;  }
+.section-the-owl-and-the-birds .caption a { color: #573E1E; }
+.section-the-owl-and-the-birds .caption a:hover, .section-the-owl-and-the-birds .caption a:active { color: #FAF3EE; background: #573E1E; }
+
+.section-the-owl-and-the-birds .container { text-align: center; margin: 0 auto; width: 80%; }
+.section-the-owl-and-the-birds .container h2 { color: #261400; font: 48px 'Montserrat', sans-serif; font-weight: 700; margin-bottom: 80px; }
+.section-the-owl-and-the-birds .container p { color: #FAF3EE; text-align: justify; font: 13px/24px 'Domine', Georgia, serif; margin-bottom: 20px; }
+.section-the-owl-and-the-birds .container p .cap { font-size: 16px; text-transform: uppercase; }
+
+@media all and (min-width: 768px) {
+  .section-the-owl-and-the-birds { background: url(../images/sunset.jpg) no-repeat right center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+  .section-the-owl-and-the-birds .container { width: 560px; }
+}
+
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
