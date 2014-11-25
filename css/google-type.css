@@ -331,6 +331,28 @@ h1, h2, p { margin: 0; padding: 0; }
   .section-the-owl-and-the-birds .caption a { color: #D5934B; }
 }
 
+/* ---------------------------------------------------- */
+/* Styles for The Moon and Her Mother 2 - @notdivisible */
+/* ---------------------------------------------------- */
+
+.wrapper { margin: 0 auto; max-width: 31.25em; position: relative; }
+.section-moon-mother-2 { background-color: #172b37; background-image: url(../images/moon.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; font-size: 85%; padding: 10% 1.25em 50%; position: relative; }
+.section-moon-mother-2 .meta { font-size: 100%; margin-bottom: 2em; position: relative; }
+.section-moon-mother-2 .caption { display: inline-block; margin: 0 0 0 8px; position: relative; top: -12px; }
+.measure { display: block; }
+@media only screen and ( min-width: 29.6875em ) {
+	.measure { display: inline; }
+}
+@media only screen and ( min-width: 34.375em ) {
+	.section-moon-mother-2 { font-size: 100%; padding-bottom: 25%; }
+}
+.section-moon-mother-2 h2 { color: #fdda38; font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 3.125em; font-weight: 300; letter-spacing: 0.02em; line-height: 1.2; margin: 0 0 0.8em; text-transform: uppercase; }
+.section-moon-mother-2 h2 .amp { font-family: 'Fanwood Text', 'Times New Roman', Times, serif; font-style: italic; font-weight: 400; text-transform: lowercase; }
+.section-moon-mother-2 p { color: #c6d7e1; font-family: 'Fanwood Text', 'Times New Roman', Times, serif; font-size: 1.3125em; line-height: 1.66666667; margin: 0 0 1.66666667em; }
+.section-moon-mother-2 q:before, .section-moon-mother-2 q q:before { content: open-quote; }
+.section-moon-mother-2 q:after, .section-moon-mother-2 q q:after { content: close-quote; }
+.section-moon-mother-2 q { quotes: '\201c' '\201d' '\2018' '\2019'; }
+
 
 /* ---------------------- */
 /* Device-specific styles */
