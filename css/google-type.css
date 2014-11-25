@@ -335,10 +335,10 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Styles for The Moon and Her Mother 2 - @notdivisible */
 /* ---------------------------------------------------- */
 
-.wrapper { margin: 0 auto; max-width: 31.25em; position: relative; }
 .section-moon-mother-2 { background-color: #172b37; background-image: url(../images/moon.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; font-size: 85%; padding: 10% 1.25em 50%; position: relative; }
+.section-moon-mother-2 .wrapper { margin: 0 auto; max-width: 31.25em; position: relative; }
 .section-moon-mother-2 .meta { font-size: 100%; margin-bottom: 2em; position: relative; }
-.section-moon-mother-2 .caption { display: inline-block; margin: 0 0 0 8px; position: relative; top: -12px; }
+.section-moon-mother-2 .caption { color: #c6d7e1; display: inline-block; margin: 0 0 0 8px; position: relative; top: -12px; }
 .measure { display: block; }
 @media only screen and ( min-width: 29.6875em ) {
 	.measure { display: inline; }
@@ -353,6 +353,29 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-moon-mother-2 q:after, .section-moon-mother-2 q q:after { content: close-quote; }
 .section-moon-mother-2 q { quotes: '\201c' '\201d' '\2018' '\2019'; }
 
+/* --------------------------------------------------- */
+/* Styles for The Crow and The Pitcher - @notdivisible */
+/* --------------------------------------------------- */
+
+.section-crow-pitcher-2 { background-color: #4e081b; background-image: url(../images/crow.jpg); background-position: center center; background-repeat: no-repeat; background-size: 370px auto; font-size: 85%; padding: 30% 1.25em; }
+.section-crow-pitcher-2 .meta { font-size: 100%; margin-bottom: 2em; position: relative; }
+.section-crow-pitcher-2 .wrapper { margin: 0 auto; max-width: 37.5em; position: relative; }
+.section-crow-pitcher-2 .caption { color: #aae6d9; display: inline-block; margin: 0 0 0 8px; position: relative; top: -12px; }
+.section-crow-pitcher-2 .caption a { color: #aae6d9; }
+.section-crow-pitcher-2 .caption a:hover { background-color: transparent; text-decoration: underline; }
+.section-crow-pitcher-2 h2 { color: #e5ca9d; font-family: 'Nixie One', 'Times New Roman', Times, serif; font-size: 4.375em; font-weight: 400; line-height: 1.07142857; margin-bottom: 0.5em; }
+.section-crow-pitcher-2 p { color: #c8cbc1; font-family: 'Libre Baskerville', 'Times New Roman', Times, serif; font-size: 1em; line-height: 1.75; margin-bottom: 1.75em; }
+.section-crow-pitcher-2 p:last-child { font-size: 1.875em; line-height: 1.5; margin-bottom: 0; text-indent: -0.4em; }
+.section-crow-pitcher-2 p:last-child:before { content: open-quote; }
+.section-crow-pitcher-2 p:last-child:after { content: close-quote; }
+@media only screen and ( min-width: 33.75em ) {
+	.section-crow-pitcher-2 { font-size: 100%; }
+}
+@media only screen and ( min-width: 33.75em ) {
+	.section-crow-pitcher-2 { background-size: 740px auto; }
+	.section-crow-pitcher-2 p { padding-left: 25%; }
+	.section-crow-pitcher-2 p:last-child { padding-left: 0; }
+}
 
 /* ---------------------- */
 /* Device-specific styles */
