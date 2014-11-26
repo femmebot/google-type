@@ -63,10 +63,10 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Number of columns: 8 */
 /* Percentage width of a single column: 12.5% */
 /* Base unit of measurement: 20px */
-.section-crow-pitcher {	background-color: rgba(241, 90, 36, 1); padding: calc(2 * 20px); }
+.section-crow-pitcher {    background-color: rgba(241, 90, 36, 1); padding: calc(2 * 20px); }
 .section-crow-pitcher h2 { color: white; font-family: 'Questrial', sans-serif; font-size: 14px; letter-spacing: 6px; line-height: 1.8em; margin-bottom: calc(4 * 20px); margin-top: calc(2 * 20px); text-align: center; text-transform: uppercase; }
-.section-crow-pitcher h2 span {	display: inline-block; outline: 1px solid white; padding: 1em; }
-.section-crow-pitcher .container {	width: 100%; }
+.section-crow-pitcher h2 span {    display: inline-block; outline: 1px solid white; padding: 1em; }
+.section-crow-pitcher .container {    width: 100%; }
 .section-crow-pitcher .container p { font-family: 'Old Standard TT', serif; font-size: 24px; margin-bottom: calc(4 * 20px); }
 .section-crow-pitcher .container p.drop-p { }
 .section-crow-pitcher em { color: white; display: block; font-family: 'Old Standard TT', serif; font-size: 24px; text-align: center; margin-bottom: calc(4 * 20px); }
@@ -74,8 +74,8 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-crow-pitcher li { line-height: 2.2em; }
 .section-crow-pitcher li.label { font-family: 'Questrial', sans-serif; letter-spacing: 6px; text-transform: uppercase; }
 .section-crow-pitcher hr { width: 5%; border: 1px solid black; margin-bottom: calc(2 * 20px); }
-.section-crow-pitcher a { color: black;	text-decoration: none; }
-.section-crow-pitcher a:hover {	border-bottom: 1px solid black; }
+.section-crow-pitcher a { color: black;    text-decoration: none; }
+.section-crow-pitcher a:hover {    border-bottom: 1px solid black; }
 
 /* Styles for Astronomer */
 
@@ -114,14 +114,14 @@ h1, h2, p { margin: 0; padding: 0; }
 
 .section-the-fox-and-the-grapes { background: #2E334A; cursor: url(../images/the-fox-and-the-grapes/fox.png), auto; /*ie*/ cursor: -webkit-image-set( url('../images/the-fox-and-the-grapes/fox.png') 1x, url('../images/the-fox-and-the-grapes/fox@2x.png') 2x), auto; padding: 40px 0 310px 0; position: relative; }
 .section-the-fox-and-the-grapes {
-	background: #2E334A;
-	cursor: url('../images/the-fox-and-the-grapes/fox.png'), auto; /*ie*/
-	cursor: -webkit-image-set(
-	  url('../images/the-fox-and-the-grapes/fox.png') 1x,
-	  url('../images/the-fox-and-the-grapes/fox@2x.png') 2x
-	), auto;
-	padding: 40px 0 310px 0;
-	position: relative;
+    background: #2E334A;
+    cursor: url('../images/the-fox-and-the-grapes/fox.png'), auto; /*ie*/
+    cursor: -webkit-image-set(
+      url('../images/the-fox-and-the-grapes/fox.png') 1x,
+      url('../images/the-fox-and-the-grapes/fox@2x.png') 2x
+    ), auto;
+    padding: 40px 0 310px 0;
+    position: relative;
 }
 
 .section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 20px; }
@@ -130,27 +130,27 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-fox-and-the-grapes .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
 .section-the-fox-and-the-grapes h2, .section-the-fox-and-the-grapes p { margin: 0 auto; width: 420px; }
 .section-the-fox-and-the-grapes h2 { color: #8EC9D2; font: 36px 'Ovo', serif; text-align: center; margin-bottom: 16px; }
-.section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;	 }
+.section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;     }
 @-webkit-keyframes shake {
-	0% { -webkit-transform: translate(0, 0) rotate(0); }
-	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
-	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
-	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
-	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
-	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
-	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
-	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
-	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
-	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
-	10% { -webkit-transform: translate(0, 0) rotate(0); }
-	100% { -webkit-transform: translate(0, 0) rotate(0); }
+    0% { -webkit-transform: translate(0, 0) rotate(0); }
+    1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+    2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+    3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+    4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+    5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+    6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+    7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+    8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+    9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+    10% { -webkit-transform: translate(0, 0) rotate(0); }
+    100% { -webkit-transform: translate(0, 0) rotate(0); }
 }
 .shake {
-	-webkit-animation-name: shake;
-	-webkit-animation-duration: 8s;
-	-webkit-transform-origin: 50% 50%;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 8s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
 }
 .section-the-fox-and-the-grapes .grapes { background: url(../images/the-fox-and-the-grapes/grapes.png) no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
 
@@ -223,7 +223,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-boy-bathing .container h2 span:nth-child(1) { position: absolute; left: 70px; top: -140px; }
 .section-the-boy-bathing .container h2 span:nth-child(2) { position: absolute; left: 0; top: -70px; }
 .section-the-boy-bathing .container h2 span:nth-child(3) { padding-left: 60px; }
-.section-the-boy-bathing .container p { font: 17px/23px 'Judson', sans-serif; font-weight: 300;	 margin-bottom: 24px; }
+.section-the-boy-bathing .container p { font: 17px/23px 'Judson', sans-serif; font-weight: 300;     margin-bottom: 24px; }
 .section-the-boy-bathing .container .moral span { background: #eee6d2; color: #002041; display: inline-block; font: 13px/13px 'Montserrat', sans-serif; font-weight: 300; padding: 7px 7px 5px 7px; margin-left: -7px; }
 
 .section-fir-tree { width: 100%; height: 100%; background-color: #a95; padding: 60px 0; }
@@ -235,23 +235,23 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-fir-tree .fable { width: 290px; padding: 10px 20px 120px 20px; font: 15px/23px 'Slabo 13px'; color: #433; display: inline-block; vertical-align: top; }
 
 @media all and (min-width: 768px) {
-	.section-the-boy-bathing { background: #002041 url(../images/the-boy-bathing/bg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-	.section-the-boy-bathing .container { margin: 0 auto 100px auto; }
+    .section-the-boy-bathing { background: #002041 url(../images/the-boy-bathing/bg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+    .section-the-boy-bathing .container { margin: 0 auto 100px auto; }
 
-	.section-the-boy-bathing .container h2 span:nth-child(1) { left: 30px; top: -140px; }
-	.section-the-boy-bathing .container h2 span:nth-child(2) { left: -40px; top: -70px; }
-	.section-the-boy-bathing .container h2 span:nth-child(3) { padding-left: 0; }
+    .section-the-boy-bathing .container h2 span:nth-child(1) { left: 30px; top: -140px; }
+    .section-the-boy-bathing .container h2 span:nth-child(2) { left: -40px; top: -70px; }
+    .section-the-boy-bathing .container h2 span:nth-child(3) { padding-left: 0; }
 
-	.section-the-boy-bathing .container p { font: 20px/28px 'Judson', sans-serif; font-weight: 300; margin-bottom: 26px; }
-	.section-the-boy-bathing .container .moral span { font: 16px/16px 'Montserrat', sans-serif; font-weight: 300; }
+    .section-the-boy-bathing .container p { font: 20px/28px 'Judson', sans-serif; font-weight: 300; margin-bottom: 26px; }
+    .section-the-boy-bathing .container .moral span { font: 16px/16px 'Montserrat', sans-serif; font-weight: 300; }
 }
 
 @media all and (min-width: 992px) {
-	.section-the-boy-bathing .caption { margin: 0 0 260px 0px;  }
-	.section-the-boy-bathing .container { margin: 0 auto 160px auto;}
+    .section-the-boy-bathing .caption { margin: 0 0 260px 0px;  }
+    .section-the-boy-bathing .container { margin: 0 auto 160px auto;}
 
-	.section-the-boy-bathing .container h2 span:nth-child(1) { left: -110px; top: -140px; }
-	.section-the-boy-bathing .container h2 span:nth-child(2) { left: -180px; top: -70px; }
+    .section-the-boy-bathing .container h2 span:nth-child(1) { left: -110px; top: -140px; }
+    .section-the-boy-bathing .container h2 span:nth-child(2) { left: -180px; top: -70px; }
 }
 
 /* ------------------------------------ */
@@ -274,9 +274,9 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-serpent-and-the-eagle .container .moral { font-style: italic; }
 
 @media all and (min-width: 768px) {
-	.section-the-serpent-and-the-eagle { background: #171e26 url(../images/the-serpent-and-the-eagle/bg.jpg) no-repeat right bottom; }
-	.section-the-serpent-and-the-eagle .container { width: 340px; }
-	.section-the-serpent-and-the-eagle .container .moral { margin-bottom: 80px; }
+    .section-the-serpent-and-the-eagle { background: #171e26 url(../images/the-serpent-and-the-eagle/bg.jpg) no-repeat right bottom; }
+    .section-the-serpent-and-the-eagle .container { width: 340px; }
+    .section-the-serpent-and-the-eagle .container .moral { margin-bottom: 80px; }
 }
 
 /* Styles for The fox and the lion */
@@ -312,24 +312,41 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Styles for The Owl and the Birds */
 /* -------------------------------- */
 
-.section-the-owl-and-the-birds { background: #F1B15A; padding: 30px; }
+.section-the-owl-and-the-birds { background-color: #F1B15A; padding: 30px 30px 70px 30px; }
 
 .section-the-owl-and-the-birds .avatar img { margin: 0 0 6px 0; }
 .section-the-owl-and-the-birds .caption { color: #573E1E; margin: 0 0 50px 0; }
 .section-the-owl-and-the-birds .caption a { color: #573E1E; }
 .section-the-owl-and-the-birds .caption a:hover, .section-the-owl-and-the-birds .caption a:active { color: #F1B15A; background: #573E1E; }
 
-.section-the-owl-and-the-birds .container { text-align: center; margin: 0 auto; width: 80%; }
-.section-the-owl-and-the-birds .container h2 { color: #261400; font: 48px 'Montserrat', sans-serif; font-weight: 700; margin-bottom: 80px; }
-.section-the-owl-and-the-birds .container p { color: #FAF3EE; text-align: justify; font: 13px/24px 'Domine', Georgia, serif; margin-bottom: 20px; }
+.section-the-owl-and-the-birds .container { text-align: center; margin: 0 auto; width: 80%; padding-bottom: 30px; }
+.section-the-owl-and-the-birds .container h2 { color: #210; font: 700 48px 'Montserrat', sans-serif; text-align: left; margin: 60px 0; letter-spacing: -.02em;}
+.section-the-owl-and-the-birds .container p { color: #F9F7ED; font: 15px/26px 'Domine', Georgia, serif; margin-bottom: 18px; padding-left: 10px; text-align: left; max-width: 480px; }
 .section-the-owl-and-the-birds .container p .cap { font-size: 16px; text-transform: uppercase; }
 
 @media all and (min-width: 768px) {
-  .section-the-owl-and-the-birds { background: url(../images/sunset.jpg) no-repeat right center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+  .section-the-owl-and-the-birds { background: url(../images/sunset.jpg) no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
   .section-the-owl-and-the-birds .container { width: 560px; }
   .section-the-owl-and-the-birds .caption { color: #D5934B; }
   .section-the-owl-and-the-birds .caption a { color: #D5934B; }
 }
+
+
+/* -------------------------------- */
+/* Jupiter And The Tortoise */
+/* -------------------------------- */
+#HomerGaines{}
+.section-jupiter-and-the-tortoise {padding:40px; min-height:450px; background: url(../images/turtle.jpg) no-repeat right center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.section-jupiter-and-the-tortoise h2{font-family: 'Philosopher', sans-serif; font-weight: normal; color:#fff; font-size:36px; margin: 0 0 7px 0;}
+.section-jupiter-and-the-tortoise p{ font-family: 'Muli', sans-serif; color:#fff; line-height: 1.5em;}
+.section-jupiter-and-the-tortoise .container{ max-width:960px; width:100%;}
+.section-jupiter-and-the-tortoise .caption {color: #fff; margin: 0 0 60px 0;}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+  .section-jupiter-and-the-tortoise p{text-align: justify;}
+}
+
 
 
 /* ---------------------- */
@@ -363,48 +380,48 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Sub-tablet <768px */
 @media (max-width: 768px) {
 
-	.section-intro { width: 100%; }
-	.section-intro .small { margin: 0 20px; }
-	.section-intro p { max-width: 460px; width: auto; padding: 0 20px; }
+    .section-intro { width: 100%; }
+    .section-intro .small { margin: 0 20px; }
+    .section-intro p { max-width: 460px; width: auto; padding: 0 20px; }
   .section-intro .wrapper { width: 320px; text-align: center; margin: 0 auto 120px auto; }
 
-	.section-two-bags .container { width: 100%;}
-	.section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
-	.section-two-bags p { max-width: 380px; width: auto; margin-left: 0; padding: 0 20px; float: left; font: 14px/24px 'Monda', Arial, sans-serif; }
-	.section-two-bags .caption { width: auto; margin-top: 6px; opacity: .7; }
+    .section-two-bags .container { width: 100%;}
+    .section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
+    .section-two-bags p { max-width: 380px; width: auto; margin-left: 0; padding: 0 20px; float: left; font: 14px/24px 'Monda', Arial, sans-serif; }
+    .section-two-bags .caption { width: auto; margin-top: 6px; opacity: .7; }
 
-	.section-oak .container { width: 100%; }
-	.section-oak p { max-width: 460px; width: auto; padding: 0 20px; }
+    .section-oak .container { width: 100%; }
+    .section-oak p { max-width: 460px; width: auto; padding: 0 20px; }
 
-	.section-gnat-bull .container { width: 100%; }
-	.section-gnat-bull h2 { font: 60px/60px 'Playfair Display', Georgia, serif; }
-	.section-gnat-bull p { padding-right: 20px; }
+    .section-gnat-bull .container { width: 100%; }
+    .section-gnat-bull h2 { font: 60px/60px 'Playfair Display', Georgia, serif; }
+    .section-gnat-bull p { padding-right: 20px; }
 
-	.section-astronomer .container { width: auto; }
-	.section-astronomer h2 { font-size: 46px; }
-	.section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+    .section-astronomer .container { width: auto; }
+    .section-astronomer h2 { font-size: 46px; }
+    .section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 
-	.section-the-fox-and-the-grapes .container { width: 100%;  }
-	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
+    .section-the-fox-and-the-grapes .container { width: 100%;  }
+    .section-the-fox-and-the-grapes h2,    .section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
 
-	.section-moon-mother .container { width: 100%; }
-	.section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
-	.section-moon-mother h2, .section-moon-mother p { width: 320px; }
-	.section-moon-mother h2 { font-size: 32px; text-align: center; }
-	.section-moon-mother h2 span { display: block; }
-	.section-moon-mother .black-ital { font-size: 120px; }
-	.section-moon-mother .small-cap { font-size: 13px; line-height: 15px; margin: 0 auto 4px auto; }
-	.section-moon-mother .reg { font-size: 42px; }
-	.section-moon-mother .bold-ital	{ font-size: 60px; }
-	.section-moon-mother .bold { line-height: 24px; margin: 4px auto; }
-	.section-moon-mother .black { font-size: 42px; line-height: 40px; }
+    .section-moon-mother .container { width: 100%; }
+    .section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
+    .section-moon-mother h2, .section-moon-mother p { width: 320px; }
+    .section-moon-mother h2 { font-size: 32px; text-align: center; }
+    .section-moon-mother h2 span { display: block; }
+    .section-moon-mother .black-ital { font-size: 120px; }
+    .section-moon-mother .small-cap { font-size: 13px; line-height: 15px; margin: 0 auto 4px auto; }
+    .section-moon-mother .reg { font-size: 42px; }
+    .section-moon-mother .bold-ital    { font-size: 60px; }
+    .section-moon-mother .bold { line-height: 24px; margin: 4px auto; }
+    .section-moon-mother .black { font-size: 42px; line-height: 40px; }
 
-	.section-prophet .col {float: none;}
-	.section-prophet .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+    .section-prophet .col {float: none;}
+    .section-prophet .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
 
-	.section-wolves-sheep-ram .titleContainer {display: none;}
-	.section-wolves-sheep-ram .titleFullContainer {display: block;}
-	.section-wolves-sheep-ram .body {padding: 0 80px;}
+    .section-wolves-sheep-ram .titleContainer {display: none;}
+    .section-wolves-sheep-ram .titleFullContainer {display: block;}
+    .section-wolves-sheep-ram .body {padding: 0 80px;}
 
 }
 
@@ -412,45 +429,45 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Small devices (tablets, > 768px) */
 @media (min-width: 769px) {
 
-	.section-crow-pitcher { padding: calc(4 * 20px); }
-	.section-crow-pitcher h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
-	.section-crow-pitcher .container p { font-size: 48px; }
-	.section-crow-pitcher .container .drop-p { color: white; font-size: 18px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
-	.section-crow-pitcher em { font-size: 18px; margin-bottom: calc(8 * 20px); }
-	.section-crow-pitcher hr { width: 2.5%;	}
+    .section-crow-pitcher { padding: calc(4 * 20px); }
+    .section-crow-pitcher h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
+    .section-crow-pitcher .container p { font-size: 48px; }
+    .section-crow-pitcher .container .drop-p { color: white; font-size: 18px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
+    .section-crow-pitcher em { font-size: 18px; margin-bottom: calc(8 * 20px); }
+    .section-crow-pitcher hr { width: 2.5%;    }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	.section-crow-pitcher .container p { font-size: 104px; }
-	.section-crow-pitcher .container .drop-p { font-size: 24px; line-height: 1.8em; margin-bottom: 0; margin-top: calc(1 * 20px); margin-right: calc(4 * 20px); }
-	.section-crow-pitcher em { font-size: 24px; }
+    .section-crow-pitcher .container p { font-size: 104px; }
+    .section-crow-pitcher .container .drop-p { font-size: 24px; line-height: 1.8em; margin-bottom: 0; margin-top: calc(1 * 20px); margin-right: calc(4 * 20px); }
+    .section-crow-pitcher em { font-size: 24px; }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	.section-crow-pitcher {	padding: calc(6 * 20px);	}
-	.section-crow-pitcher h2 { margin-bottom: calc(12 * 20px);	margin-top: calc(6 * 20px);	}
-	.section-crow-pitcher .container p { font-size: 124px; margin-bottom: calc(12 * 20px);	}
-	.section-crow-pitcher .container .drop-p { font-size: 36px; line-height: 1.8em;	}
-	.section-crow-pitcher em { font-size: 36px; margin-bottom: calc(12 * 20px); }
+    .section-crow-pitcher {    padding: calc(6 * 20px);    }
+    .section-crow-pitcher h2 { margin-bottom: calc(12 * 20px);    margin-top: calc(6 * 20px);    }
+    .section-crow-pitcher .container p { font-size: 124px; margin-bottom: calc(12 * 20px);    }
+    .section-crow-pitcher .container .drop-p { font-size: 36px; line-height: 1.8em;    }
+    .section-crow-pitcher em { font-size: 36px; margin-bottom: calc(12 * 20px); }
 }
 
 /* Large devices (extra large desktops, 1440px and up) */
 @media (min-width: 1440px) {
-	.section-crow-pitcher .container p { font-size: 150px;	}
+    .section-crow-pitcher .container p { font-size: 150px;    }
 }
 
 
 /* min-width 1025px and max-width 1440px, large screens */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
-	.section-horse-groom { padding: 250px 250px 350px }
-	.section-horse-groom p { width: 45% }
-	.section-horse-groom blockquote { width: 40%; padding: 60px 0 0 0; }
+    .section-horse-groom { padding: 250px 250px 350px }
+    .section-horse-groom p { width: 45% }
+    .section-horse-groom blockquote { width: 40%; padding: 60px 0 0 0; }
 }
 
 /* max-width 1920px, xlarge screen */
 @media only screen and (min-width: 120em) {
-	.section-horse-groom { padding: 250px 650px 350px; }
-	.section-horse-groom blockquote { padding: 50px 0 0 0; }
+    .section-horse-groom { padding: 250px 650px 350px; }
+    .section-horse-groom blockquote { padding: 50px 0 0 0; }
 }
