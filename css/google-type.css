@@ -83,7 +83,7 @@ h1, h2, p { margin: 0; padding: 0; }
   from { -webkit-transform: rotate(0deg);  }
   to { -webkit-transform: rotate(360deg);  }
 }
-.section-astronomer { background: #38202e url(../images/space.png) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
+.section-astronomer { background: #38202e url(../images/space.jpg) no-repeat; background-size: cover; padding: 90px 0 100px; overflow: hidden; }
 .section-astronomer .container { position: relative; }
 .section-astronomer .stars { position: absolute; left: -50%; background: url(../images/stars.png); display: block; width: 1500px; height: 800px; top:0;
     -webkit-animation-name:             rotate;
