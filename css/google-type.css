@@ -331,6 +331,32 @@ h1, h2, p { margin: 0; padding: 0; }
   .section-the-owl-and-the-birds .caption a { color: #D5934B; }
 }
 
+/* ------------------------------------------------- */
+/* Styles for The Crow and The Raven - @notdivisible */
+/* ------------------------------------------------- */
+
+.section-crow-raven { background-color: #4e081b; background-image: url(../images/crow.jpg); background-position: center center; background-repeat: no-repeat; background-size: 370px auto; font-size: 85%; padding: 20% 1.25em; }
+.section-crow-raven .meta { font-size: 100%; margin-bottom: 2em; position: relative; }
+.section-crow-raven .wrapper { margin: 0 auto; max-width: 37.5em; position: relative; }
+.section-crow-raven .caption { color: #aae6d9; display: inline-block; margin: 0 0 0 8px; position: relative; top: -12px; }
+.section-crow-raven .caption a { color: #aae6d9; }
+.section-crow-raven .caption a:hover { background-color: transparent; text-decoration: underline; }
+.section-crow-raven h2 { color: #e5ca9d; font-family: 'Nixie One', 'Times New Roman', Times, serif; font-size: 4.375em; font-weight: 400; line-height: 1.07142857; margin-bottom: 0.5em; }
+.section-crow-raven p { color: #c8cbc1; font-family: 'Libre Baskerville', 'Times New Roman', Times, serif; font-size: 1em; line-height: 1.75; margin-bottom: 1.75em; }
+.section-crow-raven p:last-child { font-size: 1.75em; line-height: 1.5; margin-bottom: 0; text-indent: -0.4em; }
+.section-crow-raven p:last-child:before { content: '\201c'; }
+.section-crow-raven p:last-child:after { content: '\201d'; }
+.section-crow-raven q:before, .section-crow-raven q q:before { content: open-quote; }
+.section-crow-raven q:after, .section-crow-raven q q:after { content: close-quote; }
+.section-moon-mother-2 q { quotes: '\201c' '\201d' '\2018' '\2019'; }
+@media only screen and ( min-width: 33.75em ) {
+	.section-crow-raven { font-size: 100%; }
+}
+@media only screen and ( min-width: 33.75em ) {
+	.section-crow-raven { background-size: 740px auto; }
+	.section-crow-raven p { padding-left: 25%; }
+	.section-crow-raven p:last-child { padding-left: 0; }
+}
 
 /* -------------------------------- */
 /* Jupiter And The Tortoise */
