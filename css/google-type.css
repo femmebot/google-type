@@ -385,7 +385,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-man-and-sea #bitter{font-family: 'Bitter';}
 .section-man-and-sea #spinnaker{font-family: 'Spinnaker';}
 /* The Shipwrecked Man & The Sea Mobile */
-@media only screen and (min-width: 600px) {
+@media (max-width: 600px) {
   .section-man-and-sea .container{padding: 20px 10px; 50px 10px;}
 }
 
