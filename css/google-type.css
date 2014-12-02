@@ -374,6 +374,7 @@ h1, h2, p { margin: 0; padding: 0; }
 }
 
 /*  The Shipwrecked Man & The Sea   */
+#dseeman{}
 .section-man-and-sea{background: url("http://s169923.gridserver.com/images/TheSea.jpg") no-repeat bottom center; background-size: cover; overflow: auto;} /* image credit: Jay Mantri */
 .section-man-and-sea .container{color: #4B7078; padding: 20px 10em 50px 0px; text-align: right; float: right;}
 .section-man-and-sea h2{font-family: 'Bitter', serif; font-size: 2.5em; padding-bottom: 0.5em;}
