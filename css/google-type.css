@@ -373,6 +373,21 @@ h1, h2, p { margin: 0; padding: 0; }
   .section-jupiter-and-the-tortoise p{text-align: justify;}
 }
 
+/* The Shipwrecked Man & The Sea */
+#dseeman{}
+.section-man-and-sea{background: url("http://s169923.gridserver.com/images/TheSea.jpg") no-repeat bottom left; background-size: cover; overflow: auto;} /* image credit: Jay Mantri */
+.section-man-and-sea .container{color: #4B7078; padding: 50px 100px 50px 0px; text-align: right; float: right;}
+.section-man-and-sea h2{font-family: 'Bitter', serif; font-size: 2.5em; padding-bottom: 0.5em;}
+.section-man-and-sea .man-and-sea{width: 300px; text-align: right; float: right;}
+.section-man-and-sea #the-man{font-family: 'Spinnaker', sans-serif; padding-bottom: 0.5em;}
+.section-man-and-sea #the-sea{font-family: 'Spinnaker', serif; font-style: italic; padding-bottom: 0.5em;}
+.section-man-and-sea .caption{clear:both;}
+.section-man-and-sea #bitter{font-family: 'Bitter';}
+.section-man-and-sea #spinnaker{font-family: 'Spinnaker';}
+/* The Shipwrecked Man & The Sea Mobile */
+@media (max-width: 600px) {
+  .section-man-and-sea .container{padding: 20px 10px; 50px 10px;}
+}
 
 
 /* ---------------------- */
