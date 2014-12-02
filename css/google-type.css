@@ -348,7 +348,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-crow-raven p:last-child:after { content: '\201d'; }
 .section-crow-raven q:before, .section-crow-raven q q:before { content: open-quote; }
 .section-crow-raven q:after, .section-crow-raven q q:after { content: close-quote; }
-.section-moon-mother-2 q { quotes: '\201c' '\201d' '\2018' '\2019'; }
+.section-crow-raven q { quotes: '\201c' '\201d' '\2018' '\2019'; }
 @media only screen and ( min-width: 33.75em ) {
 	.section-crow-raven { font-size: 100%; }
 }
