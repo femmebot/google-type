@@ -382,8 +382,9 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-man-and-sea #the-man{font-family: 'Spinnaker', sans-serif; padding-bottom: 0.5em;}
 .section-man-and-sea #the-sea{font-family: 'Spinnaker', serif; font-style: italic; padding-bottom: 0.5em;}
 .section-man-and-sea .caption{clear:both;}
-.section-man-and-sea #bitter{font-family: 'Bitter'; color: #ffffff;}
-.section-man-and-sea #spinnaker{font-family: 'Spinnaker'; color: #ffffff;}
+.section-man-and-sea .caption a{color:#4B7078;}
+.section-man-and-sea #bitter{font-family: 'Bitter';}
+.section-man-and-sea #spinnaker{font-family: 'Spinnaker';}
 /* The Shipwrecked Man & The Sea Mobile */
 @media (max-width: 600px) {
   .section-man-and-sea .container{padding: 20px 10px; 50px 10px;}
