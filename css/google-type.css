@@ -381,6 +381,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-man-and-sea .man-and-sea{width: 300px; text-align: right; float: right; padding-right: 40px}
 .section-man-and-sea #the-man{font-family: 'Spinnaker', sans-serif; padding-bottom: 10px;}
 .section-man-and-sea #the-sea{font-family: 'Spinnaker', serif; font-style: italic;}
+.section-man-and-sea .footer{float:right; clear: both; text-align: right; padding-top: 10px; padding-right:40px;}
 
 
 /* ---------------------- */
