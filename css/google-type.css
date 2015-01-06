@@ -374,6 +374,31 @@ h1, h2, p { margin: 0; padding: 0; }
 }
 
 
+/* -------------------------------- */
+/* Camel and the Arab */
+/* -------------------------------- */
+
+.section-camel-and-the-arab {padding:40px; min-height:400px; background: url(../images/camel-arab.jpg) no-repeat right center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;   }
+.section-camel-and-the-arab h2{font-family: 'IM FELL English SC', sans-serif; font-weight: 400; color:#f29f63; font-size:62px; margin: 0 0 0px 0; float: left; line-height: .9em; text-shadow: 0px 5px 12px #1b0c15;}
+.section-camel-and-the-arab p{ font-family: 'Bitter', sans-serif; color:#c1a49a; line-height: 1.6em; float: left; padding-top: 10px; text-shadow: 0px 2px 12px #1b0c15;}
+.section-camel-and-the-arab .container{ max-width:960px; width:100%;}
+.section-camel-and-the-arab .caption {color: #c1a49a; margin: 0 0 60px 0;}
+.section-camel-and-the-arab .caption a{color: #c1a49a; margin: 0 0 60px 0;}
+.section-camel-and-the-arab .text-container {float: right; width: 40%; margin-top: -50px;}
+
+/* Mobile */
+@media only screen and (max-width: 60em) {
+.section-camel-and-the-arab .text-container {float: right; width: 75%; margin-top: -50px; padding-left: 20%; box-sizing: border-box;}  
+}
+
+@media only screen and (max-width: 40em) {
+.section-camel-and-the-arab {background: url(../images/camel-arab-sm.jpg) no-repeat right center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.section-camel-and-the-arab .text-container {float: left; width: 95%; margin-top: -20px; padding: 0px;}  
+.section-camel-and-the-arab h2{font-size: 48px;}
+.section-camel-and-the-arab p{font-size: 14px;}
+}
+
+
 
 /* ---------------------- */
 /* Device-specific styles */
