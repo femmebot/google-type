@@ -373,6 +373,42 @@ h1, h2, p { margin: 0; padding: 0; }
   .section-jupiter-and-the-tortoise p{text-align: justify;}
 }
 
+/* ------------------------------------- */
+/* Styles for The North Wind and The Sun */
+/* ------------------------------------- */
+
+@-webkit-keyframes moveleft {
+  from { left: -100%;  }
+  to { left: 100%;  }
+}
+.section-north-wind-and-sun { background: #fff url(../images/valley.jpg) no-repeat; background-size: cover; padding: 50px 0 100px; overflow: hidden; }
+.section-north-wind-and-sun .container { position: relative; }
+.section-north-wind-and-sun .wind { position: absolute; left: -100%; background: url(../images/wind.png); display: block; width: 3000px; height: 800px; top:0;
+    -webkit-animation-name:             moveleft;
+    -webkit-animation-duration:         20s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    z-index: 100;
+}
+.section-north-wind-and-sun h2 { font: 40px/50px 'Julius Sans One', Helvetica, sans-serif; color: #000; text-transform: uppercase; margin: 0 auto 40px; text-align: center; width: 40%;}
+.section-north-wind-and-sun p { font: 16px/24px 'Crimson Text', Georgia, serif; width: 70%; color: #000; margin: 0 auto 12px; border-top: dotted 1px rgba(92, 98, 101, .75); padding-top: 40px;  
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.015em;
+    }
+.section-north-wind-and-sun p.last { font-size: 28px; line-height: 34px; font-style: italic; color: #000; text-align: center; border-top: none; border-bottom: dotted 1px rgba(92, 98, 101, .75); padding-top: 20px; padding-bottom: 50px; 
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    }
+.section-north-wind-and-sun .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-north-wind-and-sun .caption { margin: 0 0 80px 20px; color: #000; position: relative; z-index: 102;}
+.section-north-wind-and-sun .caption a { color: #000; }
+.section-north-wind-and-sun .caption a:hover { background-color: #fff; }
 
 
 /* ---------------------- */
@@ -448,6 +484,13 @@ h1, h2, p { margin: 0; padding: 0; }
     .section-wolves-sheep-ram .titleContainer {display: none;}
     .section-wolves-sheep-ram .titleFullContainer {display: block;}
     .section-wolves-sheep-ram .body {padding: 0 80px;}
+
+    .section-north-wind-and-sun .container { width: auto; }
+    .section-north-wind-and-sun h2 { font-size: 30px; line-height: 40px; width: 80%; }
+    .section-north-wind-and-sun p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+    .section-north-wind-and-sun p.last { font-size: 24px; line-height: 42px; }
+    .section-north-wind-and-sun .avatar img { margin-left: 62px; }
+    .section-north-wind-and-sun .caption { margin-left: 62px; }
 
 }
 
