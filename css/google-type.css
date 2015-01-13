@@ -410,6 +410,19 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-north-wind-and-sun .caption a { color: #000; }
 .section-north-wind-and-sun .caption a:hover { background-color: #fff; }
 
+/* ------------------------------------- */
+/* Styles for The Old Hound */
+/* ------------------------------------- */
+
+.section-the-old-hound { background: #000 url(../images/hound.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.section-the-old-hound .container { width: 100%; overflow: hidden; padding: 40px 60px 80px; background-color: rgba(0,0,0,0.25); box-sizing: border-box; }
+.section-the-old-hound h2 { font: 112px/120px 'Almendra Display', cursive; color: #fff; text-align: left; letter-spacing: 1px; text-transform: uppercase; }
+.section-the-old-hound p { font: 17px/32px 'Cardo', Georgia, serif; color: #fff; text-align: left; letter-spacing: 0.5px; padding-top: 20px; max-width: 550px;}
+.section-the-old-hound .avatar img { margin: 10px 0 10px; position: relative; z-index: 101;}
+.section-the-old-hound .caption { margin: 0 0 200px; color: #fff; position: relative; z-index: 102;}
+.section-the-old-hound .caption a { color: #fff; }
+.section-the-old-hound .caption a:hover { background-color: #e74c3c; }
+
 
 /* ---------------------- */
 /* Device-specific styles */
@@ -491,6 +504,9 @@ h1, h2, p { margin: 0; padding: 0; }
     .section-north-wind-and-sun p.last { font-size: 24px; line-height: 42px; }
     .section-north-wind-and-sun .avatar img { margin-left: 62px; }
     .section-north-wind-and-sun .caption { margin-left: 62px; }
+
+    .section-the-old-hound h2 { font-size: 74px; line-height: 84px; }
+    .section-the-old-hound .container { padding-left: 20px; padding-right: 20px;}
 
 }
 
