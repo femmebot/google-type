@@ -424,6 +424,23 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-old-hound .caption a:hover { background-color: #e74c3c; }
 
 
+/* -------------------------------- */
+/*   The Grasshopper and The Ants   */
+/* -------------------------------- */
+#grasshoppers {}
+.section-grasshopper-ants {padding:50px; min-height:600px; background:url(../images/woods.jpg) no-repeat center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.section-grasshopper-ants h2 {font-family:'Suranna',sans-serif; font-weight:300; color:#fff; font-size:50px; margin: 0 0 25px 0; text-align:center; line-height:1.25em;}
+.section-grasshopper-ants h2 .ampersand {font-size:80px;}
+.section-grasshopper-ants p {max-width:650px; margin:0 auto 15px; font-family:'Halant',sans-serif; font-size:18px; font-weight:300; color:#fff; text-align:center; line-height: 1.5em; text-shadow:1px 1px 1px #222;}
+.section-grasshopper-ants .container{ max-width:960px; width:100%;}
+.section-grasshopper-ants .caption {color:#fff; margin:0 0 50px 0;}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+  .section-grasshopper-ants p{text-align: justify;}
+}
+
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
