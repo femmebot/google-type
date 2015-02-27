@@ -375,6 +375,108 @@ h1, h2, p { margin: 0; padding: 0; }
 
 
 
+
+/* -------------------------------- */
+/* The Lamp */
+/* -------------------------------- */
+
+#the-lamp
+{
+  margin: 0;
+  font-size: 100%;
+  background: #020C1D;
+  color: rgba(255,255,255,0.1);
+}
+
+.story-container
+{
+  cursort: default;
+  height: 100%;
+  padding: 0;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 15%;
+}
+
+.story-title
+{
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  margin: 40px 0;
+  font-size: 40px;
+}
+
+.story-body
+{
+  font-family: "Roboto";
+  line-height: 145%;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+  text-align: justify;
+  cursor: default;
+}
+
+.lamp-pole
+{
+  z-index: 1;
+  background: rgba(255,255,255,0.03);
+  width: 4px;
+  height: 100px;
+  position: relative;
+  top: 0px;
+  left: 198px;
+}
+
+.lamp-bulb-top
+{
+  z-index: 2;
+  background: rgba(255,255,255,0.05);
+  width: 10px;
+  height: 20px;
+  position: relative;
+  top: 0px;
+  left: 195px;
+}
+
+.lamp-bulb
+{
+  z-index: 3;
+  background: rgba(255,255,255,0.03);
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 0px;
+  left: 190px;
+  border-radius: 100%;
+}
+
+.story-container:hover .lamp-bulb
+{
+  background: rgb(239, 255, 0);
+  box-shadow: 0px 0px 80px #fff;
+}
+
+.story-container:hover .lamp-bulb-top
+{
+  background: rgba(255,255,255,0.1);
+}
+
+.story-container:hover .story-title, .story-container:hover .story-body
+{
+  color: rgba(255,255,255,0.25);
+  background: -webkit-linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.12));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
