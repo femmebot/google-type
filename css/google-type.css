@@ -363,14 +363,14 @@ h1, h2, p { margin: 0; padding: 0; }
 /* -------------------------------- */
 #HomerGaines{}
 .section-jupiter-and-the-tortoise {padding:40px; min-height:450px; background: url(../images/turtle.jpg) no-repeat right center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.section-jupiter-and-the-tortoise h2{font-family: 'Philosopher', sans-serif; font-weight: 300; color:#fff; font-size:36px; margin: 0 0 7px 0;}
-.section-jupiter-and-the-tortoise p{ font-family: 'Muli', sans-serif; color:#fff; line-height: 1.5em;}
+.section-jupiter-and-the-tortoise h2{ font: 300 90px/90px 'Philosopher', sans-serif; color:#fff; margin: 0 0 30px 0; max-width: 640px; }
+.section-jupiter-and-the-tortoise p{ font: 1.05em/2em 'Muli', sans-serif; color:#fff; max-width: 600px; letter-spacing: .02em; }
 .section-jupiter-and-the-tortoise .container{ max-width:960px; width:100%;}
 .section-jupiter-and-the-tortoise .caption {color: #fff; margin: 0 0 60px 0;}
 
 /* Mobile */
 @media only screen and (max-width: 40em) {
-  .section-jupiter-and-the-tortoise p{text-align: justify;}
+  /*.section-jupiter-and-the-tortoise p { text-align: justify; }*/
 }
 
 /* ------------------------------------- */
