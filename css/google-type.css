@@ -433,7 +433,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-grief-and-his-due h2 { font: 90px/90px 'Cinzel Decorative'; color: #fff; text-align: center; letter-spacing: 2px; margin-top: 8%; }
 .section-grief-and-his-due p { font: 17px/30px 'Amiri', serif; color: #fff; text-align: center; letter-spacing: 1.5px; margin: 40px 25% 30px 25%; }
 .section-grief-and-his-due .moral { font: 25px/35px 'Cinzel Decorative'; font-weight: 700; margin: 0 15% 10% 15%; filter:alpha(opacity=70); opacity:.7; border-left: 2px solid #fff; border-right: 2px solid #fff; padding: 20px; }
-.section-grief-and-his-due .tears { filter:alpha(opacity=50); opacity:.5; margin: 20px auto 0 auto;}
+.section-grief-and-his-due .tear { filter:alpha(opacity=50); opacity:.5; margin: 20px auto 0 auto;}
 .section-grief-and-his-due .avatar img { margin: 10px 0 10px; position: relative; }
 .section-grief-and-his-due .caption { margin: 0 0 50px; color: #fff; position: relative;  }
 .section-grief-and-his-due .caption a { color: #fff; }
