@@ -426,17 +426,14 @@ h1, h2, p { margin: 0; padding: 0; }
 /* The Shipwrecked Man & The Sea */
 #dseeman{}
 .section-man-and-sea {color:#4B7078; background: url(../images/man-and-sea.jpg) no-repeat bottom left;}
-.section-man-and-sea .container-fluid{margin:0px auto;text-align:center; padding:50px; max-width:960px;}
+.section-man-and-sea .container-fluid{margin:0px auto;text-align:center; padding:50px; max-width:600px;}
 .section-man-and-sea h1{font-size:40px;margin-bottom:15px;}
 .section-man-and-sea p{font-size:18px;margin-bottom:15px;}
+.section-man-and-sea #the-man{text-align:left;}
+.section-man-and-sea #the-sea{text-align:right;}
 .section-man-and-sea .caption{margin-bottom:15px;}
 .section-man-and-sea .font-m{font-family:'Merriweather Sans';}
 .section-man-and-sea .font-b{font-family:'Bitter';}
-
-/* The Shipwrecked Man & The Sea Mobile */
-@media (max-width: 600px) {
-  .section-man-and-sea .container-fluid{text-align:center; padding:10px;}
-}
 
 /* ---------------------- */
 /* Device-specific styles */
