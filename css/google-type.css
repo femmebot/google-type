@@ -424,16 +424,25 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-old-hound .caption a:hover { background-color: #e74c3c; }
 
 /* The Shipwrecked Man & The Sea */
-#dseeman{}
+#dseeman{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 .section-man-and-sea {color:#4B7078; background: url(../images/man-and-sea.jpg) no-repeat bottom left;}
-.section-man-and-sea .container-fluid{margin:0px auto;text-align:center; padding:50px; max-width:600px;}
-.section-man-and-sea h1{font-size:40px;margin-bottom:15px;}
-.section-man-and-sea p{font-size:18px;margin-bottom:15px;}
+.section-man-and-sea .caption{padding-top:10px;}
+.section-man-and-sea .align{margin:0px auto;text-align:center;max-width:700px;padding: 0px 50px 0px 50px;}
+.section-man-and-sea .title{line-height:112px;padding-bottom:15px;}
+.section-man-and-sea .bar{border-bottom:1px solid #4B7078;width:50%;margin:0px auto;margin-bottom:30px;}
+.section-man-and-sea #man{font-family:'Amatic SC';font-size:80px;}
+.section-man-and-sea #sea{font-family:'Homemade Apple';font-size:65px;}
+.section-man-and-sea .body{font-family:'Alegreya';font-size:20px;text-align:left;line-height:28px;text-indent:40px;padding-bottom:30px;}
+.section-man-and-sea #quote{font-style:italic;}
+
+/*
+.section-man-and-sea .man-and-sea{margin:0px auto;text-align:center;max-width:700px;padding: 0px 30px 0px 30px;}
+.section-man-and-sea .shipwreck{font-size:50px;font-family:'Amatic SC'; text-align:right;display:inline-block;line-height:70px;}
+.section-man-and-sea .sea{font-size:40px;font-family:'Homemade Apple';text-align:left;display:inline-block;line-height:70px;}
+.section-man-and-sea .man-and-sea-body{font-family:'Alegreya';font-size:18px;line-height:25px;margin-bottom:15px;}
 .section-man-and-sea #the-man{text-align:left;}
-.section-man-and-sea #the-sea{text-align:right;}
-.section-man-and-sea .caption{margin-bottom:15px;}
-.section-man-and-sea .font-m{font-family:'Merriweather Sans';}
-.section-man-and-sea .font-b{font-family:'Bitter';}
+.section-man-and-sea #the-sea{text-align:right; font-style:italic;}
+*/
 
 /* ---------------------- */
 /* Device-specific styles */
