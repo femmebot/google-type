@@ -439,6 +439,20 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-grief-and-his-due .caption a { color: #fff; }
 .section-grief-and-his-due .caption a:hover { background-color: #002D2D; }
 
+/* ---------------------------------------- */
+/* Styles for The Shipwrecked Man & The Sea */
+/* ---------------------------------------- */
+#dseeman{-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.section-man-and-sea {color:#4B7078; background: url(../images/man-and-sea.jpg) no-repeat bottom left;}
+.section-man-and-sea .caption{padding-top:10px;}
+.section-man-and-sea .align{margin:0px auto;text-align:center;max-width:700px;padding: 0px 40px 0px 40px;}
+.section-man-and-sea .title{line-height:112px;padding-bottom:15px;}
+.section-man-and-sea .bar{border-bottom:1px solid #4B7078;width:50%;margin:0px auto;margin-bottom:30px;}
+.section-man-and-sea #man{font-family:'Amatic SC';font-size:80px;}
+.section-man-and-sea #sea{font-family:'Homemade Apple';font-size:65px;}
+.section-man-and-sea .body{font-family:'Alegreya';font-size:20px;text-align:left;line-height:28px;text-indent:40px;padding-bottom:30px;}
+.section-man-and-sea #quote{font-style:italic;}
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
