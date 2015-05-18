@@ -594,4 +594,4 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-shipwrecked-man-and-the-sea a:hover { color: #000;}
 /* Media Queries */
 @media (max-width: 900px) { .section-the-shipwrecked-man-and-the-sea .container {padding: 15px 15px; width: 80%;} .section-the-shipwrecked-man-and-the-sea h2 { font-size: 48px; } }
-@media (max-width: 480px) { .section-the-shipwrecked-man-and-the-sea .container {padding: 5px 5px; width: 100%;} .section-the-shipwrecked-man-and-the-sea h2 { font-size: 48px; } .section-the-shipwrecked-man-and-the-sea .container p { font-size: 18px; line-height: 2; padding-bottom: 10px;} }
+@media (max-width: 480px) { .section-the-shipwrecked-man-and-the-sea .container {padding: 5px 5px; width: 100%;} .section-the-shipwrecked-man-and-the-sea h2 { font-size: 32px; } .section-the-shipwrecked-man-and-the-sea .container p { font-size: 18px; line-height: 2; padding-bottom: 10px;} }
