@@ -458,7 +458,11 @@ h1, h2, p { margin: 0; padding: 0; }
 /* ---------------------- */
 
 /*Mobile Devies 480px */
+<<<<<<< HEAD
 @media (max-width: 1000px) { .section-trees-and-the-axe p { width: 85%; } .section-trees-and-the-axe h2 { text-align: left; font-size: 50px; margin-left: 25px; padding-bottom: 20px;} }
+=======
+@media (max-width: 1000px) { .section-trees-and-the-axe p { width: 85%; } .section-trees-and-the-axe h2 { text-align: left; font-size: 50px; margin-left: 30px; padding-bottom: 20px; padding-right:5px;} }
+>>>>>>> b9e5faf931ed3495c39150fa6e33fadcbd02d74e
 
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
