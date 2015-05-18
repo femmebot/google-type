@@ -587,7 +587,7 @@ h1, h2, p { margin: 0; padding: 0; }
 
 .section-the-shipwrecked-man-and-the-sea { background: url(../images/the-shipwrecked-man-and-the-sea.JPG) fixed; background-position: center; background-size: cover; height: 100%; background-repeat: no-repeat; }
 .section-the-shipwrecked-man-and-the-sea .container { width: 50%; max-width: 800px; padding: 30px 10px 60px; margin: 0 auto; }
-.section-the-shipwrecked-man-and-the-sea h2 { font-family: "Francois One", sans-serif;   font-size: 64px; color: #F7F7F7;  margin: 10px 0 20px 0; padding: 0 40px 20px;  text-align: center;  text-transform: uppercase; line-height: 1; }
+.section-the-shipwrecked-man-and-the-sea h2 {font-family: "Francois One", sans-serif;font-size: 64px; color: #F7F7F7;  margin: 10px 0 20px 0; padding: 0 40px 20px;  text-align: center;  text-transform: uppercase; line-height: 1; }
 .section-the-shipwrecked-man-and-the-sea p { font-family: 'Gentium Book Basic', serif; font-size: 16px; color: #F7F7F7; margin: 0 auto; width: 80%; line-height: 2; text-align: center; }
 .section-the-shipwrecked-man-and-the-sea .caption { margin: 5px 0 50px; }
 .section-the-shipwrecked-man-and-the-sea a { color: #fff; }
