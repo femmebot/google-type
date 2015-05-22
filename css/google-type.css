@@ -439,9 +439,28 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-grief-and-his-due .caption a { color: #fff; }
 .section-grief-and-his-due .caption a:hover { background-color: #002D2D; }
 
+/* ------------------------------------- */
+/* Styles for The Trees and The Axe */
+/* ------------------------------------- */
+
+.section-trees-and-the-axe { background: #000 url("../images/the-trees-and-the-axe.jpeg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.section-trees-and-the-axe .container { box-sizing: border-box; overflow: hidden; margin: 0 auto; max-width: 100%; padding: 30px 10px 40px 10px; }
+.section-trees-and-the-axe h2 { font-family: 'Oswald', sans-serif; font-size: 62px; font-weight: 400; color: #fff; letter-spacing: 5px; text-align: center; padding-bottom: 20px; margin-bottom: 20px; text-transform: uppercase; width: 100%;}
+.section-trees-and-the-axe p { font-family: 'Quattrocento', sans-serif; font-size: 16px; color: #fff; line-height: 2; text-align: center; width: 50%; margin: 0 auto; text-align: center; padding-bottom: 10px; padding-top: 10px; border-bottom: 2px solid #fff; border-top: 2px solid #fff; font-weight: 400; }
+.section-trees-and-the-axe .caption { margin: 0; padding-top: 5px; color: #fff; }
+.section-trees-and-the-axe a { color: #fff; }
+.section-trees-and-the-axe a:hover { color: #000; }
+
+
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
+
+/*Mobile Devies 480px */
+
+@media (max-width: 1000px) { .section-trees-and-the-axe p { width: 85%; } .section-trees-and-the-axe h2 { text-align: left; font-size: 50px; margin-left: 20px; padding-bottom: 20px;} }
+
 
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
