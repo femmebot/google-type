@@ -8,7 +8,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
 .caption a:hover { background-color: #ddd; }
 
-.container { width: 960px; margin: 0 auto; }
+.container { max-width: 960px; margin: 0 auto; }
 
 .opentype {
   -webkit-font-feature-settings: "liga", "dlig";
@@ -123,7 +123,6 @@ h1, h2, p { margin: 0; padding: 0; }
     padding: 40px 0 310px 0;
     position: relative;
 }
-.section-the-fox-and-the-grapes .container { max-width: 960px; }
 .section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 20px; }
 .section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
 .section-the-fox-and-the-grapes .caption a { color: #CBCCD1; }
