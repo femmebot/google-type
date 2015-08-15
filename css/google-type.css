@@ -287,7 +287,7 @@ h1, h2, p { margin: 0; padding: 0; }
 	.section-astronomer h2 { font-size: 46px; }
 	.section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 
-	.section-the-fox-and-the-grapes .container { width: 100%;  }
+	.section-the-fox-and-the-grapes .container { width: 100%; overflow: hidden; }
 	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
 
 	.section-moon-mother .container { width: 100%; }
