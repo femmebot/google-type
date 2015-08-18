@@ -605,18 +605,17 @@ h1, h2, p { margin: 0; padding: 0; }
 /* The Bee and Jupiter
 -----------------------------------*/
 .section-bee-jupiter { background-color: #F2D653; padding: 150px 0 80px 0; }
-.section-bee-jupiter h2, h3, p, a, hr, .caption a { color: #37424A; }
 .section-bee-jupiter .container { max-width: 800px; }
-.section-bee-jupiter h2 { font: 5em 'Yeseva One', Georgia, serif; text-transform: lowercase; text-align: right; width: 370px; letter-spacing: -0.04em; line-height: 1.1em; display: inline-block; vertical-align: top; }
+.section-bee-jupiter h2 { font: 5em 'Yeseva One', Georgia, serif; color: #37424A; text-transform: lowercase; text-align: right; width: 370px; letter-spacing: -0.04em; line-height: 1.1em; display: inline-block; vertical-align: top; }
 .section-bee-jupiter h2 span { font: 0.67em 'Yeseva One', Georgia, serif; }
-.section-bee-jupiter h3 { text-align: center; font: 1.2em 'Merriweather', Times New Roman, serif; font-weight: 400; margin: 40px 0 50px 0; font-style: italic; }
-.section-bee-jupiter p { text-align: justify; font: 0.85em 'Merriweather Sans', Helvetica, sans-serif; font-weight: 300; width: 390px; margin: 0 0 20px 25px; display: inline-block; padding-top: 1.2em; }
+.section-bee-jupiter h3 { text-align: center; color: #37424A; font: 1.2em 'Merriweather', Times New Roman, serif; font-weight: 400; margin: 40px 0 50px 0; font-style: italic; }
+.section-bee-jupiter p { text-align: justify; font: 0.85em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; font-weight: 300; width: 390px; margin: 0 0 20px 25px; display: inline-block; padding-top: 1.2em; }
 .section-bee-jupiter p.colophontitle { font: 1em 'Yeseva One', Georgia, serif; margin: 0; display: block; text-transform: uppercase; letter-spacing: 0.08em; text-align: center; width: auto; }
-.section-bee-jupiter .avatar { text-decoration: none; font: 0.8em 'Merriweather Sans', Helvetica, sans-serif; font-weight: 300; margin: 0; text-transform: uppercase; }
+.section-bee-jupiter .avatar { text-decoration: none; font: 0.8em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; font-weight: 300; margin: 0; text-transform: uppercase; }
 .section-bee-jupiter .avatar:hover { background-color: #fff; }
 .section-bee-jupiter .caption { margin: 0; font: 0.9em 'Merriweather Sans', Helvetica, sans-serif; line-height: 1em; text-transform: uppercase; letter-spacing: -0.03em;
 }
-.section-bee-jupiter .caption a { margin: 0; font: 0.9em 'Merriweather Sans', Helvetica, sans-serif; line-height: 1.1em; text-transform: uppercase; letter-spacing: -0.03em; }
+.section-bee-jupiter .caption a { margin: 0; font: 0.9em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; line-height: 1.1em; text-transform: uppercase; letter-spacing: -0.03em; }
 .section-bee-jupiter .caption a:hover { background-color: #fff; }
 .section-bee-jupiter .colophon { text-align: center; margin: 130px auto 0 auto; }
 .section-bee-jupiter .beesvg { display: block; width: 120px; text-align: center; margin: auto; }
