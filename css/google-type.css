@@ -8,7 +8,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
 .caption a:hover { background-color: #ddd; }
 
-.container { max-width: 960px; margin: 0 auto; }
+.container { width: 960px; margin: 0 auto; }
 
 .opentype {
   -webkit-font-feature-settings: "liga", "dlig";
@@ -600,4 +600,48 @@ h1, h2, p { margin: 0; padding: 0; }
 @media only screen and (min-width: 120em) {
     .section-horse-groom { padding: 250px 650px 350px; }
     .section-horse-groom blockquote { padding: 50px 0 0 0; }
+}
+
+/* The Bee and Jupiter
+-----------------------------------*/
+.section-bee-jupiter { background-color: #F2D653; padding: 150px 0 80px 0; }
+.section-bee-jupiter .container { max-width: 800px; }
+.section-bee-jupiter h2 { font: 5em 'Yeseva One', Georgia, serif; color: #37424A; text-transform: lowercase; text-align: right; width: 370px; letter-spacing: -0.04em; line-height: 1.1em; display: inline-block; vertical-align: top; }
+.section-bee-jupiter h2 span { font: 0.67em 'Yeseva One', Georgia, serif; }
+.section-bee-jupiter h3 { text-align: center; color: #37424A; font: 1.2em 'Merriweather', Times New Roman, serif; font-weight: 400; margin: 40px 0 50px 0; font-style: italic; }
+.section-bee-jupiter p { text-align: justify; font: 300 0.8em/1.625em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; width: 390px; margin: 0 0 20px 25px; display: inline-block; padding-top: 1.2em;}
+.section-bee-jupiter p.colophontitle { font: 1em 'Yeseva One', Georgia, serif; margin: 0; display: block; text-transform: uppercase; letter-spacing: 0.08em; text-align: center; width: auto; }
+.section-bee-jupiter .avatar { text-decoration: none; font: 0.8em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; font-weight: 300; margin: 0; text-transform: uppercase; }
+.section-bee-jupiter .avatar:hover { background-color: #fff; }
+.section-bee-jupiter .caption { margin: 0; font: 0.9em 'Merriweather Sans', Helvetica, sans-serif; line-height: 1em; text-transform: uppercase; letter-spacing: -0.03em;
+}
+.section-bee-jupiter .caption a { margin: 0; font: 0.9em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; line-height: 1.1em; text-transform: uppercase; letter-spacing: -0.03em; }
+.section-bee-jupiter .caption a:hover { background-color: #fff; }
+.section-bee-jupiter .colophon { text-align: center; margin: 130px auto 0 auto; }
+.section-bee-jupiter .beesvg { display: block; width: 120px; text-align: center; margin: auto; }
+.section-bee-jupiter hr { border-top: 1px dashed #37424A; border-bottom: none; margin-bottom: 20px; max-width: 780px; }
+.section-bee-jupiter .beewithoutstinger { margin-bottom: 50px; }
+.section-bee-jupiter .honeycombsvg { display: block; width: 35px; text-align: center; margin: 20px auto 0 auto; }
+
+/* The Bee and Jupiter - medium devices - stacked comp
+----------------------------------------*/
+@media only screen and (max-width: 805px) {
+  .section-bee-jupiter { padding-top: 85px; }
+  .section-bee-jupiter .container { text-align: center; max-width: 400px; }
+  .section-bee-jupiter h2 { display: block; text-align: center; margin: 20px auto 20px auto; width: auto; }
+  .section-bee-jupiter p { display: block; margin: 30px 0 30px 0; padding: 0 30px 0 30px; width: auto; }
+  .section-bee-jupiter hr { margin: 0 25px 0 25px; }
+  .section-bee-jupiter .caption { margin-bottom: 20px; }
+  .section-bee-jupiter .caption a { margin-bottom: 20px; line-height: normal; padding: 3px 0px 3px 3px; }
+  .section-bee-jupiter .avatar a { padding: 3px; }
+
+/* The Bee and Jupiter - small devices - stacked comp
+----------------------------------------*/
+@media only screen and (max-width: 440px) {
+  .section-bee-jupiter h2 { font-size: 4em; }
+  .section-bee-jupiter .beesvg { width: 100px; }
+  .section-bee-jupiter p { font-size: 1em; }
+  .section-bee-jupiter p, .caption, .avatar { font-size: 1em; }
+  .section-bee-jupiter .beewithoutstinger { margin-bottom: 40px; }
+  .section-bee-jupiter h3 { margin-bottom: 40px; }
 }
