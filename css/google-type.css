@@ -8,7 +8,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
 .caption a:hover { background-color: #ddd; }
 
-.container { max-width: 960px; margin: 0 auto; }
+.container { width: 960px; margin: 0 auto; }
 
 .opentype {
   -webkit-font-feature-settings: "liga", "dlig";
@@ -609,7 +609,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-bee-jupiter h2 { font: 5em 'Yeseva One', Georgia, serif; color: #37424A; text-transform: lowercase; text-align: right; width: 370px; letter-spacing: -0.04em; line-height: 1.1em; display: inline-block; vertical-align: top; }
 .section-bee-jupiter h2 span { font: 0.67em 'Yeseva One', Georgia, serif; }
 .section-bee-jupiter h3 { text-align: center; color: #37424A; font: 1.2em 'Merriweather', Times New Roman, serif; font-weight: 400; margin: 40px 0 50px 0; font-style: italic; }
-.section-bee-jupiter p { text-align: justify; font: 0.85em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; font-weight: 300; width: 390px; margin: 0 0 20px 25px; display: inline-block; padding-top: 1.2em; }
+.section-bee-jupiter p { text-align: justify; font: 300 0.8em/1.625em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; width: 390px; margin: 0 0 20px 25px; display: inline-block; padding-top: 1.2em;}
 .section-bee-jupiter p.colophontitle { font: 1em 'Yeseva One', Georgia, serif; margin: 0; display: block; text-transform: uppercase; letter-spacing: 0.08em; text-align: center; width: auto; }
 .section-bee-jupiter .avatar { text-decoration: none; font: 0.8em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; font-weight: 300; margin: 0; text-transform: uppercase; }
 .section-bee-jupiter .avatar:hover { background-color: #fff; }
@@ -623,7 +623,7 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-bee-jupiter .beewithoutstinger { margin-bottom: 50px; }
 .section-bee-jupiter .honeycombsvg { display: block; width: 35px; text-align: center; margin: 20px auto 0 auto; }
 
-/* The Bee and Jupiter - medium devices - stacked comp 
+/* The Bee and Jupiter - medium devices - stacked comp
 ----------------------------------------*/
 @media only screen and (max-width: 805px) {
   .section-bee-jupiter { padding-top: 85px; }
@@ -635,7 +635,7 @@ h1, h2, p { margin: 0; padding: 0; }
   .section-bee-jupiter .caption a { margin-bottom: 20px; line-height: normal; padding: 3px 0px 3px 3px; }
   .section-bee-jupiter .avatar a { padding: 3px; }
 
-/* The Bee and Jupiter - small devices - stacked comp 
+/* The Bee and Jupiter - small devices - stacked comp
 ----------------------------------------*/
 @media only screen and (max-width: 440px) {
   .section-bee-jupiter h2 { font-size: 4em; }
