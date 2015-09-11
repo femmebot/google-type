@@ -451,7 +451,44 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-trees-and-the-axe a { color: #fff; }
 .section-trees-and-the-axe a:hover { color: #000; }
 
+/* ------------------------------------- */
+/* Styles for The Imposter               */
+/* ------------------------------------- */
 
+.section-the-imposter {
+  font-size: 20px;
+}
+
+.section-the-imposter .container {
+  padding: 20px;
+}
+
+.section-the-imposter .caption {
+  margin: 0;
+}
+
+.section-the-imposter h2 {
+  font-family: 'Marko One', serif;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 3.4rem;
+  padding: 40px;  
+}
+
+.section-the-imposter h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.section-the-imposter p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2.45rem;
+}
 
 /* ---------------------- */
 /* Device-specific styles */
