@@ -461,24 +461,45 @@ h1, h2, p { margin: 0; padding: 0; }
 
 .section-the-imposter .container {
   padding: 20px;
+  width: 768px;
+  color: #212121;
 }
 
 .section-the-imposter .caption {
   margin: 0;
 }
 
+.section-the-imposter .caption a {
+  color: #212121;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.section-the-imposter .caption a:hover {
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+}
+
+.section-the-imposter .caption a:first-child {
+  font-family: 'Marko One', serif;
+}
+
+.section-the-imposter .caption a:last-child {
+  font-family: 'Lato', sans-serif;
+}
+
 .section-the-imposter h2 {
   font-family: 'Marko One', serif;
-  font-size: 5rem;
+  font-size: 4.1em;
   text-align: center;
-  line-height: 3.4rem;
-  padding: 40px;  
+  line-height: .7em;
+  padding: 40px;
 }
 
 .section-the-imposter h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: .8rem;
+  font-size: .6em;
   font-style: italic;
   text-align: center;
 }
@@ -486,8 +507,8 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-the-imposter p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
-  line-height: 2.45rem;
+  font-size: 1.2em;
+  line-height: 1.7em;
 }
 
 /* ---------------------- */
@@ -501,6 +522,7 @@ h1, h2, p { margin: 0; padding: 0; }
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
   .section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
+  .section-the-imposter { font-size: 15px; }
 }
 
 /* max-width 640px, mobile */
@@ -590,6 +612,7 @@ h1, h2, p { margin: 0; padding: 0; }
     .section-trees-and-the-axe p { width: 85%; }
     /*.section-trees-and-the-axe h2 { text-align: left; font-size: 50px; margin-left: 20px; padding-bottom: 20px;} */
 
+    .section-the-imposter .container { width: auto; }
 }
 
 
