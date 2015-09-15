@@ -455,61 +455,16 @@ h1, h2, p { margin: 0; padding: 0; }
 /* Styles for The Imposter               */
 /* ------------------------------------- */
 
-.section-the-imposter {
-  font-size: 20px;
-}
-
-.section-the-imposter .container {
-  padding: 20px;
-  width: 768px;
-  color: #212121;
-}
-
-.section-the-imposter .caption {
-  margin: 0;
-}
-
-.section-the-imposter .caption a {
-  color: #212121;
-  letter-spacing: normal;
-  text-transform: none;
-}
-
-.section-the-imposter .caption a:hover {
-  border-bottom: 1px solid #000;
-  background-color: transparent;
-}
-
-.section-the-imposter .caption a:first-child {
-  font-family: 'Marko One', serif;
-}
-
-.section-the-imposter .caption a:last-child {
-  font-family: 'Lato', sans-serif;
-}
-
-.section-the-imposter h2 {
-  font-family: 'Marko One', serif;
-  font-size: 4.1em;
-  text-align: center;
-  line-height: .7em;
-  padding: 40px;
-}
-
-.section-the-imposter h3 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: .6em;
-  font-style: italic;
-  text-align: center;
-}
-
-.section-the-imposter p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 1.2em;
-  line-height: 1.7em;
-}
+.section-the-imposter{font-size:20px;background-color:#E8EC86}
+.section-the-imposter .container{padding:20px;width:768px;color:#20251d}
+.section-the-imposter .caption{margin:0}
+.section-the-imposter .caption a{color:#20251d;letter-spacing:normal;text-transform:none}
+.section-the-imposter .caption a:hover{border-bottom:1px solid #000;background-color:transparent}
+.section-the-imposter .caption a:first-child{font-family:'Marko One',serif}
+.section-the-imposter .caption a:last-child{font-family:'Lato',sans-serif}
+.section-the-imposter h2{font-family:'Marko One',serif;font-size:4.1em;text-align:center;line-height:.7em;padding:40px;color:#144733}
+.section-the-imposter h3{font-family:'Lato',sans-serif;font-weight:400;font-size:.6em;font-style:italic;text-align:center}
+.section-the-imposter p{font-family:'Lato',sans-serif;font-weight:300;font-size:1.2em;line-height:1.7em}
 
 /* ---------------------- */
 /* Device-specific styles */
