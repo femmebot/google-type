@@ -7,6 +7,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
+.caption a:not(:first-child) { padding-left: 8px; }
 .caption a:hover { background-color: #ddd; }
 
 .container { width: 960px; margin: 0 auto; }
@@ -45,6 +46,8 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-two-bags h2 i { font-family:'Oleo Script', serif; font-style: normal;}
 .section-two-bags p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
 .section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
+.section-two-bags .caption a:last-child { padding-left: 0; }
+
 
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
