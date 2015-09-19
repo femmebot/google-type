@@ -309,28 +309,6 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-horse-groom .caption a:hover { color: #ffffff; background-color: #eb534a; }
 
 
-/* -------------------------------- */
-/* Styles for The Owl and the Birds */
-/* -------------------------------- */
-
-.section-the-owl-and-the-birds { background-color: #F1B15A; padding: 30px 30px 70px 30px; }
-
-.section-the-owl-and-the-birds .avatar img { margin: 0 0 6px 0; }
-.section-the-owl-and-the-birds .caption { color: #573E1E; margin: 0 0 50px 0; }
-.section-the-owl-and-the-birds .caption a { color: #573E1E; }
-.section-the-owl-and-the-birds .caption a:hover, .section-the-owl-and-the-birds .caption a:active { color: #F1B15A; background: #573E1E; }
-
-.section-the-owl-and-the-birds .container { text-align: center; margin: 0 auto; width: 80%; padding-bottom: 30px; }
-.section-the-owl-and-the-birds .container h2 { color: #210; font: 700 48px 'Montserrat', sans-serif; text-align: left; margin: 60px 0; letter-spacing: -.02em;}
-.section-the-owl-and-the-birds .container p { color: #F9F7ED; font: 15px/26px 'Domine', Georgia, serif; margin-bottom: 18px; padding-left: 10px; text-align: left; max-width: 480px; }
-.section-the-owl-and-the-birds .container p .cap { font-size: 16px; text-transform: uppercase; }
-
-@media all and (min-width: 768px) {
-  .section-the-owl-and-the-birds { background: url(../images/sunset.jpg) no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-  .section-the-owl-and-the-birds .container { width: 560px; }
-  .section-the-owl-and-the-birds .caption { color: #D5934B; }
-  .section-the-owl-and-the-birds .caption a { color: #D5934B; }
-}
 
 /* ------------------------------------------------- */
 /* Styles for The Crow and The Raven - @notdivisible */
@@ -531,7 +509,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
     .section-intro { width: 100%; }
     .section-intro .small { margin: 0 20px; }
     .section-intro p { max-width: 460px; width: auto; padding: 0 20px; }
-  .section-intro .wrapper { width: 320px; text-align: center; margin: 0 auto 120px auto; }
+    .section-intro .wrapper { width: 320px; text-align: center; margin: 0 auto 120px auto; }
 
     .section-two-bags .container { width: 100%;}
     .section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
