@@ -1,11 +1,13 @@
 body { margin: 0; padding: 0; zoom: 1; }
 h1, h2, p { margin: 0; padding: 0; }
+p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 
 .strike { text-decoration: line-through; }
 
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
+.caption a:not(:first-child) { padding-left: 8px; }
 .caption a:hover { background-color: #ddd; }
 
 .container { width: 960px; margin: 0 auto; }
@@ -44,6 +46,8 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-two-bags h2 i { font-family:'Oleo Script', serif; font-style: normal;}
 .section-two-bags p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
 .section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
+.section-two-bags .caption a:last-child { padding-left: 0; }
+
 
 .section-oak { padding: 30px 20px 200px 20px; }
 .section-oak .container { text-align: center; }
@@ -308,28 +312,6 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-horse-groom .caption a:hover { color: #ffffff; background-color: #eb534a; }
 
 
-/* -------------------------------- */
-/* Styles for The Owl and the Birds */
-/* -------------------------------- */
-
-.section-the-owl-and-the-birds { background-color: #F1B15A; padding: 30px 30px 70px 30px; }
-
-.section-the-owl-and-the-birds .avatar img { margin: 0 0 6px 0; }
-.section-the-owl-and-the-birds .caption { color: #573E1E; margin: 0 0 50px 0; }
-.section-the-owl-and-the-birds .caption a { color: #573E1E; }
-.section-the-owl-and-the-birds .caption a:hover, .section-the-owl-and-the-birds .caption a:active { color: #F1B15A; background: #573E1E; }
-
-.section-the-owl-and-the-birds .container { text-align: center; margin: 0 auto; width: 80%; padding-bottom: 30px; }
-.section-the-owl-and-the-birds .container h2 { color: #210; font: 700 48px 'Montserrat', sans-serif; text-align: left; margin: 60px 0; letter-spacing: -.02em;}
-.section-the-owl-and-the-birds .container p { color: #F9F7ED; font: 15px/26px 'Domine', Georgia, serif; margin-bottom: 18px; padding-left: 10px; text-align: left; max-width: 480px; }
-.section-the-owl-and-the-birds .container p .cap { font-size: 16px; text-transform: uppercase; }
-
-@media all and (min-width: 768px) {
-  .section-the-owl-and-the-birds { background: url(../images/sunset.jpg) no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-  .section-the-owl-and-the-birds .container { width: 560px; }
-  .section-the-owl-and-the-birds .caption { color: #D5934B; }
-  .section-the-owl-and-the-birds .caption a { color: #D5934B; }
-}
 
 /* ------------------------------------------------- */
 /* Styles for The Crow and The Raven - @notdivisible */
@@ -451,6 +433,39 @@ h1, h2, p { margin: 0; padding: 0; }
 .section-trees-and-the-axe a { color: #fff; }
 .section-trees-and-the-axe a:hover { color: #000; }
 
+/* The Bee and Jupiter
+-----------------------------------*/
+.section-bee-jupiter { background-color: #F2D653; padding: 80px 0 120px 0; }
+.section-bee-jupiter .container { max-width: 800px; }
+.section-bee-jupiter h2 { font: 5em 'Yeseva One', Georgia, serif; color: #37424A; text-transform: lowercase; text-align: right; width: 370px; letter-spacing: -0.04em; line-height: 1.1em; display: inline-block; vertical-align: top; }
+.section-bee-jupiter h2 span { font: 0.67em 'Yeseva One', Georgia, serif; }
+.section-bee-jupiter h3 { text-align: center; color: #37424A; font: 1.2em 'Merriweather', Times New Roman, serif; font-weight: 400; margin: 40px 0 50px 0; font-style: italic; }
+.section-bee-jupiter p { text-align: justify; font: 300 0.8em/1.625em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; width: 390px; margin: 0 0 20px 25px; display: inline-block; padding-top: 1.2em;}
+.section-bee-jupiter .avatar { margin-left: 20px; }
+.section-bee-jupiter .caption { color: #da3;}
+.section-bee-jupiter .caption a { color: #544; font-size: 12px; }
+.section-bee-jupiter .caption a:hover { background-color: #fff; }
+.section-bee-jupiter .colophon { padding-bottom: 120px; }
+.section-bee-jupiter .beesvg { display: block; width: 120px; text-align: center; margin: auto; }
+.section-bee-jupiter hr { border-top: 1px dashed #37424A; border-bottom: none; margin-bottom: 20px; max-width: 780px; }
+.section-bee-jupiter .beewithoutstinger { margin-bottom: 50px; }
+.section-bee-jupiter .honeycombsvg { display: block; width: 35px; text-align: center; margin: 20px auto 0 auto; }
+
+
+/* ------------------------------------- */
+/* Styles for The Imposter               */
+/* ------------------------------------- */
+
+.section-the-imposter{font-size:20px;background-color:#E8EC86}
+.section-the-imposter .container {padding: 60px 20px; max-width: 640px; color:#443; }
+.section-the-imposter .caption{ margin:0 }
+.section-the-imposter .caption a {color:#556;}
+.section-the-imposter .caption a:hover{border-bottom:1px solid #000;background-color:transparent}
+/*.section-the-imposter .caption a:first-child{font-family:'Marko One',serif}
+.section-the-imposter .caption a:last-child{font-family:'Lato',sans-serif}*/
+.section-the-imposter h2{font-family:'Ramabhadra',serif;font-size:6em;text-align:center;line-height:.7em;padding:40px; color:#476; letter-spacing: -.02em; margin: 90px auto 60px auto;}
+.section-the-imposter p {font-family:'Sintony',sans-serif;font-weight:400;font-size:.8em;line-height:180%; color: rgba(51, 51, 51, 0.6);}
+.section-the-imposter h3{font-family:'Ramabhadra',serif; line-height: 1.2em; text-align: center; color:#476; padding: 30px 40px 120px 40px; }
 
 
 /* ---------------------- */
@@ -464,6 +479,7 @@ h1, h2, p { margin: 0; padding: 0; }
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
   .section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
+  .section-the-imposter { font-size: 15px; }
 }
 
 /* max-width 640px, mobile */
@@ -496,7 +512,7 @@ h1, h2, p { margin: 0; padding: 0; }
     .section-intro { width: 100%; }
     .section-intro .small { margin: 0 20px; }
     .section-intro p { max-width: 460px; width: auto; padding: 0 20px; }
-  .section-intro .wrapper { width: 320px; text-align: center; margin: 0 auto 120px auto; }
+    .section-intro .wrapper { width: 320px; text-align: center; margin: 0 auto 120px auto; }
 
     .section-two-bags .container { width: 100%;}
     .section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
@@ -553,6 +569,8 @@ h1, h2, p { margin: 0; padding: 0; }
     .section-trees-and-the-axe p { width: 85%; }
     /*.section-trees-and-the-axe h2 { text-align: left; font-size: 50px; margin-left: 20px; padding-bottom: 20px;} */
 
+    .section-the-imposter .container { width: auto; padding: 0 40px; }
+    .section-the-imposter h2 { font-size: 4em; }
 }
 
 
@@ -602,38 +620,15 @@ h1, h2, p { margin: 0; padding: 0; }
     .section-horse-groom blockquote { padding: 50px 0 0 0; }
 }
 
-/* The Bee and Jupiter
------------------------------------*/
-.section-bee-jupiter { background-color: #F2D653; padding: 150px 0 80px 0; }
-.section-bee-jupiter .container { max-width: 800px; }
-.section-bee-jupiter h2 { font: 5em 'Yeseva One', Georgia, serif; color: #37424A; text-transform: lowercase; text-align: right; width: 370px; letter-spacing: -0.04em; line-height: 1.1em; display: inline-block; vertical-align: top; }
-.section-bee-jupiter h2 span { font: 0.67em 'Yeseva One', Georgia, serif; }
-.section-bee-jupiter h3 { text-align: center; color: #37424A; font: 1.2em 'Merriweather', Times New Roman, serif; font-weight: 400; margin: 40px 0 50px 0; font-style: italic; }
-.section-bee-jupiter p { text-align: justify; font: 300 0.8em/1.625em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; width: 390px; margin: 0 0 20px 25px; display: inline-block; padding-top: 1.2em;}
-.section-bee-jupiter p.colophontitle { font: 1em 'Yeseva One', Georgia, serif; margin: 0; display: block; text-transform: uppercase; letter-spacing: 0.08em; text-align: center; width: auto; }
-.section-bee-jupiter .avatar { text-decoration: none; font: 0.8em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; font-weight: 300; margin: 0; text-transform: uppercase; }
-.section-bee-jupiter .avatar:hover { background-color: #fff; }
-.section-bee-jupiter .caption { margin: 0; font: 0.9em 'Merriweather Sans', Helvetica, sans-serif; line-height: 1em; text-transform: uppercase; letter-spacing: -0.03em;
-}
-.section-bee-jupiter .caption a { margin: 0; font: 0.9em 'Merriweather Sans', Helvetica, sans-serif; color: #37424A; line-height: 1.1em; text-transform: uppercase; letter-spacing: -0.03em; }
-.section-bee-jupiter .caption a:hover { background-color: #fff; }
-.section-bee-jupiter .colophon { text-align: center; margin: 130px auto 0 auto; }
-.section-bee-jupiter .beesvg { display: block; width: 120px; text-align: center; margin: auto; }
-.section-bee-jupiter hr { border-top: 1px dashed #37424A; border-bottom: none; margin-bottom: 20px; max-width: 780px; }
-.section-bee-jupiter .beewithoutstinger { margin-bottom: 50px; }
-.section-bee-jupiter .honeycombsvg { display: block; width: 35px; text-align: center; margin: 20px auto 0 auto; }
 
 /* The Bee and Jupiter - medium devices - stacked comp
 ----------------------------------------*/
 @media only screen and (max-width: 805px) {
   .section-bee-jupiter { padding-top: 85px; }
-  .section-bee-jupiter .container { text-align: center; max-width: 400px; }
-  .section-bee-jupiter h2 { display: block; text-align: center; margin: 20px auto 20px auto; width: auto; }
-  .section-bee-jupiter p { display: block; margin: 30px 0 30px 0; padding: 0 30px 0 30px; width: auto; }
-  .section-bee-jupiter hr { margin: 0 25px 0 25px; }
-  .section-bee-jupiter .caption { margin-bottom: 20px; }
-  .section-bee-jupiter .caption a { margin-bottom: 20px; line-height: normal; padding: 3px 0px 3px 3px; }
-  .section-bee-jupiter .avatar a { padding: 3px; }
+  .section-bee-jupiter .container { text-align: center; width: auto; }
+  .section-bee-jupiter h2 { text-align: center; margin: 20px auto 20px auto; line-height: 85%; }
+  .section-bee-jupiter p { margin: 0; padding: 30px 0; }
+  .section-bee-jupiter hr { max-width: 400px; }
 
 /* The Bee and Jupiter - small devices - stacked comp
 ----------------------------------------*/
@@ -641,7 +636,7 @@ h1, h2, p { margin: 0; padding: 0; }
   .section-bee-jupiter h2 { font-size: 4em; }
   .section-bee-jupiter .beesvg { width: 100px; }
   .section-bee-jupiter p { font-size: 1em; }
-  .section-bee-jupiter p, .caption, .avatar { font-size: 1em; }
+  .section-bee-jupiter .avatar { margin-left: 0; }
   .section-bee-jupiter .beewithoutstinger { margin-bottom: 40px; }
   .section-bee-jupiter h3 { margin-bottom: 40px; }
 }
