@@ -614,9 +614,9 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 /* The Bee and Jupiter - small devices - stacked comp
 ----------------------------------------*/
 @media only screen and (max-width: 440px) {
-  .section-bee-jupiter h2 { font-size: 4em; }
+  .section-bee-jupiter h2 { font-size: 4em; width: 100%; }
   .section-bee-jupiter .beesvg { width: 100px; }
-  .section-bee-jupiter p { font-size: 1em; }
+  .section-bee-jupiter p { font-size: 1em; width: 100%; }
   .section-bee-jupiter .avatar { margin-left: 0; }
   .section-bee-jupiter .beewithoutstinger { margin-bottom: 40px; }
   .section-bee-jupiter h3 { margin-bottom: 40px; }
