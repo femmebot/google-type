@@ -480,6 +480,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
+	.section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
 	.section-pomegranate h2{font-size: 4.2rem;}
 	.section-pomegranate h2 span{font-size: 1.75rem;}
 	.section-pomegranate .container img#bramble{position: absolute; bottom: 0px; left: -90px;}
