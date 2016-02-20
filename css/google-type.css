@@ -451,6 +451,23 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-bee-jupiter .beewithoutstinger { margin-bottom: 50px; }
 .section-bee-jupiter .honeycombsvg { display: block; width: 35px; text-align: center; margin: 20px auto 0 auto; }
 
+/* ----------------------------------------------------------- */
+/* Styles for The Pomegranate, the Apple-Tree, and the Bramble */
+/* ----------------------------------------------------------- */
+/* QUALITY FRUITS: U.S. Department of Agriculture Pomological Watercolor Collection. Rare and Special Collections, National Agricultural Library, Beltsville, MD 20705 
+http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
+.section-pomegranate .container{width: 100%;}
+.section-pomegranate h2{font-family: 'Mr De Haviland', cursive; font-size: 6rem; font-weight: normal; text-align: center; margin: auto 10px; line-height: 1.1; margin-bottom: 20px; color: #665738; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}
+.section-pomegranate h2 span{font-size: 2.5rem;}
+.section-pomegranate p{font-size: 1.4rem; line-height: 1.8; font-family: 'Neuton', serif; font-weight: 200; max-width: 500px; margin: auto; color: #665738;}
+.section-pomegranate p em{font-weight: 400; font-style: italic; font-size: 1.7rem}
+.section-pomegranate .container{position: relative; padding: 30px 0 300px 0;}
+.section-pomegranate .container img#bramble{position: absolute; bottom: 0px; left: 15%; width: 300px;}
+.section-pomegranate p.bramble{position: absolute; bottom: 200px; left: 47%; width: 300px; font-weight: 400; font-size: 1.7rem; line-height: 1.2; font-style: italic;}
+.section-pomegranate .caption{text-align: center; width: 100%; position: absolute; bottom: 25px; margin: 0; color: #b4aa91;}
+.section-pomegranate .caption a{color: #817659;}
+.section-pomegranate .caption a:hover{background-color: #fff; color: #594b26;}
+.section-pomegranate .caption img{display: block; margin: 5px auto;}
 
 
 /* ---------------------- */
@@ -463,7 +480,14 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
-  .section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
+	.section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
+	.section-pomegranate h2{font-size: 4.2rem;}
+	.section-pomegranate h2 span{font-size: 1.75rem;}
+	.section-pomegranate .container img#bramble{position: absolute; bottom: 0px; left: -90px;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .section-pomegranate .container img#bramble{left: 0;}
 }
 
 /* max-width 640px, mobile */
@@ -552,6 +576,17 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 
     .section-trees-and-the-axe p { width: 85%; }
 
+	.section-pomegranate {
+	background-image: url(../images/pomegranate/bkg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	.section-pomegranate p{margin: auto; padding: 0 10px;}
+	.section-pomegranate p.bramble{position: relative; bottom: auto; left: auto; width: auto; margin-top: 30px;}
 }
 
 
@@ -564,6 +599,20 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
     .section-crow-pitcher .container .drop-p { color: white; font-size: 18px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
     .section-crow-pitcher em { font-size: 18px; margin-bottom: calc(8 * 20px); }
     .section-crow-pitcher hr { width: 2.5%;    }
+
+	.section-pomegranate {
+	background-image: url(../images/pomegranate/pomegranate-400.png), url(../images/pomegranate/apple-400.png), url(../images/pomegranate/bkg.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: -170px 0, 140% 100%, center center;
+	-webkit-background-size: auto, auto, cover;
+	-moz-background-size: auto, auto, cover;
+	-o-background-size: auto, auto, cover;
+	background-size: auto, auto, cover;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .section-pomegranate .container img#bramble{left: 5%;}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -571,6 +620,16 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
     .section-crow-pitcher .container p { font-size: 104px; }
     .section-crow-pitcher .container .drop-p { font-size: 24px; line-height: 1.8em; margin-bottom: 0; margin-top: calc(1 * 20px); margin-right: calc(4 * 20px); }
     .section-crow-pitcher em { font-size: 24px; }
+
+	.section-pomegranate {
+	background-image: url(../images/pomegranate/pomegranate-400.png), url(../images/pomegranate/apple-400.png), url(../images/pomegranate/bkg.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: -90px 0, 115% 100%, center center;
+	-webkit-background-size: auto, auto, cover;
+	-moz-background-size: auto, auto, cover;
+	-o-background-size: auto, auto, cover;
+	background-size: auto, auto, cover;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -585,6 +644,16 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 /* Large devices (extra large desktops, 1440px and up) */
 @media (min-width: 1440px) {
     .section-crow-pitcher .container p { font-size: 150px;    }
+	.section-pomegranate {
+	background-image: url(../images/pomegranate/pomegranate.png), url(../images/pomegranate/apple.png), url(../images/pomegranate/bkg.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: -200px 0, 125% 100%, center center;
+	-webkit-background-size: auto, auto, cover;
+	-moz-background-size: auto, auto, cover;
+	-o-background-size: auto, auto, cover;
+	background-size: auto, auto, cover;
+	}
+	.section-pomegranate .container img#bramble{left: 25%;}
 }
 
 
