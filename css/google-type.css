@@ -7,7 +7,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .avatar img { width: 30px; height: 30px; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; }
 .caption { margin: 0 0 60px 20px; }
 .caption a { font: 14px/16px 'Unica One', Helvetica, Arial, sans-serif; letter-spacing: .1em; color: #999; text-transform: uppercase; text-decoration: none; }
-.caption a:not(:first-child) { padding-left: 8px; }
+.caption a:not(:first-child) { margin-left: 8px; }
 .caption a:hover { background-color: #ddd; }
 
 .container { width: 960px; margin: 0 auto; }
@@ -454,7 +454,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 /* ----------------------------------------------------------- */
 /* Styles for The Pomegranate, the Apple-Tree, and the Bramble */
 /* ----------------------------------------------------------- */
-/* QUALITY FRUITS: U.S. Department of Agriculture Pomological Watercolor Collection. Rare and Special Collections, National Agricultural Library, Beltsville, MD 20705 
+/* QUALITY FRUITS: U.S. Department of Agriculture Pomological Watercolor Collection. Rare and Special Collections, National Agricultural Library, Beltsville, MD 20705
 http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-pomegranate .container{width: 100%;}
 .section-pomegranate h2{font-family: 'Mr De Haviland', cursive; font-size: 6rem; font-weight: normal; text-align: center; margin: auto 10px; line-height: 1.1; margin-bottom: 20px; color: #665738; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}
