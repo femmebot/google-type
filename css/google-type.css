@@ -46,7 +46,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-two-bags h2 i { font-family:'Oleo Script', serif; font-style: normal;}
 .section-two-bags p { font: 17px/28px 'Monda', Arial, sans-serif; color: #817a74; width: 380px; margin-left: 250px; }
 .section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
-.section-two-bags .caption a:last-child { padding-left: 0; }
+.section-two-bags .caption a:last-child { margin-left: 0; }
 
 
 .section-oak { padding: 30px 20px 200px 20px; }
