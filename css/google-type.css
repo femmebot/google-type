@@ -469,12 +469,19 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-pomegranate .caption a:hover{background-color: #fff; color: #594b26;}
 .section-pomegranate .caption img{display: block; margin: 5px auto;}
 
+/* The Wolf in Sheep's Clothing
+-----------------------------------*/
+.section-wolf-sheep-clothing { background-color: #b7704d; padding: 60px 0;}
+/*.section-wolf-sheep-clothing .container { width: 960px; }*/
+.section-wolf-sheep-clothing h2 { font: 60px/64px 'Sansita One', Georgia, serif; max-width: 480px; }
+
+
 
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
 
-/*Mobile Devies 480px */
+/*Mobile Devices 480px */
 
 
 
