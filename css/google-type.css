@@ -469,12 +469,17 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-pomegranate .caption a:hover{background-color: #fff; color: #594b26;}
 .section-pomegranate .caption img{display: block; margin: 5px auto;}
 
-/* The Wolf in Sheep's Clothing
------------------------------------*/
-.section-wolf-sheep-clothing { background-color: #b7704d; padding: 60px 0;}
-/*.section-wolf-sheep-clothing .container { width: 960px; }*/
-.section-wolf-sheep-clothing h2 { font: 60px/64px 'Sansita One', Georgia, serif; max-width: 480px; }
+/* ------------------------------------- */
+/* Styles for The Trees and The Axe      */
+/* ------------------------------------- */
 
+.section-wolf-sheep-clothing { background-color: #5a5852; padding: 60px 20px 120px 20px; }
+.section-wolf-sheep-clothing .caption { color: #a5a3a4; margin-bottom: 120px; }
+.section-wolf-sheep-clothing .container { max-width: 600px; }
+.section-wolf-sheep-clothing h2 { font: 110px/80px 'Shrikhand', Georgia, serif; color: #eb7b5b; margin-bottom: 40px; }
+.section-wolf-sheep-clothing h2 .kern { letter-spacing: -.05em; }
+.section-wolf-sheep-clothing h2 .sm-head { display: block; font: 58px/56px 'Sansita One', Georgia, serif; color: #d2bbc5; }
+.section-wolf-sheep-clothing p { font: 18px/30px 'Scope One', Helvetica, Arial, sans-serif; color: #a5a3a4; max-width: 540px; text-align: justify; text-justify: inter-word; }
 
 
 /* ---------------------- */
@@ -583,17 +588,22 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 
     .section-trees-and-the-axe p { width: 85%; }
 
-	.section-pomegranate {
-	background-image: url(../images/pomegranate/bkg.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	}
-	.section-pomegranate p{margin: auto; padding: 0 10px;}
-	.section-pomegranate p.bramble{position: relative; bottom: auto; left: auto; width: auto; margin-top: 30px;}
+  	.section-pomegranate {
+  	background-image: url(../images/pomegranate/bkg.jpg);
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	}
+  	.section-pomegranate p{margin: auto; padding: 0 10px;}
+  	.section-pomegranate p.bramble{position: relative; bottom: auto; left: auto; width: auto; margin-top: 30px;}
+
+    .section-wolf-sheep-clothing .container { width: 100%;  }
+    .section-wolf-sheep-clothing h2 { font: 68px/60px 'Shrikhand', Georgia, serif; }
+    .section-wolf-sheep-clothing h2 .sm-head { font: 34px/30px 'Sansita One', Georgia, serif; }
+    .section-wolf-sheep-clothing p { font: 16px/24px 'Scope One', Helvetica, Arial, sans-serif; }
 }
 
 
