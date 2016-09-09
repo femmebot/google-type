@@ -485,15 +485,16 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 /* Styles for The Butcher and his Customers    */
 /* ------------------------------------------- */
 
-.section-butcher-customers { background: url(../images/butcher.jpg) no-repeat; background-size: cover; padding: 30px; }
-.section-butcher-customers .container { min-height: 540px; border: 1px solid #e12; margin: 0 auto; padding: 0 0 120px 0; box-sizing:border-box; }
-/*.section-butcher-customers .container article { display: flex; }*/
-.section-butcher-customers .container article h2 { font: 68px/72px 'Chonburi', Georgia, serif; color: #fff; padding: 40px 24px; max-width: 480px; margin: 0 auto; background-color: rgba(238, 17, 34, .8); letter-spacing: -.05em; text-align: center; }
-.section-butcher-customers .container article h2 span { display: block; font: 400 20px/24px 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .2em; color: #000; text-transform: uppercase; }
-.section-butcher-customers .container article section { display: block; margin-top: 100px; text-align: center; margin: 0 auto; background-color: #fff; padding: 20px; }
+.section-butcher-customers { background: url(../images/butcher/butcher.jpg) no-repeat; background-size: cover; padding: 30px; }
+.section-butcher-customers .container { border: 1px solid #e12; margin: 0 auto; padding: 0 0 120px 0; box-sizing:border-box; }
+.section-butcher-customers .container article .masthead { padding: 20px 0 30px 0; max-width: 480px; margin: 0 auto 300px auto; background-color: #e12; text-align: center; }
+.section-butcher-customers .container article .masthead h2 { font: 64px/64px 'Chonburi', Georgia, serif; color: #fff; /* background-color: rgba(238, 17, 34, .8); */ letter-spacing: -.05em; }
+.section-butcher-customers .container article .masthead h2 span { display: block; font: 400 20px/24px 'Chonburi', 'Hammersmith One', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .2em; margin-top: 6px; color: #000; text-transform: uppercase; }
+.section-butcher-customers .container article .masthead img { width: 50%; }
+.section-butcher-customers .container article section { display: block; text-align: center; margin: 0 auto; background-color: #fff; padding: 40px 20px 20px; }
 .section-butcher-customers .container article section p { padding: 0; margin: 0; }
-.section-butcher-customers .container article section p:first-child { columns: 3; column-gap: 30px; text-align: left; font: .675em/1.5 'Fjord One', Georgia, serif; }
-.section-butcher-customers .container article section p:last-child { columns: 1; font: 1.25em/2.25 'Fjord One', Georgia, serif; padding: 6px 0; text-align: center; display: inline-block; }
+.section-butcher-customers .container article section p:first-child { columns: 3; column-gap: 30px; text-align: left; font: .825em/1.5 'Fjord One', Georgia, serif; word-wrap: break-word; text-align: justify; text-justify: inter-word; }
+.section-butcher-customers .container article section p:last-child { columns: 1; font: 1.25em/2.25 'Chonburi', Georgia, serif; padding: 6px 0; color: #e21; text-align: center; display: inline-block; }
 
 /* ---------------------- */
 /* Device-specific styles */
