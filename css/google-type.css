@@ -475,12 +475,25 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 
 .section-wolf-sheep-clothing { background-color: #5a5852; padding: 60px 20px 120px 20px; }
 .section-wolf-sheep-clothing .caption { color: #a5a3a4; margin-bottom: 120px; }
-.section-wolf-sheep-clothing .container { max-width: 600px; }
+.section-wolf-sheep-clothing .container { max-width: 540px; }
 .section-wolf-sheep-clothing h2 { font: 110px/80px 'Shrikhand', Georgia, serif; color: #eb7b5b; margin-bottom: 40px; }
 .section-wolf-sheep-clothing h2 .kern { letter-spacing: -.05em; }
 .section-wolf-sheep-clothing h2 .sm-head { display: block; font: 58px/56px 'Sansita One', Georgia, serif; color: #d2bbc5; }
 .section-wolf-sheep-clothing p { font: 18px/30px 'Scope One', Helvetica, Arial, sans-serif; color: #cfc1c1; max-width: 540px; hyphens: auto; text-align: justify; text-justify: inter-word; }
 
+/* ------------------------------------------- */
+/* Styles for The Butcher and his Customers    */
+/* ------------------------------------------- */
+
+.section-butcher-customers { background: url(../images/butcher.jpg) no-repeat; background-size: cover; padding: 30px; }
+.section-butcher-customers .container { min-height: 540px; border: 1px solid #e12; margin: 0 auto; padding: 0 0 120px 0; box-sizing:border-box; }
+/*.section-butcher-customers .container article { display: flex; }*/
+.section-butcher-customers .container article h2 { font: 68px/72px 'Chonburi', Georgia, serif; color: #fff; padding: 40px 24px; max-width: 480px; margin: 0 auto; background-color: rgba(238, 17, 34, .8); letter-spacing: -.05em; text-align: center; }
+.section-butcher-customers .container article h2 span { display: block; font: 400 20px/24px 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .2em; color: #000; text-transform: uppercase; }
+.section-butcher-customers .container article section { display: block; margin-top: 100px; text-align: center; margin: 0 auto; background-color: #fff; padding: 20px; }
+.section-butcher-customers .container article section p { padding: 0; margin: 0; }
+.section-butcher-customers .container article section p:first-child { columns: 3; column-gap: 30px; text-align: left; font: .675em/1.5 'Fjord One', Georgia, serif; }
+.section-butcher-customers .container article section p:last-child { columns: 1; font: 1.25em/2.25 'Fjord One', Georgia, serif; padding: 6px 0; text-align: center; display: inline-block; }
 
 /* ---------------------- */
 /* Device-specific styles */
