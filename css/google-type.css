@@ -488,13 +488,14 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-butcher-customers { background: url(../images/butcher/butcher.jpg) no-repeat; background-size: cover; padding: 30px; }
 .section-butcher-customers .container { border: 1px solid #e12; margin: 0 auto; padding: 0 0 120px 0; box-sizing:border-box; }
 .section-butcher-customers .container article .masthead { padding: 20px 0 30px 0; max-width: 480px; margin: 0 auto 300px auto; background-color: #e12; text-align: center; }
-.section-butcher-customers .container article .masthead h2 { font: 64px/64px 'Chonburi', Georgia, serif; color: #fff; /* background-color: rgba(238, 17, 34, .8); */ letter-spacing: -.05em; }
-.section-butcher-customers .container article .masthead h2 span { display: block; font: 400 20px/24px 'BioRhyme', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .2em; margin-top: 6px; color: #000; text-transform: uppercase; }
+.section-butcher-customers .container article .masthead h2 { font: 64px/1 'Chonburi', Georgia, serif; color: #fff; /* background-color: rgba(238, 17, 34, .8); */ letter-spacing: -.05em; }
+.section-butcher-customers .container article .masthead h2 span { display: block; font: 400 20px/1.2 'BioRhyme', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .2em; margin-top: 6px; color: #000; text-transform: uppercase; }
 .section-butcher-customers .container article .masthead img { width: 50%; }
 .section-butcher-customers .container article section { display: block; text-align: center; margin: 0 auto; background-color: #fff; padding: 40px 40px 20px; }
 .section-butcher-customers .container article section p { padding: 0; margin: 0; }
 .section-butcher-customers .container article section p:first-child { columns: 3; column-gap: 30px; text-align: left; font: .825em/1.625 'Fjord One', Georgia, serif; word-wrap: break-word; text-align: justify; text-justify: inter-word; }
-.section-butcher-customers .container article section p:last-child { columns: 1; font: 1.25em/2.25 'BioRhyme', Georgia, serif; margin-top: 8px; padding: 6px 0; color: #e21; text-align: center; display: inline-block; }
+.section-butcher-customers .container article section p:last-of-type { columns: 1; font: 1.25em/1.25 'BioRhyme', Georgia, serif; margin-top: 8px; padding: 6px 0; color: #e21; text-align: center; display: inline-block; }
+.section-butcher-customers .container article section .caption { margin: 30px auto 20px auto; }
 
 /* ---------------------- */
 /* Device-specific styles */
@@ -503,13 +504,15 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 /*Mobile Devices 480px */
 
 
-
 /* max-width 480px, mobile */
 @media only screen and (max-width: 480px) {
+
 	.section-grief-and-his-due .moral { font-size: 18px; line-height: 22px; margin: 0 5% 5% 5%; padding: 15px; }
-	.section-pomegranate h2{font-size: 4.2rem;}
+
+  .section-pomegranate h2{font-size: 4.2rem;}
 	.section-pomegranate h2 span{font-size: 1.75rem;}
 	.section-pomegranate .container img#bramble{position: absolute; bottom: 0px; left: -90px;}
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -565,7 +568,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
     .section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 
     .section-the-fox-and-the-grapes .container { width: 100%;  }
-    .section-the-fox-and-the-grapes h2,    .section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
+    .section-the-fox-and-the-grapes h2, .section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
 
     .section-moon-mother .container { width: 100%; }
     .section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
@@ -611,6 +614,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
   	-o-background-size: cover;
   	background-size: cover;
   	}
+
   	.section-pomegranate p{margin: auto; padding: 0 10px;}
   	.section-pomegranate p.bramble{position: relative; bottom: auto; left: auto; width: auto; margin-top: 30px;}
 
@@ -619,6 +623,13 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
     .section-wolf-sheep-clothing h2 { font: 68px/60px 'Shrikhand', Georgia, serif; }
     .section-wolf-sheep-clothing h2 .sm-head { font: 34px/30px 'Sansita One', Georgia, serif; }
     .section-wolf-sheep-clothing p { font: 15px/24px 'Scope One', Helvetica, Arial, sans-serif; }
+
+    .section-butcher-customers .container { width: calc(100% - 20px); }
+    .section-butcher-customers .container article .masthead { width: 100%; }
+    .section-butcher-customers .container article .masthead h2 { font-size: 40px; }
+    .section-butcher-customers .container article .masthead h2 span { font-size: 14px; }
+    .section-butcher-customers .container article section p:first-child { columns: 1; }
+
 }
 
 
