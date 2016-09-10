@@ -491,7 +491,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-butcher-customers .container article .masthead h2 { font: 64px/1 'Chonburi', Georgia, serif; color: #fff; /* background-color: rgba(238, 17, 34, .8); */ letter-spacing: -.05em; }
 .section-butcher-customers .container article .masthead h2 span { display: block; font: 400 20px/1.2 'BioRhyme', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .2em; margin-top: 6px; color: #000; text-transform: uppercase; }
 .section-butcher-customers .container article .masthead img { width: 50%; }
-.section-butcher-customers .container article section { display: block; text-align: center; margin: 0 auto; background-color: #fff; padding: 40px 40px 20px; width: calc(100% - 80px); border: 1px solid #f00; }
+.section-butcher-customers .container article section { display: block; text-align: center; margin: 0 auto; background-color: #fff; padding: 40px 40px 20px; }
 .section-butcher-customers .container article section p { padding: 0; margin: 0; }
 .section-butcher-customers .container article section p:first-child { columns: 3; column-gap: 30px; text-align: left; font: .825em/1.625 'Fjord One', Georgia, serif; word-wrap: break-word; text-align: justify; text-justify: inter-word; }
 .section-butcher-customers .container article section p:last-of-type { columns: 1; font: 1.25em/1.25 'BioRhyme', Georgia, serif; margin-top: 8px; padding: 6px 0; color: #e21; text-align: center; display: inline-block; }
