@@ -507,6 +507,18 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-butcher-customers .container article section p:last-of-type { columns: 1; font: 1.25em/1.25 'BioRhyme', Georgia, serif; margin-top: 8px; padding: 6px 0; color: #e21; text-align: center; display: inline-block; }
 .section-butcher-customers .container article section .caption { margin: 30px auto 20px auto; }
 
+/* ------------------------------------- */
+/* Styles for The Eagle and the Cocks    */
+/* ------------------------------------- */
+.section-eagle-cocks { background: #000 url(../images/black-cock.jpg) center no-repeat fixed; background-size: cover; color: white; font-size: 16px; line-height: 1.4em; padding: 200px 100px 50px 100px; }
+.section-eagle-cocks header { font-family: 'Cormorant Garamond', serif; font-size: 8em; line-height: 0.875em; background: rgba(255, 255, 255, 0.16); border-radius: 20px; margin-bottom: 100px; text-align: center; padding: 20px; }
+.section-eagle-cocks .cocks { color: #e33215; }
+.section-eagle-cocks main { font-family: 'Halant', serif; background: rgba(255, 255, 255, 0.16); opacity: 0.85; padding: 40px; font-weight: 300; font-size: 1.5em; border-radius: 20px; line-height: 1.4em; text-align: justify; }
+.section-eagle-cocks .divider { opacity: 0.8; }
+.section-eagle-cocks .divider-side { display: inline-block; width: 45%; border-top: solid white 1px; margin-bottom: 100px; }
+.section-eagle-cocks .divider-center { font-size: 60px; display: inline-block; width: 10%; height: 20px; text-align: center; position: relative; bottom: 90px }
+.section-eagle-cocks footer { margin-top: 150px; text-align: right; }
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
