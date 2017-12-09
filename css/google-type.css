@@ -491,6 +491,23 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-wolf-sheep-clothing h2 .sm-head { display: block; font: 58px/56px 'Sansita One', Georgia, serif; color: #d2bbc5; }
 .section-wolf-sheep-clothing p { font: 18px/30px 'Scope One', Helvetica, Arial, sans-serif; color: #cfc1c1; max-width: 540px; hyphens: auto; text-align: justify; text-justify: inter-word; }
 
+
+/* ------------------------------------------- */
+/* Styles for Hercules and the Waggoner        */
+/* ------------------------------------------- */
+
+.section-hercules-waggoner { background: #4B97BD url(../images/hercules/robert-nordahl-298457.jpg) no-repeat top right; padding: 40px 20px 140px; }
+.section-hercules-waggoner, .section-hercules-waggoner a { color: #934B00; line-height: 2.2rem; }
+.section-hercules-waggoner .container { width: 90%; max-width: 600px; margin: 0 auto; }
+.section-hercules-waggoner p { margin: 1rem 0; hyphens: auto; text-align: justify; text-justify: inter-word; }
+.section-hercules-waggoner .caption { margin-left: 0; }
+.section-hercules-waggoner .serif { font-family: 'Inknut Antiqua', serif; font-size: 1.5rem; }
+.section-hercules-waggoner .sans-serif { font-family: 'Exo 2', sans-serif; font-weight: 400; font-size: 1.25rem; }
+.section-hercules-waggoner .light { font-weight: 100; font-size: 1.5rem; }
+.section-hercules-waggoner h2 { margin-bottom: 2.5rem; }
+.section-hercules-waggoner h2 .serif, .section-hercules-waggoner h2 .sans-serif { font-size: 4rem; }
+
+
 /* ------------------------------------------- */
 /* Styles for The Butcher and his Customers    */
 /* ------------------------------------------- */
