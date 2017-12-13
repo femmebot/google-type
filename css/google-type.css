@@ -496,8 +496,8 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 /* Styles for Hercules and the Waggoner        */
 /* ------------------------------------------- */
 
-.section-hercules-waggoner { background: #4B97BD url(../images/hercules/robert-nordahl-298457.jpg) no-repeat top right; padding: 40px 20px 140px; }
-.section-hercules-waggoner, .section-hercules-waggoner a { color: #934B00; line-height: 2.2rem; }
+.section-hercules-waggoner { background: #7C9509 url(../images/hercules/dawid-zawila-253511.jpg) no-repeat top right; background-attachment: fixed; background-size:  cover; padding: 40px 20px 140px; }
+.section-hercules-waggoner, .section-hercules-waggoner a { color: #6B001F; line-height: 2.2rem; }
 .section-hercules-waggoner .container { width: 90%; max-width: 600px; margin: 0 auto; }
 .section-hercules-waggoner p { margin: 1rem 0; hyphens: auto; text-align: justify; text-justify: inter-word; }
 .section-hercules-waggoner .caption { margin-left: 0; }
