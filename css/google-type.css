@@ -496,7 +496,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 /* Styles for Hercules and the Waggoner        */
 /* ------------------------------------------- */
 
-.section-hercules-waggoner { background: #4B97BD url(../images/hercules/robert-nordahl-298457.jpg) no-repeat top right; padding: 40px 20px 140px; }
+.section-hercules-waggoner { background: #4B97BD url(../images/hercules/robert-nordahl-298457.jpg) no-repeat top right; background-size: auto 100%; padding: 40px 20px 400px; }
 .section-hercules-waggoner, .section-hercules-waggoner a { color: #934B00; line-height: 2.2rem; }
 .section-hercules-waggoner .container { width: 90%; max-width: 600px; margin: 0 auto; }
 .section-hercules-waggoner p { margin: 1rem 0; hyphens: auto; text-align: justify; text-justify: inter-word; }
@@ -506,6 +506,9 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-hercules-waggoner .light { font-weight: 100; font-size: 1.5rem; }
 .section-hercules-waggoner h2 { margin-bottom: 2.5rem; }
 .section-hercules-waggoner h2 .serif, .section-hercules-waggoner h2 .sans-serif { font-size: 4rem; }
+@media (min-width: 1200px) {
+  .section-hercules-waggoner { background-size: cover; }
+}
 
 
 /* ------------------------------------------- */
