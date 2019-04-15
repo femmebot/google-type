@@ -524,6 +524,99 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-butcher-customers .container article section p:last-of-type { columns: 1; font: 1.25em/1.25 'BioRhyme', Georgia, serif; margin-top: 8px; padding: 6px 0; color: #e21; text-align: center; display: inline-block; }
 .section-butcher-customers .container article section .caption { margin: 30px auto 20px auto; }
 
+/* ------------------------------------------- */
+/* Styles for The Grasshopper and The Ants    */
+/* ------------------------------------------- */
+
+.section-grasshopper-ants { 
+    background-color: #333; 
+    background-image:url("http://unsplash.com/photos/MyRBq7GoVK0/download");
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center 0;
+}
+
+.section-grasshopper-ants .overlay {
+    padding: 50px;
+    position: relative;
+    background-color: rgba(16, 16, 16, 0.6);
+    max-height: 880px;
+    overflow: hidden;
+}
+
+.section-grasshopper-ants .container {
+    font-size: 12px;
+    max-width: 430px;
+}
+
+.section-grasshopper-ants .container.colophon {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.section-grasshopper-ants article {
+    margin: 0px 0 300px;
+    padding: 50px 50px 60px;
+}
+
+.section-grasshopper-ants h2 { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.236em;
+    text-transform: lowercase; 
+    text-align: center; 
+    width: 330px; 
+    display: inline-block;
+    line-height: 1.2;
+    position: relative;
+    color: white;
+}
+
+.section-grasshopper-ants h2 span.ampersand { 
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    line-height: 0;
+}
+
+.section-grasshopper-ants p { 
+    text-align: justify; 
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.8;
+    color: white;
+    width: 325px; 
+    margin-top: 75px;
+}
+
+.section-grasshopper-ants .caption { 
+    color: #da3;
+    margin-left: 0;
+    padding-top: 10px;
+}
+
+.section-grasshopper-ants .caption a { 
+    color: #d8a631; 
+    font-size: 12px; 
+}
+
+.section-grasshopper-ants .caption a:hover { 
+    color: #a57f24;
+}
+
+.section-grasshopper-ants .colophon { 
+    padding-bottom: 11.089em; 
+}
+
+
 /* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
@@ -539,6 +632,25 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
   .section-pomegranate h2{font-size: 4.2rem;}
 	.section-pomegranate h2 span{font-size: 1.75rem;}
 	.section-pomegranate .container img#bramble{position: absolute; bottom: 0px; left: -90px;}
+    
+    /* ------------------------------------------- */
+    /* Styles for The Grasshopper and The Ants    */
+    /* ------------------------------------------- */
+    .section-grasshopper-ants .container {
+        width: 100%;
+    }
+    .section-grasshopper-ants .overlay {
+        padding: 0;
+        padding-top: 100px;
+    }
+    .section-grasshopper-ants article {
+        padding: 50px 20px 60px;
+    }
+    
+    .section-grasshopper-ants article h2,
+    .section-grasshopper-ants article p {
+        width: 100%;
+    }
 
 }
 
