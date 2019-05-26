@@ -1,6 +1,4 @@
 
-![Hand-picked tales from Aesop's Fables with Hand-picked type from Google Fonts](/images/cover-img.gif)
-
 
 ## google-type
 
@@ -17,3 +15,5 @@ If you'd like to contribute to this project, that’s awesome! Here are the rule
 
 
 Have questions? [Contact me @femmebot on Twitter](https://twitter.com/femmebot)
+
+![Hand-picked tales from Aesop's Fables with Hand-picked type from Google Fonts](/images/cover-img.gif)
