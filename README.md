@@ -1,12 +1,13 @@
 
 
-## google-type
+# google-type
 
 View this project at http://femmebot.github.io/google-type/
 
+## About this typography project
 Thousands have visited this project and many are using this as an ongoing reference tool to learn about typography. It's important that submissions (pull requests) demonstrate a good foundation in typography. The primary goal is to communicate, not decorate.
 
-
+## Contribute
 If you'd like to contribute to this project, that’s awesome! Here are the rules:
 * Must use at least two typefaces from https://www.google.com/fonts
 * Must use at least one of the tales from Aesop’s Fables: http://www.gutenberg.org/ebooks/11339
