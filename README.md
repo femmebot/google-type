@@ -1,7 +1,7 @@
 
 ## google-type
 
-![Hand-picked tales from Aesop's Fables with Hand-picked type from Google Fonts](/images/img-01.gif)
+![Hand-picked tales from Aesop's Fables with Hand-picked type from Google Fonts](/images/cover-img.gif)
 
 View this project at: http://femmebot.github.io/google-type/
 
