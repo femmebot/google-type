@@ -1,9 +1,12 @@
 
-## google-type
-
 ![Hand-picked tales from Aesop's Fables with Hand-picked type from Google Fonts](/images/cover-img.gif)
 
-View this project at: http://femmebot.github.io/google-type/
+
+## google-type
+
+====
+
+View this project at http://femmebot.github.io/google-type/
 
 Thousands have visited this project and many are using this as an ongoing reference tool to learn about typography. It's important that submissions (pull requests) demonstrate a good foundation in typography. The primary goal is to communicate, not decorate.
 
