@@ -507,6 +507,19 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-hercules-waggoner h2 { margin-bottom: 2.5rem; }
 .section-hercules-waggoner h2 .serif, .section-hercules-waggoner h2 .sans-serif { font-size: 4rem; }
 
+/* ------------------------------------- */
+/* Styles for The Eagle and the Cocks    */
+/* ------------------------------------- */
+
+.section-eagle-cocks { background: #000 url(../images/black-cock.jpg) center no-repeat fixed; background-size: cover; color: white; font-size: 16px; line-height: 1.4em; padding: 200px 100px 50px 100px; }
+.section-eagle-cocks .container { width: 100%; padding: 20px; }
+.section-eagle-cocks .container header { font-family: 'Poppins', serif; font-size: 8em; line-height: 1.1; font-weight: 700; margin-bottom: 100px; }
+.section-eagle-cocks .container .cocks { color: #e33215; }
+.section-eagle-cocks .container main { font-family: 'Halant', serif; font-weight: 300; font-size: 2em; line-height: 1.5; }
+.section-eagle-cocks .container .divider { opacity: 0.8; }
+.section-eagle-cocks .container .divider-side { display: inline-block; width: 45%; border-top: solid white 1px; margin-bottom: 100px; }
+.section-eagle-cocks .container .divider-center { font-size: 60px; display: inline-block; width: 10%; height: 20px; text-align: center; position: relative; bottom: 90px }
+.section-eagle-cocks .container footer { margin-top: 150px; text-align: right; }
 
 /* ------------------------------------------- */
 /* Styles for The Butcher and his Customers    */
@@ -524,18 +537,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-butcher-customers .container article section p:last-of-type { columns: 1; font: 1.25em/1.25 'BioRhyme', Georgia, serif; margin-top: 8px; padding: 6px 0; color: #e21; text-align: center; display: inline-block; }
 .section-butcher-customers .container article section .caption { margin: 30px auto 20px auto; }
 
-/* ------------------------------------- */
-/* Styles for The Eagle and the Cocks    */
-/* ------------------------------------- */
-.section-eagle-cocks { background: #000 url(../images/black-cock.jpg) center no-repeat fixed; background-size: cover; color: white; font-size: 16px; line-height: 1.4em; padding: 200px 100px 50px 100px; }
-.section-eagle-cocks .container { width: 100%; }
-.section-eagle-cocks .container header { font-family: 'Poppins', serif; font-size: 8em; line-height: 1.1; font-weight: 700; margin-bottom: 100px; padding: 20px; }
-.section-eagle-cocks .container .cocks { color: #e33215; }
-.section-eagle-cocks .container main { font-family: 'Halant', serif; font-weight: 300; font-size: 2em; line-height: 1.5; }
-.section-eagle-cocks .container .divider { opacity: 0.8; }
-.section-eagle-cocks .container .divider-side { display: inline-block; width: 45%; border-top: solid white 1px; margin-bottom: 100px; }
-.section-eagle-cocks .container .divider-center { font-size: 60px; display: inline-block; width: 10%; height: 20px; text-align: center; position: relative; bottom: 90px }
-.section-eagle-cocks .container footer { margin-top: 150px; text-align: right; }
+
 
 /* ---------------------- */
 /* Device-specific styles */
