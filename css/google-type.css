@@ -664,11 +664,8 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
     .section-wolf-sheep-clothing h2 .sm-head { font: 34px/30px 'Sansita One', Georgia, serif; }
     .section-wolf-sheep-clothing p { font: 15px/24px 'Scope One', Helvetica, Arial, sans-serif; }
 
-    /* .section-eagle-cocks { background: #000 url(../images/black-cock.jpg) center no-repeat fixed; background-size: cover; color: white; font-size: 16px; line-height: 1.4em; padding: 200px 100px 50px 100px; } */
     .section-eagle-cocks .container header { font-size: 6em;  }
     .section-eagle-cocks .container main { font-size: 1.5em; }
-    .section-eagle-cocks .divider { opacity: 0.8; }
-
 
     .section-butcher-customers { background-image: url(../images/butcher/butcher-sm.jpg); }
     .section-butcher-customers .container { width: calc(100% - 20px); }
