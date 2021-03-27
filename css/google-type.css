@@ -168,7 +168,8 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 }
 .section-the-fox-and-the-grapes .grapes { background: url(../images/the-fox-and-the-grapes/grapes.png) no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
 
-.section-moon-mother { background-color: #212221; padding: 60px 0 120px 0; color: #9d9e9d; }
+.section-moon-mother { background-color: #212221; padding: 80px 0 160px 0; color: #9d9e9d; }
+.section-moon-mother .caption { padding-bottom: 120px; }
 .section-moon-mother .caption a:hover { color: #000; text-align: left; }
 .section-moon-mother h2 { font: 34px/30px 'Vast Shadow', 'Arial Black'; color: #865; width: 620px; margin: 0 auto; text-transform: uppercase; padding: 14px 0 13px 0; border-top: 4px double #676767; border-bottom: 4px double #676767; }
 .section-moon-mother h2 span { font: 300 16px 'Oswald', Helvetica, Arial; margin: 0 5px 0 3px; color: #555; letter-spacing: .05em; }
