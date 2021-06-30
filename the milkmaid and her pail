@@ -1,0 +1,104 @@
+<!Doctype html>
+<html lang ='en'>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Henny+Penny|Buda:300' rel='stylesheet' type='text/css'>
+    <style>
+    body{
+      background-image: url(https://ununsplash.imgix.net/41/Vgu1RUfKT3WN1ZYxSWaR_14672519443_13d8873062_k.jpg?q=75&fm=jpg&s=18b79c01949f4c839d7709bc8818787e)        }
+      .container{
+        display: flex;
+        flex-direction: row;
+        width: 1280px;
+        height: 300px;
+        margin-top: 8%;
+        font-stretch: extra-expanded;
+        font-size:x-large;
+        margin-left: 20%;
+        }
+        .container  h1{
+          font-family: 'Henny Penny', cursive;
+          color: #694a38;
+      flex-basis: auto;
+       margin-left: 15%;
+      font-stretch: extra-expanded;
+      
+    }
+    .container1 {
+      display: inline;
+      width: 1280px;
+      
+      margin-top: 18%;
+      width: 500px;
+      height: 200px;
+    	
+     
+      
+      margin-left: 60%;
+      
+     
+      
+    }
+    .container1 p{
+      font-family: 'Buda', cursive;
+      color: #e5d5be;
+      font-size: large;
+      font-stretch: expanded;
+      
+      margin-left:85%;
+      margin-top: 100px;
+      padding-top: 40px;
+      padding-right:0px;
+      margin-right: 0px;
+    }
+    .container2 h2{
+      width: 400px;
+      height: 40px;
+      font-family: 'Henny Penny', cursive;
+      color: #faf0de;
+      font-stretch: extra-expanded;
+      margin-top: 0%;
+      
+      margin-left: 75%;
+    }
+    .container2{
+      display: inline;
+      text-align:center;
+      
+       
+    }
+</style
+  
+    <meta charset = "UTF-8">
+    <title>google webfonts typography project</title>
+  </head>
+  <body>
+     <div id ="fontzy"><h3>HennyPenny ~ Buda</h3>
+       
+     </div>
+    <div class ="container"
+      <page-header><h1>The Milkmaid And Her Pail</h1></page-header>
+      
+      </div>
+  
+    <div class = "container1">
+      <p>Patty the Milkmaid was going to market carrying her milk in a
+          Pail on her head.  As she went along she began calculating what
+          she would do with the money she would get for the milk.  "I'll buy
+          some fowls from Farmer Brown," said she, "and they will lay eggs
+          each morning, which I will sell to the parson's wife. 
+          With the money that I get from the sale of these eggs I'll buy myself a new
+          dimity frock and a chip hat; and when I go to market, won't all
+          the young men come up and speak to me!  Polly Shaw will be that
+          jealous; but I don't care. <br> I shall just look at her and toss my
+          head like this.  As she spoke she tossed her head back, the Pail
+          fell off it, and all the milk was spilt.  So she had to go home
+          and tell her mother what had occurred."Ah, my child," said the mother,</p>
+            
+    </div>
+    <div class = "container2">
+        <h2>"Do not count your chickens before they are hatched."
+        </h2>   
+    </div>
+  </body>
+</html>
+
