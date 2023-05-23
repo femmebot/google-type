@@ -67,22 +67,17 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-oak .oak-leaf { margin-top: 60px; }
 
 
+/* --------------------------------- */
+/* Styles for Venus and the Cat      */
+/* --------------------------------- */
+
 .section-venus-cat { padding: 80px 0 160px 0; background-color: #ECEBE6; }
 .section-venus-cat .container { background: url(../images/venus/cat-illo.svg) 60px bottom no-repeat; padding-bottom: 80px; }
 .section-venus-cat h2 { font: 120px/88px'Darumadrop One', sans-serif ; letter-spacing: -.03em; color: #2F2F2F; text-transform: uppercase; }
 .section-venus-cat h2 span { font-size: 64px; line-height: 56px; text-transform: lowercase; display: block; margin-left: 80px; margin-top: 12px; color: #6B6A68;}
-.section-venus-cat p { font: 14px/26px 'Hepta Slab', serif; }
-.section-venus-cat section { display: flex; flex-flow: row; margin-left: 220px; margin-top: -40px;}
-.section-venus-cat section p { max-width: 400px; padding-right: 32px; }
+.section-venus-cat section { display: flex; flex-flow: row; margin-left: 240px; margin-top: -40px;}
+.section-venus-cat section p { width: 400px; padding-right: 32px; font: 14px/26px 'Hepta Slab', serif; }
 
-
-.section-rivers {background: url(../images/indigo-sea.jpg) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
-.section-rivers .container { width: 100%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
-.section-rivers h2 {font: 32px/42px 'Open Sans', sans-serif; font-weight: 800; text-transform: uppercase; color: #29232D;text-align: left; letter-spacing: 1px;padding: 20px 20px 0 20px;}
-.section-rivers p {font: 18px/27px 'Gentium Basic', serif;color: #fff; text-align: left;padding: 20px 20px 0 20px; max-width: 500px;}
-.section-rivers .caption { margin-bottom:5px; text-align: left; color: #fff; }
-.section-rivers .caption a {color: #fff;}
-.section-rivers .avatar { margin-left: 20px; }
 
 /* Number of columns: 8 */
 /* Percentage width of a single column: 12.5% */
@@ -620,6 +615,11 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
     .section-astronomer h2 { font-size: 46px; }
     .section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 
+    .section-venus-cat .container { width: 100%; margin: 0; padding: 0 0 240px 0; background-position: center bottom;}
+    .section-venus-cat .container h2 { padding: 0 40px; }
+    .section-venus-cat .container section { display: block; margin: 40px 0 0 0; padding: 0 40px;}
+    .section-venus-cat .container section p { width: 100%; padding: 0 0 16px 0; }
+
     .section-the-fox-and-the-grapes .container { width: 100%;  }
     .section-the-fox-and-the-grapes h2, .section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
 
@@ -693,12 +693,18 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 /* Small devices (tablets, > 768px) */
 @media (min-width: 769px) {
 
-    .section-crow-pitcher { padding: calc(4 * 20px); }
-    .section-crow-pitcher h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
-    .section-crow-pitcher .container p { font-size: 48px; }
-    .section-crow-pitcher .container .drop-p { color: white; font-size: 18px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
-    .section-crow-pitcher em { font-size: 18px; margin-bottom: calc(8 * 20px); }
-    .section-crow-pitcher hr { width: 2.5%;    }
+  .section-venus-cat .container { width: 100%; margin: 0; padding: 0 0 100px 0; background-position: 96px bottom;}
+  .section-venus-cat .container h2 { padding: 0 40px; }
+  .section-venus-cat .container section { margin-top: -24px;  }
+  /* .section-venus-cat .container section { display: block; margin: 40px 0 0 0; padding: 0 40px;} */
+  /* .section-venus-cat .container section p { width: 100%; padding: 0 0 16px 0; } */
+
+  .section-crow-pitcher { padding: calc(4 * 20px); }
+  .section-crow-pitcher h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
+  .section-crow-pitcher .container p { font-size: 48px; }
+  .section-crow-pitcher .container .drop-p { color: white; font-size: 18px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
+  .section-crow-pitcher em { font-size: 18px; margin-bottom: calc(8 * 20px); }
+  .section-crow-pitcher hr { width: 2.5%;    }
 
 	.section-pomegranate {
 	background-image: url(../images/pomegranate/pomegranate-400.png), url(../images/pomegranate/apple-400.png), url(../images/pomegranate/bkg.jpg);
