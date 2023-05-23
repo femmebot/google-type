@@ -76,7 +76,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-venus-cat h2 { font: 120px/88px'Darumadrop One', sans-serif ; letter-spacing: -.03em; color: #2F2F2F; text-transform: uppercase; }
 .section-venus-cat h2 span { font-size: 64px; line-height: 56px; text-transform: lowercase; display: block; margin-left: 80px; margin-top: 12px; color: #6B6A68;}
 .section-venus-cat section { display: flex; flex-flow: row; margin-left: 240px; margin-top: -40px;}
-.section-venus-cat section p { width: 400px; padding-right: 32px; font: 14px/26px 'Hepta Slab', serif; }
+.section-venus-cat section p { width: 400px; padding-right: 40px; font: 14px/26px 'Hepta Slab', serif; }
 
 
 /* Number of columns: 8 */
@@ -615,7 +615,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
     .section-astronomer h2 { font-size: 46px; }
     .section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 
-    .section-venus-cat .container { width: 100%; margin: 0; padding: 0 0 240px 0; background-position: center bottom;}
+    .section-venus-cat .container { width: 100%; max-width: 540px; margin: 0 auto; padding: 0 0 240px 0; background-position: center bottom;}
     .section-venus-cat .container h2 { padding: 0 40px; }
     .section-venus-cat .container section { display: block; margin: 40px 0 0 0; padding: 0 40px;}
     .section-venus-cat .container section p { width: 100%; padding: 0 0 16px 0; }
