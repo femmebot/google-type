@@ -680,6 +680,36 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 }
 
 
+/*--------------------------------------*/
+/* The Town Mouse and the Country Mouse */
+/*--------------------------------------*/
+
+.section-town-mouse-country-mouse {padding: 40px; min-height:750px; background: url(../images/town-country-edit.jpg) no-repeat center center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.section-town-mouse-country-mouse .avatar img { margin: 0 0 10px 20px; }
+.section-town-mouse-country-mouse .caption { color: #787F8D; margin: 0 0 30px 20px; }
+.section-town-mouse-country-mouse .caption a { color: #787F8D; }
+.section-town-mouse-country-mouse .caption a:hover, .section-town-mouse-country-mouse .caption a:active { color: #D8D6D7; background: rgba(86,51,30,0.5); }
+.section-town-mouse-country-mouse h2, .section-town-mouse-country-mouse p { margin: 0 auto; }
+.section-town-mouse-country-mouse h2 { max-width: 750px; position:relative; left: 25px; top: 0px; color: #56331E ; font: 90px 'Playfair Display', sans-serif; font-weight: 900; text-align: left; line-height: 90px; margin-bottom:100px; letter-spacing: -2px }
+.section-town-mouse-country-mouse p { display: block; background-color: rgba(86,51,30,0.5); max-width: 780px; color: #D8D6D7; font: 15px/21px 'Raleway', sans-serif; font-weight: 400; text-align: left; padding: 40px; border-top: #D8D6D7 dotted 1px; border-bottom: #D8D6D7 dotted 1px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 60px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 60px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.0em;
+    background: -webkit-linear-gradient(rgba(86,51,30,0.0),rgba(86,51,30,0.5) 20%,rgba(86,51,30,0.5)80%,rgba(86,51,30,0.0)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(86,51,30,0.0),rgba(86,51,30,0.5) 20%,rgba(86,51,30,0.5)80%,rgba(86,51,30,0.0)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(86,51,30,0.0),rgba(86,51,30,0.5) 20%,rgba(86,51,30,0.5)80%,rgba(86,51,30,0.0)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(86,51,30,0.0),rgba(86,51,30,0.5) 20%,rgba(86,51,30,0.5)80%,rgba(86,51,30,0.0)); /* Standard syntax */
+	}
+.section-town-mouse-country-mouse span { color: #787F8D; font: 36px 'Playfair Display', sans-serif; position: absolute; font-style: italic; }
+.section-town-mouse-country-mouse span.mouse-top { left: -45px; top: 42px; }
+.section-town-mouse-country-mouse span.mouse-bottom { left: -55px; top: 110px; }
+.section-town-mouse-country-mouse span.mouse-ampersand { color: #787F8D; left: 554px; top: -25px; font-size: 110px; font-weight: 400; }
+
+
 /* Small devices (tablets, > 768px) */
 @media (min-width: 769px) {
 
