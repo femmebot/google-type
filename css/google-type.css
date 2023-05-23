@@ -127,6 +127,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-astronomer .caption a:hover { background-color: #e45546; }
 
 
+
 /* --------------------------------- */
 /* Styles for The Fox and the Grapes */
 /* --------------------------------- */
@@ -615,7 +616,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
     .section-astronomer h2 { font-size: 46px; }
     .section-astronomer p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 
-    .section-venus-cat .container { width: 100%; max-width: 540px; margin: 0 auto; padding: 0 0 240px 0; background-position: center bottom;}
+    .section-venus-cat .container { width: 100%; max-width: 540px; margin: 0 auto; padding: 0 0 280px 0; background-position: right bottom;}
     .section-venus-cat .container h2 { padding: 0 40px; }
     .section-venus-cat .container section { display: block; margin: 40px 0 0 0; padding: 0 40px;}
     .section-venus-cat .container section p { width: 100%; padding: 0 0 16px 0; }
@@ -693,7 +694,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 /* Small devices (tablets, > 768px) */
 @media (min-width: 769px) {
 
-  .section-venus-cat .container { width: 100%; max-width: 960px; margin: 0 auto; padding: 0 0 100px 0; background-position: 96px bottom;}
+  .section-venus-cat .container { width: 100%; max-width: 960px; margin: 0 auto; padding: 0 0 100px 0; background-position: left bottom;}
   .section-venus-cat .container h2 { padding: 0 40px; }
   .section-venus-cat .container section { margin-top: -24px;  }
   /* .section-venus-cat .container section { display: block; margin: 40px 0 0 0; padding: 0 40px;} */
