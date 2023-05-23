@@ -693,7 +693,7 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 /* Small devices (tablets, > 768px) */
 @media (min-width: 769px) {
 
-  .section-venus-cat .container { width: 100%; margin: 0; padding: 0 0 100px 0; background-position: 96px bottom;}
+  .section-venus-cat .container { width: 100%; max-width: 960px; margin: 0 auto; padding: 0 0 100px 0; background-position: 96px bottom;}
   .section-venus-cat .container h2 { padding: 0 40px; }
   .section-venus-cat .container section { margin-top: -24px;  }
   /* .section-venus-cat .container section { display: block; margin: 40px 0 0 0; padding: 0 40px;} */
