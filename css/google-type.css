@@ -76,7 +76,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-venus-cat h2 { font: 120px/88px'Darumadrop One', sans-serif ; letter-spacing: -.03em; color: #2F2F2F; text-transform: uppercase; }
 .section-venus-cat h2 span { font-size: 64px; line-height: 56px; text-transform: lowercase; display: block; margin-left: 80px; margin-top: 12px; color: #6B6A68;}
 .section-venus-cat section { display: flex; flex-flow: row; margin-left: 240px; margin-top: -40px;}
-.section-venus-cat section p { width: 400px; padding-right: 32px; font: 16px/26px 'Roboto Serif', 'Wix Madefor Text', sans-serif; }
+.section-venus-cat section p { width: 400px; padding-right: 32px; font: 16px/26px 'Roboto Serif', sans-serif; }
 
 
 /* Number of columns: 8 */
