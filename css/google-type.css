@@ -76,7 +76,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-venus-cat h2 { font: 120px/88px'Darumadrop One', sans-serif ; letter-spacing: -.03em; color: #2F2F2F; text-transform: uppercase; }
 .section-venus-cat h2 span { font-size: 64px; line-height: 56px; text-transform: lowercase; display: block; margin-left: 80px; margin-top: 12px; color: #6B6A68;}
 .section-venus-cat section { display: flex; flex-flow: row; margin-left: 250px; padding-top: 12px; padding-bottom: 24px;}
-.section-venus-cat section p { width: 400px; padding-right: 32px; font: 15px/24px 'Roboto Serif', sans-serif; }
+.section-venus-cat section p { width: 400px; padding-right: 32px; font: 14px/24px 'Roboto Serif', sans-serif; }
 
 
 /* Number of columns: 8 */
@@ -150,7 +150,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-the-fox-and-the-grapes .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
 .section-the-fox-and-the-grapes h2, .section-the-fox-and-the-grapes p { margin: 0 auto; width: 420px; }
 .section-the-fox-and-the-grapes h2 { color: #8EC9D2; font: 36px 'Ovo', serif; text-align: center; margin-bottom: 16px; }
-.section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;     }
+.section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Mulish', sans-serif; font-weight: 300; text-align: justify;     }
 @-webkit-keyframes shake {
     0% { -webkit-transform: translate(0, 0) rotate(0); }
     1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
@@ -250,7 +250,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 .section-fir-tree { width: 100%; height: 100%; background-color: #a95; padding: 60px 0; }
 .section-fir-tree .caption a { color: #433; }
 .section-fir-tree .container { background: url('../images/fir-tree.svg') 50% 60px no-repeat; width: 660px; height: auto; margin: 0 auto; overflow: hidden; display: block; padding-bottom: 60px; }
-.section-fir-tree h2 { max-width: 470px; margin: 240px auto 180px auto; font: 68px/60px Ultra, 'Arial Black', sans-serif; text-align: center; text-transform: uppercase; color: #543; }
+.section-fir-tree h2 { max-width: 470px; margin: 240px auto 180px auto; font: 68px/60px  "Ultra", 'Arial Black', sans-serif; text-align: center; text-transform: uppercase; color: #543; }
 .section-fir-tree h2 span { font: 48px/42px 'Stint Ultra Expanded', 'Helvetica Neue', Helvetica, sans-serif; letter-spacing: .05em; display: block; }
 .section-fir-tree .moral { width: 300px; padding: 0 0 0 20px; font: 400 22px/35px 'Stint Ultra Expanded'; text-align: right; color: #fff; display: inline-block; letter-spacing: .02em; vertical-align: top; }
 .section-fir-tree .fable { width: 290px; padding: 10px 20px 120px 20px; font: 15px/23px 'Slabo 13px'; color: #433; display: inline-block; vertical-align: top; }
@@ -320,9 +320,9 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 
 .section-horse-groom{ background:url(../images/horse-groom-bg.jpg) no-repeat;background-size:cover;overflow:hidden;padding:250px 400px 350px; }
 .section-horse-groom h2{ font:60px/75px 'Alfa Slab One', cursive, sans-serif;color:#fff;text-transform:uppercase;letter-spacing:1.25px;text-align:left }
-.section-horse-groom h2 .ampersand{ font:italic 48px 'Gentium Book Basic', serif;text-transform:none; }
-.section-horse-groom p{ font:15px/30px 'Gentium Book Basic', serif;color:#e7e7e7;text-align:justify;width:40%;display:inline-block;float:left;padding:70px 0 0; }
-.section-horse-groom blockquote{ color:#e7e7e7;display:inline-block;font:italic 400 30px/40px "Gentium Book Basic",serif;margin-right:0;text-align:right;width:50%;float:right;padding:80px 0 0; }
+.section-horse-groom h2 .ampersand{ font:italic 48px 'Gentium Book Plus', serif;text-transform:none; }
+.section-horse-groom p{ font:15px/30px 'Gentium Book Plus', serif;color:#e7e7e7;text-align:justify;width:40%;display:inline-block;float:left;padding:70px 0 0; }
+.section-horse-groom blockquote{ color:#e7e7e7;display:inline-block;font:italic 400 30px/40px "Gentium Book Plus",serif;margin-right:0;text-align:right;width:50%;float:right;padding:80px 0 0; }
 .section-horse-groom .avatar img { margin-bottom: 10px; }
 .section-horse-groom .caption { margin-left: 0; color: #ffffff; }
 .section-horse-groom .caption a { color: #ffffff; -o-transition: 0.2s;-ms-transition: 0.2s;-moz-transition: 0.2s;-webkit-transition: 0.2s;transition: 0.2s; }
@@ -361,9 +361,9 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
 /* Jupiter And The Tortoise */
 /* -------------------------------- */
 #HomerGaines{}
-.section-jupiter-and-the-tortoise {padding:40px; min-height:450px; background: url(../images/turtle.jpg) no-repeat right center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.section-jupiter-and-the-tortoise {padding: 120px 40px; min-height:450px; background: url(../images/turtle.jpg) no-repeat right center;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-jupiter-and-the-tortoise h2 { font: 300 90px/90px 'Philosopher', sans-serif; color:#fff; margin: 0 0 30px 0; max-width: 640px; }
-.section-jupiter-and-the-tortoise p{ font: 1.05em/2em 'Muli', sans-serif; color:#fff; max-width: 600px; letter-spacing: .02em; }
+.section-jupiter-and-the-tortoise p{ font: 1.05em/2em 'Mulish', sans-serif; color:#fff; max-width: 600px; letter-spacing: .02em; }
 .section-jupiter-and-the-tortoise .container{ max-width:960px; width:100%;}
 .section-jupiter-and-the-tortoise .caption {color: #fff; margin: 0 0 60px 0;}
 
@@ -495,8 +495,8 @@ http://usdawatercolors.nal.usda.gov/pom/home.xhtml */
 .section-wolf-sheep-clothing .container { max-width: 540px; }
 .section-wolf-sheep-clothing h2 { font: 110px/80px 'Shrikhand', Georgia, serif; color: #eb7b5b; margin-bottom: 40px; }
 .section-wolf-sheep-clothing h2 .kern { letter-spacing: -.05em; }
-.section-wolf-sheep-clothing h2 .sm-head { display: block; font: 58px/56px 'Sansita One', Georgia, serif; color: #d2bbc5; }
-.section-wolf-sheep-clothing p { font: 18px/30px 'Scope One', Helvetica, Arial, sans-serif; color: #cfc1c1; max-width: 540px; hyphens: auto; text-align: justify; text-justify: inter-word; }
+.section-wolf-sheep-clothing h2 .sm-head { display: block; font: 58px/56px 'Sansita Swashed', Georgia, serif; color: #d2bbc5; }
+.section-wolf-sheep-clothing p { font: 18px/30px 'Scope One', Helvetica, Arial, sans-serif; color: #cfc1c1; max-width: 540px; hyphens: auto; /* text-align: justify; */ text-justify: inter-word; }
 
 
 /* ------------------------------------------- */

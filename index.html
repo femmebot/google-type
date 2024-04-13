@@ -1,151 +1,331 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="images/favicon.ico">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" href="images/favicon.ico" />
 
-        <title>Google Web Fonts Typographic Project</title>
+		<title>Google Web Fonts Typographic Project</title>
 
-        <!-- Google web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<!-- Google web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+		<!-- base fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Fauna+One&family=Fugaz+One&family=Monda:wght@400;700&family=Oleo+Script:wght@400;700&family=Unica+One&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+			rel="stylesheet"
+		/>
 
-        <link href='https://fonts.googleapis.com/css?family=Fauna+One|Oleo+Script|Fugaz+One|Monda|Unica+One|Alegreya:400italic,400|Abril+Fatface|Vollkorn' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Astronomer" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Megrim&family=Roboto+Slab:wght@300&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Astronomer" -->
-        <link href='https://fonts.googleapis.com/css?family=Megrim|Roboto+Slab:300' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "Venus and the Cat" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "Venus and the Cat" -->
-        <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto+Serif:opsz,wght@8..144,300;8..144,400&display=swap" rel="stylesheet">
+		<!-- Google web fonts for "The Crow and the Pitcher" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Questrial&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Crow and the Pitcher" -->
-        <link href='https://fonts.googleapis.com/css?family=Questrial|Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Fox and the Grapes" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Ovo&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Fox and the Grapes" -->
-        <link href='https://fonts.googleapis.com/css?family=Ovo|Muli:300' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Moon and Her Mother: Anon03" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Vast+Shadow&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Moon and Her Mother: Anon03" -->
-        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Vast+Shadow|Oswald:300|Playfair+Display+SC' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Prophet" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Prophet" -->
-        <link href='https://fonts.googleapis.com/css?family=Neuton:300' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The wolves, the sheep, and the ram" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Quattrocento:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The wolves, the sheep, and the ram" -->
-        <link href='https://fonts.googleapis.com/css?family=Quattrocento|Fanwood+Text' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "Hercules and the Waggoner" -->
+		<!-- <link
+			href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inknut+Antiqua:wght@900&display=swap"
+			rel="stylesheet"
+		/> -->
 
-        <!-- Google web fonts for "Hercules and the Waggoner" -->
-        <link href="https://fonts.googleapis.com/css?family=Exo+2:100,400|Inknut+Antiqua:900" rel="stylesheet">
+		<!-- Google web fonts for "The Boy Bathing" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&family=Quando&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Boy Bathing" -->
-        <link href='https://fonts.googleapis.com/css?family=Quando|Judson|Montserrat:700' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Serpent and The Eagle  " -->
+		<!-- <link
+			href="https://fonts.googleapis.com/css2?family=Exo&family=Vollkorn:wght@700&display=swap"
+			rel="stylesheet"
+		/> -->
 
-        <!-- Google web fonts for "The Serpent and The Eagle  " -->
-        <link href='https://fonts.googleapis.com/css?family=Vollkorn:700italic,700|Exo:400,400italic' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Fir-Tree" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Slabo+13px&family=Stint+Ultra+Expanded&family=Ultra&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Fir-Tree" -->
-        <link href='https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded|Slabo+13px|Ultra' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The fox and the lion" -->
 
-        <!-- Google web fonts for "The fox and the lion" -->
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Lora:400italic' rel='stylesheet' type='text/css'>
+		<!-- <link
+			href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Lora:400italic"
+			rel="stylesheet"
+			type="text/css"
+		/> -->
 
-        <!-- Google web fonts for "The Horse and the Groom" -->
-        <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Horse and the Groom" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Crow and The Raven" -->
-        <link href='https://fonts.googleapis.com/css?family=Nixie+One|Libre+Baskerville' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Crow and The Raven" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nixie+One&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The North Wind and The Sun" -->
-        <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One|Crimson+Text:400,400italic' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The North Wind and The Sun" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Julius+Sans+One&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Old Hound" -->
-        <link href='https://fonts.googleapis.com/css?family=Almendra+Display|Cardo' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Old Hound" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Cardo&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "Jupiter And The Tortoise" -->
-        <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "Jupiter And The Tortoise" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mulish&family=Philosopher&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "Grief and His Due" -->
-        <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Amiri' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "Grief and His Due" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel+Decorative&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Trees And The Axe" -->
-        <link href='https://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Trees And The Axe" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald&family=Quattrocento&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "The Bee and Jupiter" -->
-        <link href='https://fonts.googleapis.com/css?family=Yeseva+One|Merriweather+Sans:300|Merriweather:400italic' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Pomegranate, the Apple-Tree, and the Bramble" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Neuton:ital,wght@0,200;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
 
-    	<!-- Google web fonts for "The Pomegranate, the Apple-Tree, and the Bramble" -->
-    	<link href='https://fonts.googleapis.com/css?family=Mr+De+Haviland|Neuton:200,700,400italic' rel='stylesheet' type='text/css'>
+		<!-- Google web fonts for "The Bee and Jupiter" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&family=Yeseva+One&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for "Wolf in Sheep's Clothing" -->
-        <link href="https://fonts.googleapis.com/css?family=Scope+One|Shrikhand|Sansita+One" rel="stylesheet">
+		<!-- Google web fonts for "Wolf in Sheep's Clothing" -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&family=Scope+One&family=Shrikhand&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for The Butcher and his Customers -->
-        <link href="https://fonts.googleapis.com/css?family=Chonburi|Fjord+One|BioRhyme|Lemon" rel="stylesheet">
+		<!-- Google web fonts for The Eagle and The Cocks -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Halant:wght@300&family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 
-        <!-- Google web fonts for The Eagle and The Cocks -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Halant:300" rel="stylesheet">
+		<!-- Google web fonts for The Butcher and his Customers -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Chonburi&family=Fjord+One&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- <link
+			href="https://fonts.googleapis.com/css?family=Chonburi|Fjord+One|BioRhyme|Lemon"
+			rel="stylesheet"
+		/> -->
 
-        <link href="css/google-type.css" rel="stylesheet">
+		<link href="css/google-type.css" rel="stylesheet" />
+	</head>
 
-    </head>
+	<body>
+		<div class="container-fluid">
+			<div class="container section-intro">
+				<h1>
+					<span class="small">Hand-Picked Tales <i>from</i></span>
+					<em>&AElig;sop&rsquo;s Fables</em>
+					<span class="small"><i>with</i> Hand-Picked Type <i>from</i></span>
+					<em>Google Fonts</em>
+				</h1>
 
-    <body>
+				<div class="wrapper">
+					<div class="colophon">
+						<p>
+							There are over 800
+							<a href="https://www.google.com/fonts" target="_blank"
+								>Google Fonts</a
+							>
+							available for free. But, pairing typefaces isn&rsquo;t easy and
+							many of those fonts don&rsquo;t work for typical websites. Part of
+							the
+							<a href="http://25x52.com" target="_blank">25x52</a> initiative,
+							this collaborative, ongoing project offers inspiration for using
+							Google&rsquo;s font library.
+						</p>
+					</div>
+					<div class="colophon">
+						<p>
+							All passages are from the
+							<a href="http://www.gutenberg.org/ebooks/11339" target="_blank"
+								>Project Gutenberg</a
+							>
+							transcript of &AElig;sop&rsquo;s Fables. All photographic images
+							are from
+							<a href="http://unsplash.com" target="_blank">Unsplash.com</a>.
+						</p>
+					</div>
+					<div class="colophon">
+						<p>
+							If you&rsquo;d like to contribute to this project, please
+							<a href="https://github.com/femmebot/google-type" target="_blank"
+								>submit a pull request on GitHub</a
+							>.
+						</p>
+						<p>
+							Need help with GitHub? Want to learn more about web typography?
+							<a href="http://25x52.com/di55ect" target="_blank"
+								>Sign up for our tutorial events.</a
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <div class="container-fluid">
-            <div class="container section-intro">
-                <h1>
-                    <span class="small">Hand-Picked Tales <i>from</i></span>
-                    <em>&AElig;sop&rsquo;s Fables</em>
-                    <span class="small"><i>with</i> Hand-Picked Type <i>from</i></span>
-                    <em>Google Fonts</em>
-                </h1>
+		<div class="container-fluid section-gnat-bull" id="femmebot">
+			<div class="container">
+				<a
+					href="https://twitter.com/femmebot"
+					class="avatar"
+					target="_blank"
+					title="femmebot"
+					><img
+						src="https://pbs.twimg.com/profile_images/1779775150/bitty-icon.gif"
+						alt="femmebot"
+				/></a>
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Playfair+Display"
+						target="_blank"
+						>Playfair Display</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Fauna+One"
+						target="_blank"
+						>Fauna One</a
+					>
+				</div>
+				<h2>The Gnat<br />&amp; the Bull</h2>
+				<p>
+					A Gnat alighted on one of the horns of a Bull, and remained sitting
+					there for a considerable time. When it had rested sufficiently and was
+					about to fly away, it said to the Bull, &ldquo;Do you mind if I go
+					now?&rdquo; The Bull merely raised his eyes and remarked, without
+					interest, &ldquo;It&rsquo;s all one to me; I didn&rsquo;t notice when
+					you came, and I shan&rsquo;t know when you go away.&rdquo;
+				</p>
+				<p>
+					We may often be of more consequence in our own eyes than in the eyes
+					of our neighbours.
+				</p>
+			</div>
+		</div>
 
-                <div class="wrapper">
-                    <div class="colophon">
-                      <p>There are over 800 <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> available for free. But, pairing typefaces isn&rsquo;t easy and many of those fonts don&rsquo;t work for typical websites. Part of the <a href="http://25x52.com" target="_blank">25x52</a> initiative, this collaborative, ongoing project offers inspiration for using Google&rsquo;s font library.</p>
-                    </div>
-                    <div class="colophon">
-                      <p>All passages are from the <a href="http://www.gutenberg.org/ebooks/11339" target="_blank">Project Gutenberg</a> transcript of &AElig;sop&rsquo;s Fables. All photographic images are from <a href="http://unsplash.com" target="_blank">Unsplash.com</a>. </p>
-                    </div>
-                    <div class="colophon">
-                      <p>If you&rsquo;d like to contribute to this project, please <a href="https://github.com/femmebot/google-type" target="_blank">submit a pull request on GitHub</a>.</p>
-                      <p>Need help with GitHub? Want to learn more about web typography? <a href="http://25x52.com/di55ect" target="_blank">Sign up for our tutorial events.</a></p>
-                    </div>
-                </div>
+		<div class="container-fluid section-two-bags" id="femmebot-02">
+			<div class="container">
+				<h2>Th<i>e</i> Two Ba<i>g</i>s</h2>
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Fugaz+One"
+						target="_blank"
+						>Fugaz One</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Oleo+Script"
+						target="_blank"
+						>Oleo Script</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Monda" target="_blank"
+						>Monda Regular</a
+					>
+				</div>
+				<p>
+					Every man carries Two Bags about with him, one in front and one
+					behind, and both are packed full of faults. The Bag in front contains
+					his neighbours&rsquo; faults, the one behind his own. Hence it is that
+					men do not see their own faults, but never fail to see those of
+					others.
+				</p>
+			</div>
+		</div>
 
-            </div>
-        </div>
+		<div class="container-fluid section-oak" id="femmebot-03">
+			<div class="container">
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Unica+One"
+						target="_blank"
+						>Unica One</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Vollkorn"
+						target="_blank"
+						>Vollkorn</a
+					>
+				</div>
 
-        <div class="container-fluid section-gnat-bull" id="femmebot">
-            <div class="container">
-                <a href="https://twitter.com/femmebot" class="avatar" target="_blank" title="femmebot"><img src="https://pbs.twimg.com/profile_images/1779775150/bitty-icon.gif" alt="femmebot"></a>
-                <div class="caption"><a href="https://www.google.com/fonts/specimen/Playfair+Display" target="_blank">Playfair Display</a>, <a href="https://www.google.com/fonts/specimen/Fauna+One" target="_blank">Fauna One</a></div>
-                <h2>The Gnat<br>&amp; the Bull</h2>
-                <p>A Gnat alighted on one of the horns of a Bull, and remained sitting there for a considerable time. When it had rested sufficiently and was about to fly away, it said to the Bull, &ldquo;Do you mind if I go now?&rdquo; The Bull merely raised his eyes and remarked, without interest, &ldquo;It&rsquo;s all one to me; I didn&rsquo;t notice when you came, and I shan&rsquo;t know when you go away.&rdquo;</p>
-                <p>We may often be of more consequence in our own eyes than in the eyes of our neighbours.</p>
-            </div>
-        </div>
-
-        <div class="container-fluid section-two-bags" id="femmebot-02">
-            <div class="container">
-                <h2>Th<i>e</i> Two Ba<i>g</i>s</h2>
-                <div class="caption"><a href="https://www.google.com/fonts/specimen/Fugaz+One" target="_blank">Fugaz One</a>, <a href="https://www.google.com/fonts/specimen/Oleo+Script" target="_blank">Oleo Script</a>, <a href="https://www.google.com/fonts/specimen/Monda" target="_blank">Monda Regular</a></div>
-                <p>Every man carries Two Bags about with him, one in front and one behind, and both are packed full of faults. The Bag in front contains his neighbours&rsquo; faults, the one behind his own. Hence it is that men do not see their own faults, but never fail to see those of others.</p>
-            </div>
-        </div>
-
-        <div class="container-fluid section-oak" id="femmebot-03">
-            <div class="container">
-                <div class="caption"><a href="https://www.google.com/fonts/specimen/Unica+One" target="_blank">Unica One</a>, <a href="https://www.google.com/fonts/specimen/Vollkorn" target="_blank">Vollkorn</a></div>
-
-                <!-- Oak Leaf -->
-                <div class="oak-leaf">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         width="90px" height="130px" viewBox="0 0 90 130" enable-background="new 0 0 90 130" xml:space="preserve">
-                        <g>
-                            <path fill="#9E9EA0" d="M80.07,60.508c0,0.48-0.281,0.921-0.84,1.32c-2.562,0.401-6.36,0.6-11.4,0.6c-2.481,0-5.381,1.68-8.7,5.04
+				<!-- Oak Leaf -->
+				<div class="oak-leaf">
+					<svg
+						version="1.1"
+						id="Layer_1"
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						x="0px"
+						y="0px"
+						width="90px"
+						height="130px"
+						viewBox="0 0 90 130"
+						enable-background="new 0 0 90 130"
+						xml:space="preserve"
+					>
+						<g>
+							<path
+								fill="#9E9EA0"
+								d="M80.07,60.508c0,0.48-0.281,0.921-0.84,1.32c-2.562,0.401-6.36,0.6-11.4,0.6c-2.481,0-5.381,1.68-8.7,5.04
                                 c-3.321,3.36-4.98,6.281-4.98,8.76c0,2.321,0.57,3.48,1.71,3.48c4.562-3.36,8.064-5.04,10.509-5.04c0.733,0,1.101,0.201,1.101,0.6
                                 c0,0.48-0.188,1.28-0.562,2.4c-0.375,1.121-0.561,2.081-0.561,2.88c0,0.081-0.707,0.701-2.121,1.86
                                 c-1.414,1.161-2.286,2.76-2.617,4.8c-0.334,2.04-0.499,4.661-0.499,7.86c0,5.679,1.12,10.119,3.36,13.32
@@ -169,171 +349,358 @@
                                 c0,0.641,0.52,0.96,1.56,0.96c3.679,0,9.12-5.359,16.32-16.08l0.48-0.36c0.559,1.121,1.56,1.68,3,1.68c0.72,0,1.719-0.259,3-0.78
                                 c1.279-0.52,2.2-0.819,2.76-0.9l0.6,0.6c0,0.48-0.32,1.4-0.96,2.76c-0.641,1.361-0.96,2.48-0.96,3.36
                                 c0,0.321,0.139,0.801,0.42,1.44c0.28,0.642,0.42,1.122,0.42,1.44c0,1.041-0.881,2.021-2.64,2.94c-1.761,0.92-2.64,1.74-2.64,2.46
-                                c0,1.041,1.08,2.34,3.24,3.9C78.99,58.648,80.07,59.789,80.07,60.508z"/>
-                        </g>
-                    </svg>
-                </div>
+                                c0,1.041,1.08,2.34,3.24,3.9C78.99,58.648,80.07,59.789,80.07,60.508z"
+							/>
+						</g>
+					</svg>
+				</div>
 
-                <h2>The Oak and The Reeds</h2>
-                <p>An Oak that grew on the bank of a river was uprooted by a severe gale of wind, and thrown across the stream. It fell among some Reeds growing by the water, and said to them, &ldquo;How is it that you, who are so frail and slender, have managed to weather the storm, whereas I, with all my strength, have been torn up by the roots and hurled into the river?&rdquo; &ldquo;You were stubborn,&rdquo; came the reply, &ldquo;and fought against the storm, which proved stronger than you: but we bow and yield to every breeze, and thus the gale passed harmlessly over our heads.&rdquo;</p>
-            </div>
-        </div>
+				<h2>The Oak and The Reeds</h2>
+				<p>
+					An Oak that grew on the bank of a river was uprooted by a severe gale
+					of wind, and thrown across the stream. It fell among some Reeds
+					growing by the water, and said to them, &ldquo;How is it that you, who
+					are so frail and slender, have managed to weather the storm, whereas
+					I, with all my strength, have been torn up by the roots and hurled
+					into the river?&rdquo; &ldquo;You were stubborn,&rdquo; came the
+					reply, &ldquo;and fought against the storm, which proved stronger than
+					you: but we bow and yield to every breeze, and thus the gale passed
+					harmlessly over our heads.&rdquo;
+				</p>
+			</div>
+		</div>
 
-        <div class="container-fluid section-astronomer" id="mattraoul">
-            <div class="container">
-                <a href="https://twitter.com/mattraoul" class="avatar" target="_blank" title="mattRaoul"><img src="https://pbs.twimg.com/profile_images/1354803971139887109/iiXhpAYA_400x400.jpg" alt="mattraoul"></a>
-                <div class="caption"><a href="https://www.google.com/fonts/specimen/Megrim" target="_blank">Megrim</a>, <a href="https://www.google.com/fonts/specimen/Roboto+Slab" target="_blank">Roboto Slab</a></div>
-                <h2>The Astronomer</h2>
-                <p>There was once an Astronomer whose habit it was to go out at night and observe the stars. One night, as he was walking about outside the town gates, gazing up absorbed into the sky and not looking where he was going, he fell into a dry well. As he lay there groaning, some one passing by heard him, and, coming to the edge of the well, looked down and, on learning what had happened, said, &ldquo;If you really mean to say that you were looking so hard at the sky that you didn&rsquo;t even see where your feet were carrying you along the ground, it appears to me that you deserve all you&rsquo;ve got.&rdquo;</p>
-                <div class="stars"></div>
-            </div>
-        </div>
+		<div class="container-fluid section-astronomer" id="mattraoul">
+			<div class="container">
+				<a
+					href="https://twitter.com/mattraoul"
+					class="avatar"
+					target="_blank"
+					title="mattRaoul"
+					><img
+						src="https://pbs.twimg.com/profile_images/1354803971139887109/iiXhpAYA_400x400.jpg"
+						alt="mattraoul"
+				/></a>
+				<div class="caption">
+					<a href="https://www.google.com/fonts/specimen/Megrim" target="_blank"
+						>Megrim</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Roboto+Slab"
+						target="_blank"
+						>Roboto Slab</a
+					>
+				</div>
+				<h2>The Astronomer</h2>
+				<p>
+					There was once an Astronomer whose habit it was to go out at night and
+					observe the stars. One night, as he was walking about outside the town
+					gates, gazing up absorbed into the sky and not looking where he was
+					going, he fell into a dry well. As he lay there groaning, some one
+					passing by heard him, and, coming to the edge of the well, looked down
+					and, on learning what had happened, said, &ldquo;If you really mean to
+					say that you were looking so hard at the sky that you didn&rsquo;t
+					even see where your feet were carrying you along the ground, it
+					appears to me that you deserve all you&rsquo;ve got.&rdquo;
+				</p>
+				<div class="stars"></div>
+			</div>
+		</div>
 
-        <div class="container-fluid section-venus-cat" id="venus">
-          <div class="container">
-            <div class="caption">
-              <a href="https://fonts.google.com/specimen/Darumadrop+One" target="_blank">Darumadrop One</a>, <a href="https://fonts.google.com/specimen/Roboto+Serif" target="_blank">Roboto Serif</a>
-            </div>
+		<div class="container-fluid section-venus-cat" id="venus">
+			<div class="container">
+				<div class="caption">
+					<a
+						href="https://fonts.google.com/specimen/Darumadrop+One"
+						target="_blank"
+						>Darumadrop One</a
+					>,
+					<a
+						href="https://fonts.google.com/specimen/Roboto+Serif"
+						target="_blank"
+						>Roboto Serif</a
+					>
+				</div>
 
-            <h2>Venus <span>and the</span> Cat</h2>
-            <section>
-              <p>
-                A Cat fell in love with a handsome young man, and begged the goddess Venus to change her into a woman. Venus was very gracious about it, and changed her at once into a beautiful maiden, whom the young man fell in love with at first sight and shortly afterwards married. 
-              </p>
-              <p>
-                One day Venus thought she would like to see whether the Cat had changed her habits as well as her form; so she let a mouse run loose in the room where they were. Forgetting everything, the young woman had no sooner seen the mouse than up she jumped and was after it like a shot: at which the goddess was so disgusted that she changed her back again into a Cat.
-              </p>
-            </section>
-          </div>
-        </div>
+				<h2>Venus <span>and the</span> Cat</h2>
+				<section>
+					<p>
+						A Cat fell in love with a handsome young man, and begged the goddess
+						Venus to change her into a woman. Venus was very gracious about it,
+						and changed her at once into a beautiful maiden, whom the young man
+						fell in love with at first sight and shortly afterwards married.
+					</p>
+					<p>
+						One day Venus thought she would like to see whether the Cat had
+						changed her habits as well as her form; so she let a mouse run loose
+						in the room where they were. Forgetting everything, the young woman
+						had no sooner seen the mouse than up she jumped and was after it
+						like a shot: at which the goddess was so disgusted that she changed
+						her back again into a Cat.
+					</p>
+				</section>
+			</div>
+		</div>
 
+		<div class="container-fluid section-crow-pitcher" id="michaelryap">
+			<div class="container">
+				<h2><span>The Crow and the Pitcher</span></h2>
 
-        <div class="container-fluid section-crow-pitcher" id="michaelryap">
+				<p class="drop-p">
+					A thirsty Crow found a Pitcher with some water in it, but so little
+					was there that, try as she might, she could not reach it with her
+					beak, and it seemed as though she would die of thirst within sight of
+					the remedy.
+				</p>
 
-            <div class="container">
+				<p>
+					At last she hit upon a clever plan. She began dropping pebbles into
+					the Pitcher, and with each pebble the water rose a little higher until
+					at last it reached the brim, and the knowing bird was enabled to
+					quench her thirst.
+				</p>
 
-                <h2><span>The Crow and the Pitcher</span></h2>
+				<em>Necessity is the mother of invention.</em>
 
-                <p class="drop-p">A thirsty Crow found a Pitcher with some water in it, but so little was there that, try as she might, she could not reach it with her beak, and it seemed as though she would die of thirst within sight of the remedy.</p>
+				<ul>
+					<li class="label">Types in Use</li>
+					<li>
+						<a href="https://www.google.com/fonts/specimen/Old+Standard+TT"
+							>Old Standard TT</a
+						>
+					</li>
+					<li>
+						<a href="https://www.google.com/fonts/specimen/Questrial"
+							>Questrial</a
+						>
+					</li>
+				</ul>
 
-                <p>At last she hit upon a clever plan. She began dropping pebbles into the Pitcher, and with each pebble the water rose a little higher until at last it reached the brim, and the knowing bird was enabled to quench her thirst.</p>
+				<hr />
 
-                <em>Necessity is the mother of invention.</em>
+				<ul>
+					<li class="label">Set By</li>
+					<li><a href="https://twitter.com/michaelryap">@michaelryap</a></li>
+				</ul>
+			</div>
+		</div>
 
-                <ul>
-                    <li class="label">Types in Use</li>
-                    <li><a href="https://www.google.com/fonts/specimen/Old+Standard+TT">Old Standard TT</a></li>
-                    <li><a href="https://www.google.com/fonts/specimen/Questrial">Questrial</a></li>
-                </ul>
+		<div class="container-fluid section-the-fox-and-the-grapes" id="twahlin">
+			<div class="container">
+				<a
+					href="https://twitter.com/twahlin"
+					class="avatar"
+					target="_blank"
+					title="twahlin"
+					><img
+						src="https://pbs.twimg.com/profile_images/833523315427807233/A6TVLFMF_400x400.jpg"
+						alt="twahlin"
+				/></a>
+				<div class="caption">
+					<a href="https://www.google.com/fonts/specimen/Ovo" target="_blank"
+						>Ovo</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Mulish" target="_blank"
+						>Mulish</a
+					>
+				</div>
+				<h2>The Fox &amp; the Grapes</h2>
+				<p>
+					A hungry Fox saw some fine bunches of Grapes hanging from a vine that
+					was trained along a high trellis, and did his best to reach them by
+					jumping as high as he could into the air. But it was all in vain, for
+					they were just out of reach: so he gave up trying, and walked away
+					with an air of dignity and unconcern, remarking, &ldquo;I thought
+					those Grapes were ripe, but I see now they are quite sour.&rdquo;
+				</p>
+				<div id="grapes" class="shake grapes"></div>
+			</div>
+		</div>
 
-                <hr />
+		<div class="container-fluid section-prophet" id="amotion">
+			<div class="container">
+				<div class="background"></div>
+				<a
+					href="https://twitter.com/amotion"
+					class="avatar"
+					target="_blank"
+					title="amotion"
+					><img
+						src="https://pbs.twimg.com/profile_images/1512102368988389383/vbH6qwDB_400x400.jpg"
+						alt="amotion"
+				/></a>
+				<div class="caption">
+					<a href="https://www.google.com/fonts/specimen/Neuton" target="_blank"
+						>Neuton</a
+					>
+				</div>
+				<div class="col">
+					<h2>The Prophet</h2>
+					<p>
+						A Prophet sat in the market-place and told the fortunes of all who
+						cared to engage his services. Suddenly there came running up one who
+						told him that his house had been broken into by thieves, and that
+						they had made off with everything they could lay hands on. He was up
+						in a moment, and rushed off, tearing his hair and calling down
+						curses on the miscreants. The bystanders were much amused, and one
+						of them said, &ldquo;&#8201;Our friend professes to know what is
+						going to happen to others, but it seems he&rsquo;s not clever enough
+						to perceive what&rsquo;s in store for himself.&rdquo;
+					</p>
+				</div>
+			</div>
+		</div>
 
-                <ul>
-                    <li class="label">Set By</li>
-                    <li><a href="https://twitter.com/michaelryap">@michaelryap</a></li>
-                </ul>
+		<div class="container-fluid section-moon-mother" id="femmebot-04">
+			<div class="container">
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Vast+Shadow"
+						target="_blank"
+						>Vast Shadow</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Oswald" target="_blank"
+						>Oswald</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Playfair+Display"
+						target="_blank"
+						>Playfair Display</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Playfair+Display+SC"
+						target="_blank"
+						>Playfair Display SC</a
+					>
+				</div>
+				<h2>The Moon<span>And</span>Her Mother</h2>
+				<p class="opentype">
+					<span class="black-ital">The Moon</span>
+					<span class="ital">once begged her Mother</span>
+					<span class="small-cap"
+						>to make her a gown. &ldquo;How can I?&rdquo; replied she;
+					</span>
+					<span class="reg">&ldquo;there&rsquo;s no fitting your figure. </span>
+					<span class="bold-ital">At one time you&rsquo;re a New Moon,</span>
+					<span class="bold"
+						>and at another you&rsquo;re a <strong>Full Moon</strong>; and
+						between whiles
+					</span>
+					<span class="black"
+						>you&rsquo;re neither one nor the other.&rdquo;</span
+					>
+				</p>
+			</div>
+		</div>
 
-            </div>
-        </div>
+		<div class="section-wolves-sheep-ram" id="joshmateo">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="containerWidth">
+						<div class="top">
+							<a
+								href="https://twitter.com/joshmateo"
+								class="avatar"
+								target="_blank"
+								title="joshmateo"
+							>
+								<img
+									src="https://pbs.twimg.com/profile_images/1676241286276464640/FTAw44vT_400x400.jpg"
+									alt="joshmateo"
+								/>
+							</a>
+							<div class="caption">
+								<a
+									href="https://www.google.com/fonts/specimen/Quattrocento"
+									target="_blank"
+									>Quattrocento</a
+								>,
+								<a
+									href="https://www.google.com/fonts/specimen/Fanwood+Text"
+									target="_blank"
+									>Fanwood Text</a
+								>
+							</div>
+						</div>
 
-        <div class="container-fluid section-the-fox-and-the-grapes" id="twahlin">
-          <div class="container">
-              <a href="https://twitter.com/twahlin" class="avatar" target="_blank" title="twahlin"><img src="https://pbs.twimg.com/profile_images/833523315427807233/A6TVLFMF_400x400.jpg" alt="twahlin"></a>
-              <div class="caption"><a href="https://www.google.com/fonts/specimen/Ovo" target="_blank">Ovo</a>, <a href="https://www.google.com/fonts/specimen/Muli" target="_blank">Muli</a></div>
-              <h2>The Fox &amp; the Grapes</h2>
-              <p>A hungry Fox saw some fine bunches of Grapes hanging from a vine that was trained along a high trellis, and did his best to reach them by jumping as high as he could into the air. But it was all in vain, for they were just out of reach: so he gave up trying, and walked away with an air of dignity and unconcern, remarking, &ldquo;I thought those Grapes were ripe, but I see now they are quite sour.&rdquo;</p>
-              <div id="grapes" class="shake grapes"></div>
-          </div>
-        </div>
+						<div class="titleContainer">
+							<div class="wolves">
+								<p>The</p>
+								<h1>WOLVES</h1>
+							</div>
+							<div class="sheep">
+								<p>The Sheep</p>
+							</div>
+							<div class="ram">
+								<p>And the ram</p>
+							</div>
+						</div>
 
-        <div class="container-fluid section-prophet" id="amotion">
-            <div class="container">
-                <div class="background"></div>
-                <a href="https://twitter.com/amotion" class="avatar" target="_blank" title="amotion"><img src="https://pbs.twimg.com/profile_images/1512102368988389383/vbH6qwDB_400x400.jpg" alt="amotion"></a>
-                <div class="caption"><a href="https://www.google.com/fonts/specimen/Neuton" target="_blank">Neuton</a></div>
-                <div class="col">
-                    <h2>The Prophet</h2>
-                    <p>A Prophet sat in the market-place and told the fortunes of all who cared to engage his services. Suddenly there came running up one who told him that his house had been broken into by thieves, and that they had made off with everything they could lay hands on. He was up in a moment, and rushed off, tearing his hair and calling down curses on the miscreants. The bystanders were much amused, and one of them said, &ldquo;&#8201;Our friend professes to know what is going to happen to others, but it seems he&rsquo;s not clever enough to perceive what&rsquo;s in store for himself.&rdquo;</p>
-                </div>
-            </div>
-        </div>
+						<div class="titleFullContainer">
+							<div class="WSR">
+								<p>
+									THE <br />
+									WOLVES <br />
+									THE SHEEP <br />
+									AND THE RAM
+								</p>
+							</div>
+						</div>
 
-        <div class="container-fluid section-moon-mother" id="femmebot-04">
-            <div class="container">
-                <div class="caption">
-                    <a href="https://www.google.com/fonts/specimen/Vast+Shadow" target="_blank">Vast Shadow</a>,
-                    <a href="https://www.google.com/fonts/specimen/Oswald" target="_blank">Oswald</a>,
-                    <a href="https://www.google.com/fonts/specimen/Playfair+Display" target="_blank">Playfair Display</a>,
-                    <a href="https://www.google.com/fonts/specimen/Playfair+Display+SC" target="_blank">Playfair Display SC</a>
-                </div>
-                <h2>The Moon<span>And</span>Her Mother</h2>
-                <p class="opentype">
-                    <span class="black-ital">The Moon</span>
-                    <span class="ital">once begged her Mother</span>
-                    <span class="small-cap">to make her a gown. &ldquo;How can I?&rdquo; replied she; </span>
-                    <span class="reg">&ldquo;there&rsquo;s no fitting your figure. </span>
-                    <span class="bold-ital">At one time you&rsquo;re a New Moon,</span>
-                    <span class="bold">and at another you&rsquo;re a <strong>Full Moon</strong>; and between whiles </span>
-                    <span class="black">you&rsquo;re neither one nor the other.&rdquo;</span>
-                </p>
-            </div>
-        </div>
+						<div class="bodyContainer">
+							<div class="body">
+								<p>
+									The Wolves sent a deputation to the Sheep with proposals for a
+									lasting peace between them, on condition of their giving up
+									the sheep-dogs to instant death. The foolish Sheep agreed to
+									the terms; but an old Ram, whose years had brought him wisdom,
+									interfered and said, "How can we expect to live at peace with
+									you? Why, even with the dogs at hand to protect us, we are
+									never secure from your murderous attacks!"
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- /containerWidth -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /container-fluid -->
+		</div>
+		<!-- /section-wolves-sheep-ram -->
 
-        <div class="section-wolves-sheep-ram" id="joshmateo">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="containerWidth">
+		<div class="container-fluid section-the-boy-bathing" id="erinmercurio">
+			<!-- <a href="https://twitter.com/erinmercurio" class="avatar" target="_blank" title="erinmercurio"><img src="https://pbs.twimg.com/profile_images/777211900308361216/T1-wCUbY_400x400.jpg" alt="erinmercurio"></a> -->
+			<div class="caption">
+				<a href="https://www.google.com/fonts/specimen/Quando" target="_blank"
+					>Quando</a
+				>,
+				<a href="https://www.google.com/fonts/specimen/Judson" target="_blank"
+					>Judson</a
+				>,
+				<a
+					href="https://www.google.com/fonts/specimen/Montserrat"
+					target="_blank"
+					>Montserrat</a
+				>
+			</div>
+			<div class="container">
+				<h2><span>The</span> <span>Boy</span> <span>Bathing</span></h2>
+				<p>
+					A Boy was bathing in a river and got out of his depth, and was in
+					great danger of being drowned. A man who was passing along a road
+					heard his cries for help, and went to the riverside and began to scold
+					him for being so careless as to get into deep water, but made no
+					attempt to help him. &ldquo;Oh, sir,&rdquo; cried the Boy,
+					&ldquo;please help me first and scold me afterwards.&rdquo;
+				</p>
+				<p class="moral">
+					<span>Give assistance, not advice, in a crisis.</span>
+				</p>
+			</div>
+		</div>
 
-                        <div class = "top">
-                            <a href="https://twitter.com/joshmateo" class="avatar" target="_blank" title="joshmateo">
-                                <img src="https://pbs.twimg.com/profile_images/1676241286276464640/FTAw44vT_400x400.jpg" alt="joshmateo">
-                            </a>
-                            <div class="caption">
-                                <a href="https://www.google.com/fonts/specimen/Quattrocento" target="_blank">Quattrocento</a>, <a href="https://www.google.com/fonts/specimen/Fanwood+Text" target="_blank">Fanwood Text</a>
-                            </div>
-                        </div>
-
-                        <div class="titleContainer">
-                            <div class="wolves">
-                                <p>The</p>
-                                <h1>WOLVES</h1>
-                            </div>
-                            <div class="sheep">
-                                <p>The Sheep</p>
-                            </div>
-                            <div class="ram">
-                                <p>And the ram</p>
-                            </div>
-                        </div>
-
-                        <div class="titleFullContainer">
-                            <div class="WSR">
-                                <p>THE <br> WOLVES <br> THE SHEEP <br> AND THE RAM</p>
-                            </div>
-                        </div>
-
-                        <div class = "bodyContainer">
-                            <div class = "body">
-                                <p>The Wolves sent a deputation to the Sheep with proposals for a lasting peace between them, on condition of their giving up the sheep-dogs to instant death. The foolish Sheep agreed to the terms; but an old Ram, whose years had brought him wisdom, interfered and said, "How can we expect to live at peace with you? Why, even with the dogs at hand to protect us, we are never secure from your murderous attacks!"</p>
-                            </div>
-                        </div>
-
-                    </div><!-- /containerWidth -->
-                </div><!-- /container -->
-            </div><!-- /container-fluid -->
-        </div><!-- /section-wolves-sheep-ram -->
-
-        <div class="container-fluid section-the-boy-bathing" id="erinmercurio">
-          <!-- <a href="https://twitter.com/erinmercurio" class="avatar" target="_blank" title="erinmercurio"><img src="https://pbs.twimg.com/profile_images/777211900308361216/T1-wCUbY_400x400.jpg" alt="erinmercurio"></a> -->
-          <div class="caption"><a href="https://www.google.com/fonts/specimen/Quando" target="_blank">Quando</a>, <a href="https://www.google.com/fonts/specimen/Judson" target="_blank">Judson</a>, <a href="https://www.google.com/fonts/specimen/Montserrat" target="_blank">Montserrat</a></div>
-          <div class="container">
-            <h2><span>The</span> <span>Boy</span> <span>Bathing</span></h2>
-            <p>A Boy was bathing in a river and got out of his depth, and was in great danger of being drowned. A man who was passing along a road heard his cries for help, and went to the riverside and began to scold him for being so careless as to get into deep water, but made no attempt to help him. &ldquo;Oh, sir,&rdquo; cried the Boy, &ldquo;please help me first and scold me afterwards.&rdquo;</p>
-            <p class="moral"><span>Give assistance, not advice, in a crisis.</span></p>
-          </div>
-        </div>
-
-        <!-- <div class="section-the-serpent-and-the-eagle" id="jacob-anderson">
+		<!-- <div class="section-the-serpent-and-the-eagle" id="jacob-anderson">
           <a href="https://www.linkedin.com/in/jacob-anderson-80818936" class="avatar" target="_blank" title="jacob anderson">
             <img src="https://media-exp1.licdn.com/dms/image/C5603AQHEcvJFtT6Buw/profile-displayphoto-shrink_400_400/0/1516620916881?e=1613001600&v=beta&t=0Ou05QHeDSlNi3YKUz1oOnZgjJ7rvJY0g8pbq5g6MGg" alt="jacob anderson"></a>
           <div class="caption"><a href="https://www.google.com/fonts/specimen/Vollkorn" target="_blank">Vollkorn</a>, <a href="https://www.google.com/fonts/specimen/Exo" target="_blank">Exo</a></div>
@@ -344,269 +711,649 @@
           </div>
         </div> -->
 
-        <div class="container-fluid section-fir-tree" id="femmebot-05">
-          <div class="caption"><a href="https://www.google.com/fonts/specimen/Ultra" target="_blank">Ultra</a>, <a href="https://www.google.com/fonts/specimen/Stint+Ultra+Expanded" target="_blank">Stint Ultra Expanded</a>, <a href="https://www.google.com/fonts/specimen/Slabo+13px" target="_blank">Slabo 13px</a></div>
-          <div class="container">
-            <h2>
-              <span>The</span>
-              Fir-Tree
-              <span>And The</span>
-              Bramble
-            </h2>
-            <p class="moral">Better poverty without a care than wealth with its many obligations.</p>
-            <p class="fable">A Fir-tree was boasting to a Bramble, and said, somewhat contemptuously, &ldquo;You poor creature, you are of no use whatever. Now, look at me: I am useful for all sorts of things, particularly when men build houses; they can&rsquo;t do without me then.&rdquo; But the Bramble replied, &ldquo;Ah, that&rsquo;s all very well: but you wait till they come with axes and saws to cut you down, and then you&rsquo;ll wish you were a Bramble and not a Fir.&ldquo;
-            </p>
-          </div>
-        </div><!-- /section-fir-tree -->
+		<div class="container-fluid section-fir-tree" id="femmebot-05">
+			<div class="caption">
+				<a href="https://www.google.com/fonts/specimen/Ultra" target="_blank"
+					>Ultra</a
+				>,
+				<a
+					href="https://www.google.com/fonts/specimen/Stint+Ultra+Expanded"
+					target="_blank"
+					>Stint Ultra Expanded</a
+				>,
+				<a
+					href="https://www.google.com/fonts/specimen/Slabo+13px"
+					target="_blank"
+					>Slabo 13px</a
+				>
+			</div>
+			<div class="container">
+				<h2>
+					<span>The</span>
+					Fir-Tree
+					<span>And The</span>
+					Bramble
+				</h2>
+				<p class="moral">
+					Better poverty without a care than wealth with its many obligations.
+				</p>
+				<p class="fable">
+					A Fir-tree was boasting to a Bramble, and said, somewhat
+					contemptuously, &ldquo;You poor creature, you are of no use whatever.
+					Now, look at me: I am useful for all sorts of things, particularly
+					when men build houses; they can&rsquo;t do without me then.&rdquo; But
+					the Bramble replied, &ldquo;Ah, that&rsquo;s all very well: but you
+					wait till they come with axes and saws to cut you down, and then
+					you&rsquo;ll wish you were a Bramble and not a Fir.&ldquo;
+				</p>
+			</div>
+		</div>
+		<!-- /section-fir-tree -->
 
+		<!-- <div class="container-fluid section-fox-lion" id="Linnk">
+			<div class="container">
+				<a
+					href="https://twitter.com/linnk"
+					class="avatar"
+					target="_blank"
+					title="Linnk"
+					><img
+						src="https://pbs.twimg.com/profile_images/1475723256401440771/I0DlZ4VU_400x400.jpg"
+						alt="Linnk"
+				/></a>
+				<div class="caption">
+					<a
+						href="http://www.google.com/fonts/specimen/Open+Sans+Condensed"
+						target="_blank"
+						>Open Sans Condensed</a
+					>,
+					<a href="http://www.google.com/fonts/specimen/Lora" target="_blank"
+						>Lora</a
+					>
+				</div>
+				<h2>The fox <span class="ampersand">and</span> the lion</h2>
+				<p>
+					A Fox who had never seen a Lion one day met one, and was so terrified
+					at the sight of him that he was ready to die with fear. After a time
+					he met him again, and was still rather frightened, but not nearly so
+					much as he had been when he met him first. But when he saw him for the
+					third time he was so far from being afraid that he went up to him and
+					began to talk to him as if he had known him all his life.
+				</p>
+			</div>
+		</div> -->
+		<!-- /section-fox-lion -->
 
-        <div class="container-fluid section-fox-lion" id="Linnk">
-            <div class="container">
+		<div class="container-fluid section-horse-groom" id="jamigibbs">
+			<a
+				href="https://github.com/jamigibbs"
+				class="avatar"
+				target="_blank"
+				title="jamigibbs"
+				><img
+					src="https://avatars.githubusercontent.com/u/872479?v=4"
+					alt="jamigibbs"
+			/></a>
+			<div class="caption">
+				<a
+					href="https://www.google.com/fonts/specimen/Alfa+Slab+One"
+					target="_blank"
+					>Alfa Slab One</a
+				>,
+				<a
+					href="https://www.google.com/fonts/specimen/Gentium+Book+Basic"
+					target="_blank"
+					>Gentium Book Plus</a
+				>
+			</div>
 
-                <a href="https://twitter.com/linnk" class="avatar" target="_blank" title="Linnk"><img src="https://pbs.twimg.com/profile_images/1475723256401440771/I0DlZ4VU_400x400.jpg" alt="Linnk"></a>
-                <div class="caption"><a href="http://www.google.com/fonts/specimen/Open+Sans+Condensed" target="_blank">Open Sans Condensed</a>, <a href="http://www.google.com/fonts/specimen/Lora" target="_blank">Lora</a></div>
-                <h2>The fox <span class="ampersand">and</span> the lion</h2>
-                <p>A Fox who had never seen a Lion one day met one, and was so terrified at the sight of him that he was ready to die with fear. After a time he met him again, and was still rather frightened, but not nearly so much as he had been when he met him first. But when he saw him for the third time he was so far from being afraid that he went up to him and began to talk to him as if he had known him all his life.</p>
-            </div>
-        </div><!-- /section-fox-lion -->
+			<h2>The Horse <span class="ampersand">&amp;</span> the Groom</h2>
+			<p>
+				There was once a Groom who used to spend long hours clipping and combing
+				the Horse of which he had charge, but who daily stole a portion of his
+				allowance of oats, and sold it for his own profit. The Horse gradually
+				got into worse and worse condition, and at last cried to the Groom...
+			</p>
 
-        <div class="container-fluid section-horse-groom" id="jamigibbs">
-
-                <a href="https://twitter.com/jamigibbs" class="avatar" target="_blank" title="jamigibbs"><img src="https://pbs.twimg.com/profile_images/1376250575877193738/7DiN2rjc_400x400.jpg" alt="jamigibbs"></a>
-                <div class="caption"><a href="https://www.google.com/fonts/specimen/Alfa+Slab+One" target="_blank">Alfa Slab One</a>, <a href="https://www.google.com/fonts/specimen/Gentium+Book+Basic" target="_blank">Gentium Book Basic</a></div>
-
-                <h2>The Horse <span class="ampersand">&amp;</span> the Groom</h2>
-                <p>There was once a Groom who used to spend long hours clipping and combing the Horse of which he had charge, but who daily stole a portion of his allowance of oats, and sold it for his own profit. The Horse gradually got into worse and worse condition, and at last cried to the Groom...</p>
-
-                <blockquote>&ldquo;If you really want me to look sleek and well, you must comb me less and feed me more.&rdquo;</blockquote>
-
-        </div><!-- /.section-horse-groom -->
-
+			<blockquote>
+				&ldquo;If you really want me to look sleek and well, you must comb me
+				less and feed me more.&rdquo;
+			</blockquote>
+		</div>
+		<!-- /.section-horse-groom -->
 
 		<div class="section-crow-raven" id="erikford-01">
 			<div class="wrapper">
 				<div class="meta">
-					<a href="https://github.com/erikford" class="avatar" target="_blank" title="Erik Ford"><img src="https://avatars2.githubusercontent.com/u/852290?v=3&s=466" alt="Erik Ford"></a>
-					<div class="caption"><a href="https://www.google.com/fonts/specimen/Nixie+One" target="_blank">Nixie One</a>, <a href="https://www.google.com/fonts/specimen/Libre+Baskerville" target="_blank">Libre Baskerville</a></div>
+					<a
+						href="https://github.com/erikford"
+						class="avatar"
+						target="_blank"
+						title="Erik Ford"
+						><img
+							src="https://avatars2.githubusercontent.com/u/852290?v=3&s=466"
+							alt="Erik Ford"
+					/></a>
+					<div class="caption">
+						<a
+							href="https://www.google.com/fonts/specimen/Nixie+One"
+							target="_blank"
+							>Nixie One</a
+						>,
+						<a
+							href="https://www.google.com/fonts/specimen/Libre+Baskerville"
+							target="_blank"
+							>Libre Baskerville</a
+						>
+					</div>
 				</div>
 				<h2>The Crow and The Raven</h2>
-				<p>A Crow became very jealous of a Raven, because the latter was regarded by men as a bird of omen which foretold the future, and was accordingly held in great respect by them. She was very anxious to get the same sort of reputation herself; and, one day, seeing some travellers approaching, she flew on to a branch of a tree at the roadside and cawed as loud as she could. The travellers were in some dismay at the sound, for they feared it might be a bad omen; till one of them, spying the Crow, said to his companions, <q>It&rsquo;s all right, my friends, we can go on without fear, for it&rsquo;s only a crow and that means nothing.</q></p>
-				<p>Those who pretend to be something they are not only make themselves ridiculous.</p>
+				<p>
+					A Crow became very jealous of a Raven, because the latter was regarded
+					by men as a bird of omen which foretold the future, and was
+					accordingly held in great respect by them. She was very anxious to get
+					the same sort of reputation herself; and, one day, seeing some
+					travellers approaching, she flew on to a branch of a tree at the
+					roadside and cawed as loud as she could. The travellers were in some
+					dismay at the sound, for they feared it might be a bad omen; till one
+					of them, spying the Crow, said to his companions,
+					<q
+						>It&rsquo;s all right, my friends, we can go on without fear, for
+						it&rsquo;s only a crow and that means nothing.</q
+					>
+				</p>
+				<p>
+					Those who pretend to be something they are not only make themselves
+					ridiculous.
+				</p>
 			</div>
-		</div><!-- /.section-crow-raven -->
+		</div>
+		<!-- /.section-crow-raven -->
 
+		<div class="container-fluid section-north-wind-and-sun" id="joanrho-01">
+			<div class="container">
+				<a
+					href="https://twitter.com/joanrho"
+					class="avatar"
+					target="_blank"
+					title="joanrho"
+					><img
+						src="https://pbs.twimg.com/profile_images/852340679917404160/8KLfea6R_400x400.jpg"
+						alt="joanrho"
+				/></a>
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Julius+Sans+One"
+						target="_blank"
+						>Julius Sans One</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Crimson+Text"
+						target="_blank"
+						>Crimson Text</a
+					>
+				</div>
+				<h2>The North Wind and The Sun</h2>
+				<p>
+					A dispute arose between the North Wind and the Sun, each claiming that
+					he was stronger than the other. At last they agreed to try their
+					powers upon a traveller, to see which could soonest strip him of his
+					cloak. The North Wind had the first try; and, gathering up all his
+					force for the attack, he came whirling furiously down upon the man,
+					and caught up his cloak as though he would wrest it from him by one
+					single effort: but the harder he blew, the more closely the man
+					wrapped it round himself. Then came the turn of the Sun. At first he
+					beamed gently upon the traveller, who soon unclasped his cloak and
+					walked on with it hanging loosely about his shoulders: then he shone
+					forth in his full strength, and the man, before he had gone many
+					steps, was glad to throw his cloak right off and complete his journey
+					more lightly clad.
+				</p>
+				<p class="last">persuasion is better than force</p>
+				<div class="wind"></div>
+			</div>
+		</div>
+		<!-- /.north-wind-and-sun -->
 
-        <div class="container-fluid section-north-wind-and-sun" id="joanrho-01">
-            <div class="container">
-                <a href="https://twitter.com/joanrho" class="avatar" target="_blank" title="joanrho"><img src="https://pbs.twimg.com/profile_images/852340679917404160/8KLfea6R_400x400.jpg" alt="joanrho"></a>
-                <div class="caption">
-                    <a href="https://www.google.com/fonts/specimen/Julius+Sans+One" target="_blank">Julius Sans One</a>, <a href="https://www.google.com/fonts/specimen/Crimson+Text" target="_blank">Crimson Text</a>
-                </div>
-                <h2>The North Wind and The Sun</h2>
-                <p>A dispute arose between the North Wind and the Sun, each claiming that he was stronger than the other. At last they agreed to try their powers upon a traveller, to see which could soonest strip him of his cloak. The North Wind had the first try; and, gathering up all his force for the attack, he came whirling furiously down upon the man, and caught up his cloak as though he would wrest it from him by one single effort: but the harder he blew, the more closely the man wrapped it round himself. Then came the turn of the Sun. At first he beamed gently upon the traveller, who soon unclasped his cloak and walked on with it hanging loosely about his shoulders: then he shone forth in his full strength, and the man, before he had gone many steps, was glad to throw his cloak right off and complete his journey more lightly clad.</p>
-                <p class="last">persuasion is better than force</p>
-                <div class="wind"></div>
-            </div>
-        </div>
-        <!-- /.north-wind-and-sun -->
+		<div class="container-fluid section-the-old-hound" id="joanrho-02">
+			<div class="container">
+				<a
+					href="https://twitter.com/joanrho"
+					class="avatar"
+					target="_blank"
+					title="joanrho"
+					><img
+						src="https://pbs.twimg.com/profile_images/852340679917404160/8KLfea6R_400x400.jpg"
+						alt="joanrho"
+				/></a>
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Almendra+Display"
+						target="_blank"
+						>Almendra Display</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Cardo" target="_blank"
+						>Cardo</a
+					>
+				</div>
+				<h2>The Old Hound</h2>
+				<p>
+					A Hound who had served his master well for years, and had run down
+					many a quarry in his time, began to lose his strength and speed owing
+					to age. One day, when out hunting, his master started a powerful wild
+					boar and set the Hound at him. The latter seized the beast by the ear,
+					but his teeth were gone and he could not retain his hold; so the boar
+					escaped. His master began to scold him severely, but the Hound
+					interrupted him with these words: &ldquo;My will is as strong as ever,
+					master, but my body is old and feeble. You ought to honour me for what
+					I have been instead of abusing me for what I am.&rdquo;
+				</p>
+			</div>
+		</div>
+		<!-- /.the-old-hound -->
 
-        <div class="container-fluid section-the-old-hound" id="joanrho-02">
-            <div class="container">
-                <a href="https://twitter.com/joanrho" class="avatar" target="_blank" title="joanrho"><img src="https://pbs.twimg.com/profile_images/852340679917404160/8KLfea6R_400x400.jpg" alt="joanrho"></a>
-                <div class="caption">
-                    <a href="https://www.google.com/fonts/specimen/Almendra+Display" target="_blank">Almendra Display</a>, <a href="https://www.google.com/fonts/specimen/Cardo" target="_blank">Cardo</a>
-                </div>
-                <h2>The Old Hound</h2>
-                <p>A Hound who had served his master well for years, and had run down many a quarry in his time, began to lose his strength and speed owing to age. One day, when out hunting, his master started a powerful wild boar and set the Hound at him. The latter seized the beast by the ear, but his teeth were gone and he could not retain his hold; so the boar escaped. His master began to scold him severely, but the Hound interrupted him with these words: &ldquo;My will is as strong as ever, master, but my body is old and feeble. You ought to honour me for what I have been instead of abusing me for what I am.&rdquo;</p>
-            </div>
-        </div>
-        <!-- /.the-old-hound -->
+		<!-- /.jupiter-and-the-tortoise -->
 
+		<div
+			class="container-fluid section-jupiter-and-the-tortoise"
+			id="HomerGaines"
+		>
+			<div class="container">
+				<a
+					href="https://twitter.com/xirclebox"
+					class="avatar"
+					target="_blank"
+					title="HomerGaines"
+					><img
+						src="https://pbs.twimg.com/profile_images/1521146733430026241/otqvJny1_400x400.jpg"
+						alt="HomerGaines"
+				/></a>
 
-        <!-- /.jupiter-and-the-tortoise -->
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Philosopher"
+						target="_blank"
+						>Philosopher</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Muli" target="_blank"
+						>Muli</a
+					>
+				</div>
 
-        <div class="container-fluid section-jupiter-and-the-tortoise" id="HomerGaines">
+				<h2>Jupiter and the Tortoise</h2>
+				<p>
+					Jupiter was about to marry a wife, and determined to celebrate the
+					event by inviting all the animals to a banquet. They all came except
+					the Tortoise, who did not put in an appearance, much to
+					Jupiter&rsquo;s surprise. So when he next saw the Tortoise he asked
+					him why he had not been at the banquet. &ldquo;I don&rsquo;t care for
+					going out,&rdquo; said the Tortoise; &ldquo;there&rsquo;s no place
+					like home.&rdquo; Jupiter was so much annoyed by this reply that he
+					decreed that from that time forth the Tortoise should carry his house
+					upon his back, and never be able to get away from home even if he
+					wished to.
+				</p>
+			</div>
+		</div>
+		<!-- /.jupiter-and-the-tortoise -->
 
-          <div class="container">
+		<div class="container-fluid section-grief-and-his-due" id="emdecr">
+			<div class="container">
+				<a
+					href="https://twitter.com/emdecr"
+					class="avatar"
+					target="_blank"
+					title="emdecr"
+					><img
+						src="https://pbs.twimg.com/profile_images/1288525723062415360/ygkyYd73_400x400.jpg"
+						alt="emdecr"
+				/></a>
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Cinzel+Decorative"
+						target="_blank"
+						>Cinzel Decorative</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Amiri" target="_blank"
+						>Amiri</a
+					>
+				</div>
+				<h2>Grief and His Due</h2>
+				<p>
+					When Jupiter was assigning the various gods their privileges, it so
+					happened that Grief was not present with the rest: but when all had
+					received their share, he too entered and claimed his due. Jupiter was
+					at a loss to know what to do, for there was nothing left for him.
+					However, at last he decided that to him should belong the tears that
+					are shed for the dead. Thus it is the same with Grief as it is with
+					the other gods. The more devoutly men render to him his due, the more
+					lavish is he of that which he has to bestow.
+				</p>
+				<p class="moral">
+					It is not well, therefore, to mourn long for the departed; else Grief,
+					whose sole pleasure is in such mourning, will be quick to send fresh
+					cause for tears.<br /><img src="images/tear.png" class="tear" />
+				</p>
+			</div>
+		</div>
+		<!-- /.grief-and-his-due -->
 
-            <a href="https://twitter.com/xirclebox" class="avatar" target="_blank" title="HomerGaines"><img src="https://pbs.twimg.com/profile_images/1521146733430026241/otqvJny1_400x400.jpg" alt="HomerGaines"></a>
+		<!-- /.the-trees-and-the-axe -->
 
-            <div class="caption">
+		<div class="container-fluid section-trees-and-the-axe" id="_aprz">
+			<div class="container">
+				<!-- <a href="https://twitter.com/_aprz" class="avatar" target="_blank" title="_aprz"><img src="https://pbs.twimg.com/profile_images/600056832896278532/4F_jrqks.jpg" alt="_aprz"></a> -->
+				<div class="caption">
+					<a href="https://www.google.com/fonts/specimen/Oswald" target="_blank"
+						>Oswald</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Quattrocento"
+						target="_blank"
+						>Quattrocento</a
+					>
+				</div>
+				<h2>The Trees <br />And The Axe</h2>
+				<p>
+					A Woodman went into the forest and begged of the Trees the favour of a
+					handle for his Axe. The principal Trees at once agreed to so modest a
+					request, and unhesitatingly gave him a young ash sapling, out of which
+					he fashioned the handle he desired. No sooner had he done so than he
+					set to work to fell the noblest Trees in the wood. When they saw the
+					use to which he was putting their gift, they cried, &ldquo;Alas! alas!
+					We are undone, but we are ourselves to blame. The little we gave has
+					cost us all: had we not sacrificed the rights of the ash, we might
+					ourselves have stood for ages.&rdquo;
+				</p>
+			</div>
+		</div>
 
-              <a href="https://www.google.com/fonts/specimen/Philosopher" target="_blank">Philosopher</a>, <a href="https://www.google.com/fonts/specimen/Muli" target="_blank">Muli</a>
+		<!-- /.the-trees-and-the-axe -->
 
-            </div>
-
-            <h2>Jupiter and the Tortoise</h2>
-            <p>Jupiter was about to marry a wife, and determined to celebrate the event by inviting all the animals to a banquet. They all came except the Tortoise, who did not put in an appearance, much to Jupiter&rsquo;s surprise. So when he next saw the Tortoise he asked him why he had not been at the banquet. &ldquo;I don&rsquo;t care for going out,&rdquo; said the Tortoise; &ldquo;there&rsquo;s no place like home.&rdquo; Jupiter was so much annoyed by this reply that he decreed that from that time forth the Tortoise should carry his house upon his back, and never be able to get away from home even if he wished to.</p>
-
-          </div>
-
-        </div>
-        <!-- /.jupiter-and-the-tortoise -->
-
-        <div class="container-fluid section-grief-and-his-due" id="emdecr">
-          <div class="container">
-            <a href="https://twitter.com/emdecr" class="avatar" target="_blank" title="emdecr"><img src="https://pbs.twimg.com/profile_images/1288525723062415360/ygkyYd73_400x400.jpg" alt="emdecr"></a>
-            <div class="caption">
-              <a href="https://www.google.com/fonts/specimen/Cinzel+Decorative" target="_blank">Cinzel Decorative</a>, <a href="https://www.google.com/fonts/specimen/Amiri" target="_blank">Amiri</a>
-            </div>
-            <h2>Grief and His Due</h2>
-            <p>When Jupiter was assigning the various gods their privileges, it so happened that Grief was not present with the rest: but when all had received their share, he too entered and claimed his due. Jupiter was at a loss to know what to do, for there was nothing left for him. However, at last he decided that to him should belong the tears that are shed for the dead. Thus it is the same with Grief as it is with the other gods. The more devoutly men render to him his due, the more lavish is he of that which he has to bestow.</p><p class="moral">It is not well, therefore, to mourn long for the departed; else Grief, whose sole pleasure is in such mourning, will be quick to send fresh cause for tears.<br><img src="images/tear.png" class ="tear"></p>
-          </div>
-        </div>
-        <!-- /.grief-and-his-due -->
-
-        <!-- /.the-trees-and-the-axe -->
-
-        <div class="container-fluid section-trees-and-the-axe" id="_aprz">
-          <div class="container">
-            <!-- <a href="https://twitter.com/_aprz" class="avatar" target="_blank" title="_aprz"><img src="https://pbs.twimg.com/profile_images/600056832896278532/4F_jrqks.jpg" alt="_aprz"></a> -->
-            <div class="caption">
-              <a href="https://www.google.com/fonts/specimen/Oswald" target="_blank">Oswald</a>, <a href="https://www.google.com/fonts/specimen/Quattrocento" target="_blank">Quattrocento</a>
-            </div>
-            <h2>The Trees <br>And The Axe</h2>
-            <p>A Woodman went into the forest and begged of the Trees the favour of a handle for his Axe. The principal Trees at once agreed to so modest a request, and unhesitatingly gave him a young ash sapling, out of which he fashioned the handle he desired. No sooner had he done so than he set to work to fell the noblest Trees in the wood. When they saw the use to which he was putting their gift, they cried, &ldquo;Alas! alas! We are undone, but we are ourselves to blame. The little we gave has cost us all: had we not sacrificed the rights of the ash, we might ourselves have stood for ages.&rdquo;</p>
-          </div>
-        </div>
-
-        <!-- /.the-trees-and-the-axe -->
-
-
-        <!-- The Pomegranate, the Apple-Tree, and the Bramble -->
+		<!-- The Pomegranate, the Apple-Tree, and the Bramble -->
 		<div class="container-fluid section-pomegranate">
 			<div class="container">
 				<h2>
 					<span>the</span>
-					Pomegranate<br>
-					<span>the</span> Apple-Tree <span>and the</span><br>
+					Pomegranate<br />
+					<span>the</span> Apple-Tree <span>and the</span><br />
 					Bramble
 				</h2>
-				<p>A Pomegranate and an Apple-tree were disputing about the <em>quality of their fruits</em>, and each claimed that its own was the better of the two. High words passed between them, and a violent quarrel was imminent, when a Bramble impudently poked its head out of a neighbouring hedge and said:</p>
-				<p class="bramble">There, that&rsquo;s enough, my friends; don&rsquo;t let us quarrel.</p>
-				<img alt="Bramble" src="images/pomegranate/bramble-400.png" id="bramble" title="These QUALITY FRUIT images are from usdawatercolors.nal.usda.gov - the U.S. Department of Agriculture Pomological Watercolor Collection. Rare and Special Collections, National Agricultural Library, Beltsville, MD 20705">
+				<p>
+					A Pomegranate and an Apple-tree were disputing about the
+					<em>quality of their fruits</em>, and each claimed that its own was
+					the better of the two. High words passed between them, and a violent
+					quarrel was imminent, when a Bramble impudently poked its head out of
+					a neighbouring hedge and said:
+				</p>
+				<p class="bramble">
+					There, that&rsquo;s enough, my friends; don&rsquo;t let us quarrel.
+				</p>
+				<img
+					alt="Bramble"
+					src="images/pomegranate/bramble-400.png"
+					id="bramble"
+					title="These QUALITY FRUIT images are from usdawatercolors.nal.usda.gov - the U.S. Department of Agriculture Pomological Watercolor Collection. Rare and Special Collections, National Agricultural Library, Beltsville, MD 20705"
+				/>
 				<!-- U.S. Department of Agriculture Pomological Watercolor Collection. Rare and Special Collections, National Agricultural Library, Beltsville, MD 20705 http://usdawatercolors.nal.usda.gov -->
 				<div class="caption">
-					<a href="https://twitter.com/_chrisco" class="avatar" target="_blank" title="_chrisco"><img src="https://pbs.twimg.com/profile_images/956172989619294208/qqsWJtit_400x400.jpg" alt="_chrisco"></a>
-					<a href="https://www.google.com/fonts/specimen/Mr+De+Haviland" target="_blank">Mr. De Haviland</a>,
-					<a href="https://www.google.com/fonts/specimen/Neuton" target="_blank">Neuton</a>
-        </div>
+					<a
+						href="https://twitter.com/_chrisco"
+						class="avatar"
+						target="_blank"
+						title="_chrisco"
+						><img
+							src="https://pbs.twimg.com/profile_images/956172989619294208/qqsWJtit_400x400.jpg"
+							alt="_chrisco"
+					/></a>
+					<a
+						href="https://www.google.com/fonts/specimen/Mr+De+Haviland"
+						target="_blank"
+						>Mr. De Haviland</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Neuton" target="_blank"
+						>Neuton</a
+					>
+				</div>
 			</div>
-        </div>
-        <!-- end The Pomegranate, the Apple-Tree, and the Bramble -->
+		</div>
+		<!-- end The Pomegranate, the Apple-Tree, and the Bramble -->
 
-        <!-- The Bee and Jupiter -->
-        <div class="container-fluid section-bee-jupiter" id="laureljan">
-          <div class="container colophon">
-            <a href="https://twitter.com/laureljan" class="avatar" target="_blank" title="laureljan"><img src="https://pbs.twimg.com/profile_images/1230569180023230465/xtNy4pNj_400x400.jpg" alt="laureljan"></a>
-            <div class="caption"><a href="https://www.google.com/fonts/specimen/Yeseva+One" target="_blank">Yeseva One</a>, <a href="https://www.google.com/fonts/specimen/Merriweather+Sans" target="_blank">Merriweather Sans</a>, <a href="https://www.google.com/fonts/specimen/Merriweather">Merriweather</a></div>
-          </div>
-          <div class="container">
-            <img alt="Bee without stinger" class="beewithoutstinger beesvg" src="images/the-bee-and-jupiter/bee_fill.svg">
-            <hr>
-            <h2>The Bee<br><span class="ampersand">&amp; </span>Jupiter</h2>
-            <p>
-              A Queen Bee from Hymettus flew up to Olympus with some fresh honey from the hive as a present to Jupiter, who was so pleased with the gift that he promised to give her anything she liked to ask for. She said she would be very grateful if he would give stings to the bees, to kill people who robbed them of their honey. Jupiter was greatly displeased with this request, for he loved mankind: but he had given his word, so he said that stings they should have. The stings he gave them, however, were of such a kind that whenever a bee stings a man the sting is left in the wound and the bee dies.
-            </p>
-            <hr>
-            <h3>Evil wishes, like fowls,<br>come home to roost.</h3>
-            <div class="jupiterbee">
-            <img alt="Bee with stinger" class="beewithstinger beesvg" src="images/the-bee-and-jupiter/bee_fill_stinger.svg">
-            </div>
-          </div>
-        </div>
-        <!-- end The Bee and Jupiter -->
+		<!-- The Bee and Jupiter -->
+		<div class="container-fluid section-bee-jupiter" id="laureljan">
+			<div class="container colophon">
+				<a
+					href="https://twitter.com/laureljan"
+					class="avatar"
+					target="_blank"
+					title="laureljan"
+					><img
+						src="https://pbs.twimg.com/profile_images/1230569180023230465/xtNy4pNj_400x400.jpg"
+						alt="laureljan"
+				/></a>
+				<div class="caption">
+					<a
+						href="https://www.google.com/fonts/specimen/Yeseva+One"
+						target="_blank"
+						>Yeseva One</a
+					>,
+					<a
+						href="https://www.google.com/fonts/specimen/Merriweather+Sans"
+						target="_blank"
+						>Merriweather Sans</a
+					>,
+					<a href="https://www.google.com/fonts/specimen/Merriweather"
+						>Merriweather</a
+					>
+				</div>
+			</div>
+			<div class="container">
+				<img
+					alt="Bee without stinger"
+					class="beewithoutstinger beesvg"
+					src="images/the-bee-and-jupiter/bee_fill.svg"
+				/>
+				<hr />
+				<h2>The Bee<br /><span class="ampersand">&amp; </span>Jupiter</h2>
+				<p>
+					A Queen Bee from Hymettus flew up to Olympus with some fresh honey
+					from the hive as a present to Jupiter, who was so pleased with the
+					gift that he promised to give her anything she liked to ask for. She
+					said she would be very grateful if he would give stings to the bees,
+					to kill people who robbed them of their honey. Jupiter was greatly
+					displeased with this request, for he loved mankind: but he had given
+					his word, so he said that stings they should have. The stings he gave
+					them, however, were of such a kind that whenever a bee stings a man
+					the sting is left in the wound and the bee dies.
+				</p>
+				<hr />
+				<h3>Evil wishes, like fowls,<br />come home to roost.</h3>
+				<div class="jupiterbee">
+					<img
+						alt="Bee with stinger"
+						class="beewithstinger beesvg"
+						src="images/the-bee-and-jupiter/bee_fill_stinger.svg"
+					/>
+				</div>
+			</div>
+		</div>
+		<!-- end The Bee and Jupiter -->
 
-        <!-- begin The Wolf in Sheep's Clothing -->
-        <div class="container-fluid section-wolf-sheep-clothing" id="femmebot-06">
-          <div class="caption">
-            <a href="https://www.google.com/fonts/specimen/Shrikhand" target="_blank">Shrikhand</a>, <a href="https://www.google.com/fonts/specimen/Sansita+One" target="_blank">Sansita One</a>, <a href="https://www.google.com/fonts/specimen/Scope+One" target="_blank">Scope One</a>
-          </div>
-          <div class="container">
-            <h2>The <span class="kern">Wo</span>lf<span class="sm-head">in Sheep&rsquo;s Clothing</span></h2>
-            <p>
-              A Wolf resolved to disguise himself in order that he might prey upon a flock of sheep without fear of detection. So he clothed himself in a sheepskin, and slipped among the sheep when they were out at pasture. He completely deceived the shepherd, and when the flock was penned for the night he was shut in with the rest. But that very night as it happened, the shepherd, requiring a supply of mutton for the table, laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot.
-            </p>
-          </div>
-        </div>
+		<!-- begin The Wolf in Sheep's Clothing -->
+		<div class="container-fluid section-wolf-sheep-clothing" id="femmebot-06">
+			<div class="caption">
+				<a
+					href="https://www.google.com/fonts/specimen/Shrikhand"
+					target="_blank"
+					>Shrikhand</a
+				>,
+				<a
+					href="https://www.google.com/fonts/specimen/Sansita+One"
+					target="_blank"
+					>Sansita One</a
+				>,
+				<a
+					href="https://www.google.com/fonts/specimen/Scope+One"
+					target="_blank"
+					>Scope One</a
+				>
+			</div>
+			<div class="container">
+				<h2>
+					The <span class="kern">Wo</span>lf<span class="sm-head"
+						>in Sheep&rsquo;s Clothing</span
+					>
+				</h2>
+				<p>
+					A Wolf resolved to disguise himself in order that he might prey upon a
+					flock of sheep without fear of detection. So he clothed himself in a
+					sheepskin, and slipped among the sheep when they were out at pasture.
+					He completely deceived the shepherd, and when the flock was penned for
+					the night he was shut in with the rest. But that very night as it
+					happened, the shepherd, requiring a supply of mutton for the table,
+					laid hands on the Wolf in mistake for a Sheep, and killed him with his
+					knife on the spot.
+				</p>
+			</div>
+		</div>
 
-        <!-- end The Wolf in Sheep's Clothing -->
+		<!-- end The Wolf in Sheep's Clothing -->
 
-        <!-- begin The Eagle and The Cocks -->
-        <div class="container-fluid section-eagle-cocks" id="chuanqi-01">
-            <div class="container">
-                <header>
-                    <div>The Eagle</div>
-                    <div>&amp; the <span class="cocks">Cocks</span></div>
-                </header>
-                <div class="divider">
-                    <span class="divider-side"></span><span class="divider-center">&#167;</span><span class="divider-side"></span>
-                </div>
-                <main>There were two Cocks in the same farmyard, and they fought to decide who should be master. When the fight was over, the beaten one went and hid himself in a dark corner; while the victor flew up on to the roof of the stables and crowed lustily. But an Eagle espied him from high up in the sky, and swooped down and carried him off. Forthwith the other Cock came out of his corner and ruled the roost without a rival.</main>
-                <footer>
-                    <div class="avatar">
-                        <a href="https://github.com/chuanqisun" class="avatar" target="_blank" title="Chuanqi Sun"><img src="https://avatars2.githubusercontent.com/u/1895289?s=460&v=4" alt="Chuanqi Sun"></a>
-                    </div>
-                    <div class="caption">
-                        <a href="https://fonts.google.com/specimen/Poppins" target="_blank">Poppins</a>,
-                        <a href="https://fonts.google.com/specimen/Halant" target="_blank">Halant</a>
-                    </div>
-                </footer>
-            </div>
-        </div>
-        <!-- end The Eagle and The Cocks -->
+		<!-- begin The Eagle and The Cocks -->
+		<div class="container-fluid section-eagle-cocks" id="chuanqi-01">
+			<div class="container">
+				<header>
+					<div>The Eagle</div>
+					<div>&amp; the <span class="cocks">Cocks</span></div>
+				</header>
+				<div class="divider">
+					<span class="divider-side"></span
+					><span class="divider-center">&#167;</span
+					><span class="divider-side"></span>
+				</div>
+				<main>
+					There were two Cocks in the same farmyard, and they fought to decide
+					who should be master. When the fight was over, the beaten one went and
+					hid himself in a dark corner; while the victor flew up on to the roof
+					of the stables and crowed lustily. But an Eagle espied him from high
+					up in the sky, and swooped down and carried him off. Forthwith the
+					other Cock came out of his corner and ruled the roost without a rival.
+				</main>
+				<footer>
+					<div class="avatar">
+						<a
+							href="https://github.com/chuanqisun"
+							class="avatar"
+							target="_blank"
+							title="Chuanqi Sun"
+							><img
+								src="https://avatars2.githubusercontent.com/u/1895289?s=460&v=4"
+								alt="Chuanqi Sun"
+						/></a>
+					</div>
+					<div class="caption">
+						<a href="https://fonts.google.com/specimen/Poppins" target="_blank"
+							>Poppins</a
+						>,
+						<a href="https://fonts.google.com/specimen/Halant" target="_blank"
+							>Halant</a
+						>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<!-- end The Eagle and The Cocks -->
 
-        <!-- begin The Butcher and his Customers -->
-        <div class="container-fluid section-butcher-customers" id="femmebot-07">
-          <div class="container">
-            <article>
-              <div class="masthead">
-                <img src="images/butcher/ill_pg_459_lg.svg" alt="pig illustration">
-                <h2>The Butcher<span>and his Customers</span></h2>
-              </div>
-              <section>
-                <p>
-                  Two Men were buying meat at a Butcher's stall in the market-place, and, while the Butcher's back was turned for a moment, one of them snatched up a joint and hastily thrust it under the other's cloak, where it could not be seen. When the Butcher turned round, he missed the meat at once, and charged them with having stolen it: but the one who had taken it said he hadn't got it, and the one who had got it said he hadn't taken it. The Butcher felt sure they were deceiving him, but he only said, "You may cheat me with your lying, but you can't cheat the gods, and they won't let you off so lightly."
-                </p>
-                <p>
-                  Prevarication often amounts to perjury.
-                </p>
-                <div class="caption">
-                  <a href="https://www.google.com/fonts/specimen/Chonburi" target="_blank">Chonburi</a>, <a href="https://www.google.com/fonts/specimen/BioRhyme" target="_blank">BioRhyme</a>, <a href="https://www.google.com/fonts/specimen/Fjord+One" target="_blank">Fjord One</a>
-                </div>
-              </section>
-            </article>
-          </div>
-        </div>
-        <!-- end The Butcher and his Customers -->
+		<!-- begin The Butcher and his Customers -->
+		<div class="container-fluid section-butcher-customers" id="femmebot-07">
+			<div class="container">
+				<article>
+					<div class="masthead">
+						<img
+							src="images/butcher/ill_pg_459_lg.svg"
+							alt="pig illustration"
+						/>
+						<h2>The Butcher<span>and his Customers</span></h2>
+					</div>
+					<section>
+						<p>
+							Two Men were buying meat at a Butcher's stall in the market-place,
+							and, while the Butcher's back was turned for a moment, one of them
+							snatched up a joint and hastily thrust it under the other's cloak,
+							where it could not be seen. When the Butcher turned round, he
+							missed the meat at once, and charged them with having stolen it:
+							but the one who had taken it said he hadn't got it, and the one
+							who had got it said he hadn't taken it. The Butcher felt sure they
+							were deceiving him, but he only said, "You may cheat me with your
+							lying, but you can't cheat the gods, and they won't let you off so
+							lightly."
+						</p>
+						<p>Prevarication often amounts to perjury.</p>
+						<div class="caption">
+							<a
+								href="https://www.google.com/fonts/specimen/Chonburi"
+								target="_blank"
+								>Chonburi</a
+							>,
+							<a
+								href="https://www.google.com/fonts/specimen/BioRhyme"
+								target="_blank"
+								>BioRhyme</a
+							>,
+							<a
+								href="https://www.google.com/fonts/specimen/Fjord+One"
+								target="_blank"
+								>Fjord One</a
+							>
+						</div>
+					</section>
+				</article>
+			</div>
+		</div>
+		<!-- end The Butcher and his Customers -->
 
+		<!-- <script src="scripts/jquery-1.11.1.min.js"></script> -->
+		<script src="scripts/jquery-3.5.0.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+		<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				(i[r] =
+					i[r] ||
+					function () {
+						(i[r].q = i[r].q || []).push(arguments);
+					}),
+					(i[r].l = 1 * new Date());
+				(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m);
+			})(
+				window,
+				document,
+				'script',
+				'//www.google-analytics.com/analytics.js',
+				'ga'
+			);
 
+			ga('create', 'UA-51931-2', 'auto');
+			ga('send', 'pageview');
+		</script>
+		<!-- End UA Google tag (gtag.js) -->
 
-        <!-- <script src="scripts/jquery-1.11.1.min.js"></script> -->
-        <script src="scripts/jquery-3.5.0.min.js"></script>
-        <script src="scripts/scripts.js"></script>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-NND3H5E8Y4"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-          ga('create', 'UA-51931-2', 'auto');
-          ga('send', 'pageview');
-
-        </script>
-        <!-- End UA Google tag (gtag.js) -->
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NND3H5E8Y4"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-NND3H5E8Y4');
-        </script>
-        <!-- End G4 Google tag (gtag.js) -->
-
-
-    </body>
+			gtag('config', 'G-NND3H5E8Y4');
+		</script>
+		<!-- End G4 Google tag (gtag.js) -->
+	</body>
 </html>
