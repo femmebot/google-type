@@ -15,7 +15,7 @@ If you'd like to contribute to this project, that’s awesome! Here are the rule
 * Must demonstrate a good foundation in typography. Refer to Ellen Lupton's Skillshare class, [Typography That Works: Typographic Composition and Fonts](http://www.skillshare.com/classes/design/Typography-That-Works-Typographic-Composition-and-Fonts/1694217981?via=profile) for a quick lesson. Also recommended: [practical typographic rules](http://practicaltypography.com) if you want to dig in deeper and [http://www.typography.com/techniques/](http://www.typography.com/techniques/) for pointers on combining typefaces.
 
 
-Have questions? [Contact me @femmebot on Twitter](https://twitter.com/femmebot)
+Have questions? Contact me @femmebot on [Bluesky](https://bsky.app/profile/femmebot.bsky.social) or [Twitter](https://twitter.com/femmebot)
 
 
 ![Hand-picked tales from Aesop's Fables with Hand-picked type from Google Fonts](/images/sample-01.gif)
